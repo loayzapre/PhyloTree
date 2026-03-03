@@ -1,52 +1,93 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-# 1. Configuration
-# List your Nexus files here
-INPUT_FILES=("clustalw.nexus" "mafft.nexus" "muscle.nexus")
+# --------------------------------------------------
+# 1. Directories
+# --------------------------------------------------
 
-# Define the Outgroup name (IMPORTANT: Must match the name inside your Nexus file)
-OUTGROUP_NAME=("MW417983.1" "PX623998.1")
+ALIGN_DIR="data/alignments"
+TREE_DIR="data/trees"
 
-# 2. Loop through files
-for FILE in "${INPUT_FILES[@]}"
-do
-    BASE="${FILE%.*}"
-    
+mkdir -p "$TREE_DIR"
+
+# --------------------------------------------------
+# 2. Alignment base names (without extension)
+# --------------------------------------------------
+
+ALIGN_FILES=("clustalw" "mafft" "muscle")
+
+INPUT_FILES=()
+
+for f in "${ALIGN_FILES[@]}"; do
+    INPUT_FILES+=("$ALIGN_DIR/${f}.nexus")
+done
+
+# --------------------------------------------------
+# 3. Outgroups
+# --------------------------------------------------
+
+OUTGROUPS=("MW417983.1" "PX623998.1")
+OUTGROUP_STR="${OUTGROUPS[*]}"
+
+# --------------------------------------------------
+# 4. PAUP executable
+# --------------------------------------------------
+
+PAUP_BIN="/usr/local/bin/paup4a169"
+
+if [[ ! -x "$PAUP_BIN" ]]; then
+    echo "ERROR: PAUP executable not found at $PAUP_BIN"
+    exit 1
+fi
+
+# This matches the wrapper function you had
+export LD_LIBRARY_PATH="$HOME/opt/paup-compat/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
+
+echo "Using PAUP executable: $PAUP_BIN"
+echo
+
+# --------------------------------------------------
+# 5. Run analyses
+# --------------------------------------------------
+
+for FILE in "${INPUT_FILES[@]}"; do
+
+    if [[ ! -f "$FILE" ]]; then
+        echo "ERROR: File not found: $FILE"
+        exit 1
+    fi
+
+    BASE="$(basename "${FILE%.*}")"
+
     echo "--------------------------------------------------"
-    echo "Processing $FILE..."
+    echo "Processing $FILE"
+    echo "Outgroups: $OUTGROUP_STR"
     echo "--------------------------------------------------"
 
-    # Run PAUP*
-    # We send the commands directly to the paup executable
-    paup <<EOF
-    # Load the alignment
-    execute $FILE;
+    "$PAUP_BIN" <<EOF
+execute $FILE;
 
-    # Define the outgroup and root the tree
-    outgroup $OUTGROUP_NAME;
-    set root=outgroup;
+outgroup $OUTGROUP_STR;
+set root=outgroup;
 
-    # --- TASK 1: PARSIMONY TREE ---
-    set criterion=parsimony;
-    # Heuristic search with TBR (Tree Bisection and Reconnection)
-    # addseq=random makes the search more robust
-    hsearch addseq=random nreps=10 swap=tbr;
-    # Save the parsimony tree
-    savetrees file=${BASE}_parsimony.tre format=altnex brlens=yes replace=yes;
+[Parsimony tree]
+set criterion=parsimony;
+hsearch addseq=random nreps=10 swap=tbr;
+savetrees file=$TREE_DIR/${BASE}_parsimony.tre format=altnex brlens=yes replace=yes;
 
-    # --- TASK 2: NEIGHBOUR JOINING TREE ---
-    set criterion=distance;
-    # Set distance correction to HKY
-    dset distance=hky;
-    # Run NJ algorithm
-    nj;
-    # Save the NJ tree
-    savetrees file=${BASE}_nj.tre format=altnex brlens=yes replace=yes;
+[Neighbour Joining tree]
+set criterion=distance;
+dset distance=hky;
+nj;
+savetrees file=$TREE_DIR/${BASE}_nj.tre format=altnex brlens=yes replace=yes;
 
-    # Exit PAUP
-    quit;
+quit;
 EOF
 
 done
 
-echo "Done! You now have 6 tree files (.tre)"
+echo
+echo "------------------------------------------"
+echo "Finished!"
+echo "Trees saved in $TREE_DIR"
+echo "------------------------------------------"

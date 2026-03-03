@@ -1,0 +1,39 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Mar  3 14:21:53 2026]
+[!
+>Data file = muscle.nexus
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 912 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        413 characters are constant (proportion = 0.452851)
+>        199 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 300
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 276601
+>  Score of best tree(s) found = 2271
+>  Number of trees retained = 4
+>  Time used = 0.10 sec (CPU time = 0.10 sec)
+]
+tree 'PAUP_1' = [&U] ((((((((PV564673.1:231,OR530896.1:58):43,(((PQ902107.1:38,OM669759.1:33):28,PV770493.1:46):30,JX160009.1:47):28):31,OK184390.1:45):47,(OK184264.1:37,PQ284536.1:23):53):26,MW147257.1:57):32,((PQ902075.1:42,(PQ432899.1:36,(PV453157.1:41,((EU496323.1:29,EU496306.1:18):7,OR934709.1:13):40):36):27):39,PP527105.1:44):34):22,(((((OR714810.1:155,OL310913.1:45):30,(MZ049396.1:58,PP506641.1:52):23):34,KF297807.1:56):28,PX849779.1:45):26,(OK184348.1:77,OR360425.1:56):29):34):45,MW417983.1:69,PX623998.1:48);
+tree 'PAUP_2' = [&U] ((((((PV564673.1:233,OR530896.1:56):39,(((PQ902107.1:37,OM669759.1:34):31,JX160009.1:52):27,PV770493.1:41):34):33,OK184390.1:46):41,(((PQ902075.1:42,(PQ432899.1:37,(PV453157.1:41,((EU496323.1:29,EU496306.1:18):7,OR934709.1:13):40):35):27):39,PP527105.1:44):27,(MW147257.1:55,(OK184264.1:37,PQ284536.1:23):56):38):30):19,(((((OR714810.1:156,OL310913.1:44):30,(MZ049396.1:59,PP506641.1:51):23):34,KF297807.1:56):28,PX849779.1:45):25,(OK184348.1:78,OR360425.1:55):30):33):46,MW417983.1:63,PX623998.1:54);
+tree 'PAUP_3' = [&U] (((((((PV564673.1:235,OR530896.1:54):51,OK184390.1:45):24,((((PQ902107.1:38,OM669759.1:33):31,PV770493.1:43):27,JX160009.1:50):43,(OK184264.1:33,PQ284536.1:27):53):24):28,(((PQ902075.1:42,(PQ432899.1:38,(PV453157.1:41,((EU496323.1:29,EU496306.1:18):7,OR934709.1:13):40):34):27):36,PP527105.1:47):34,MW147257.1:57):39):24,((((OR714810.1:156,OL310913.1:44):30,(MZ049396.1:59,PP506641.1:51):23):38,KF297807.1:52):32,PX849779.1:41):37):19,(OK184348.1:75,OR360425.1:58):28):49,MW417983.1:66,PX623998.1:48);
+tree 'PAUP_4' = [&U] ((((((PV564673.1:241,OR530896.1:48):42,(((((PQ902107.1:38,OM669759.1:33):31,PV770493.1:43):29,JX160009.1:48):39,(OK184264.1:36,PQ284536.1:24):57):34,OK184390.1:46):22):28,(((PQ902075.1:42,(PQ432899.1:38,(PV453157.1:41,((EU496323.1:29,EU496306.1:18):7,OR934709.1:13):40):34):27):38,PP527105.1:45):34,MW147257.1:57):41):24,((((OR714810.1:156,OL310913.1:44):30,(MZ049396.1:59,PP506641.1:51):23):38,KF297807.1:52):32,PX849779.1:41):35):21,(OK184348.1:74,OR360425.1:59):26):50,MW417983.1:65,PX623998.1:48);
+End;
