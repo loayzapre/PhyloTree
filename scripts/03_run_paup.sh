@@ -73,7 +73,7 @@ set root=outgroup;
 [Parsimony tree]
 set criterion=parsimony;
 hsearch addseq=random nreps=10 swap=tbr;
-savetrees file=$TREE_DIR/${BASE}_parsimony.tre format=altnex brlens=yes replace=yes;
+savetrees file=$TREE_DIR/${BASE}_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
 
 cleartrees;
 
@@ -81,7 +81,7 @@ cleartrees;
 set criterion=distance;
 dset distance=hky;
 nj;
-savetrees file=$TREE_DIR/${BASE}_nj.tre format=altnex brlens=yes replace=yes;
+savetrees file=$TREE_DIR/${BASE}_nj.tre format=altnex brlens=yes replace=yes from=1 to=1;
 
 quit;
 EOF
