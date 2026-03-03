@@ -75,6 +75,8 @@ set criterion=parsimony;
 hsearch addseq=random nreps=10 swap=tbr;
 savetrees file=$TREE_DIR/${BASE}_parsimony.tre format=altnex brlens=yes replace=yes;
 
+cleartrees;
+
 [Neighbour Joining tree]
 set criterion=distance;
 dset distance=hky;
