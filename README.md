@@ -51,3 +51,10 @@ External tools (must be installed separately):
 
 These tools must be available in the system PATH so they can be called
 from the scripts.
+
+### PAUP configuration (important)
+The script 03_run_paup.sh requires the PAUP executable path.
+
+If paup is available in your PATH, the script will detect it automatically.
+
+Otherwise you must specify the executable manually when running the script.
