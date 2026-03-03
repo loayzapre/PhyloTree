@@ -12,7 +12,7 @@ REPORT_DIR="data/reports"
 mkdir -p "$REPORT_DIR"
 
 # --------------------------------------------------
-# 2. Trees generated in step 03
+# 2. Trees (6) produced by step 03
 # --------------------------------------------------
 
 TREES=(
@@ -25,36 +25,47 @@ TREES=(
 )
 
 # --------------------------------------------------
-# 3. Any nexus file (only used to define taxa)
+# 3. Any NEXUS alignment (only for taxa definitions)
 # --------------------------------------------------
 
 DATA_FILE="$ALIGN_DIR/clustalw.nexus"
 
-[[ -f "$DATA_FILE" ]] || { echo "ERROR: Nexus file not found: $DATA_FILE"; exit 1; }
-
 # --------------------------------------------------
-# 4. PAUP executable
+# 4. PAUP executable + required libs
 # --------------------------------------------------
 
 PAUP_BIN="/usr/local/bin/paup4a169"
 
-[[ -x "$PAUP_BIN" ]] || { echo "ERROR: PAUP executable not found"; exit 1; }
+if [[ ! -x "$PAUP_BIN" ]]; then
+    echo "ERROR: PAUP executable not found at $PAUP_BIN" >&2
+    exit 1
+fi
 
 export LD_LIBRARY_PATH="$HOME/opt/paup-compat/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
 
+# --------------------------------------------------
+# 5. Checks
+# --------------------------------------------------
+
+[[ -f "$DATA_FILE" ]] || { echo "ERROR: Missing DATA_FILE: $DATA_FILE" >&2; exit 1; }
+
+for t in "${TREES[@]}"; do
+    [[ -f "$t" ]] || { echo "ERROR: Missing tree file: $t" >&2; exit 1; }
+done
+
 echo "Using PAUP executable: $PAUP_BIN"
 echo
-
-# --------------------------------------------------
-# 5. Run comparison
-# --------------------------------------------------
-
 echo "Starting Tree Comparison Analysis..."
+
+# --------------------------------------------------
+# 6. Run PAUP
+# --------------------------------------------------
 
 "$PAUP_BIN" <<EOF
 
 execute $DATA_FILE;
 
+[Load trees]
 gettrees file=${TREES[0]} mode=7;
 gettrees file=${TREES[1]} mode=7;
 gettrees file=${TREES[2]} mode=7;
@@ -62,21 +73,30 @@ gettrees file=${TREES[3]} mode=7;
 gettrees file=${TREES[4]} mode=7;
 gettrees file=${TREES[5]} mode=7;
 
-[Tree distance matrix]
-treedist method=symmetric;
+[Activate outgroup]
+outgroup Xenopus_laevis;
+set root=outgroup outroot=monophyl;
 
-[Consensus tree]
-contree all / majrule=yes showtreedist=yes;
+[Root all loaded trees]
+roottrees;
 
-savetrees file=$REPORT_DIR/consensus.tre format=altnex replace=yes;
+[Distance matrix]
+treedist;
+
+[Majority-rule consensus]
+contree all / strict=no majrule=yes percent=50;
+
+[Save only the consensus tree]
+savetrees file=$REPORT_DIR/consensus.tre format=altnex brlens=yes replace=yes from=1 to=1;
+
+log stop;
 
 quit;
-
 EOF
 
 echo
 echo "------------------------------------------"
 echo "Tree comparison complete"
-echo "Consensus tree saved in:"
-echo "$REPORT_DIR/consensus.tre"
+echo "Log saved to:       $REPORT_DIR/paup_commands.log"
+echo "Consensus saved to: $REPORT_DIR/consensus.tre"
 echo "------------------------------------------"

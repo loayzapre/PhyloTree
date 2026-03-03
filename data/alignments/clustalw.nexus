@@ -1,7 +1,7 @@
 #NEXUS
 
 begin data;
-    dimensions ntax=27 nchar=849;
+    dimensions ntax=26 nchar=849;
     format datatype=dna interleave gap=-;
 
     matrix
@@ -14,20 +14,19 @@ begin data;
     Globicephala_melas          ATGACTATTCTCTACCAATCACAAGGATATCGGTACCCTGTATTTACTATTTGGCGCTTG
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  ----------------------------------------------------GGTGCCTG
-    Cavia_porcellus             ---------------------------------TACCCTATACCTCCTGTTTGGTGCTTG
-    Oryctolagus_cuniculus       ---------------------------------CACTCTTTATCTCCTATTTGGAGCTTG
     Ailuropoda_melanoleuca      ---------------------------------CACTCTTTATCTTCTGTTTGGCGCATG
     Meles_meles                 --------------------------------------------------TGGGTGGCTG
     Loxodonta_cyclotis          -----------------------------------------------------GTGCTTG
     Rattus_norvegicus           ----------TCAACTAACCACAAAGATATCGGAACCCTCTACCTATTATTTGGAGCCTG
     Panthera_tigris             ---------------------------------AACCCTTTACCTTCTATTTGGCGCCTG
+    Procyon_lotor               ---------------------------------CACTCTCTACCTTCTATTCGGGGCTTG
+    Cavia_porcellus             ---------------------------------TACCCTATACCTCCTGTTTGGTGCTTG
+    Xenopus_laevis              ------------------------------------CCTTTACTTAGTTTTTGGTGCTTG
+    Oryctolagus_cuniculus       ---------------------------------CACTCTTTATCTCCTATTTGGAGCTTG
+    Procavia_capensis           ---------------------------------CACTTTGTACTTACTATTTGGAGCTTG
     Bos_taurus                  ---------------------------------TACCCTTTATCTACTATTTGGTGCTTG
     Gallus_gallus               ---------------------------------CACTCTTTACCTAATTTTCGGCACATG
-    Procyon_lotor               ---------------------------------CACTCTCTACCTTCTATTCGGGGCTTG
-    Procavia_capensis           ---------------------------------CACTTTGTACTTACTATTTGGAGCTTG
     Pan_troglodytes             ---------------------------------AACACTATACCTACTATTCGGCGCATG
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             -------------------------------GGCACCCTCTATCTAGTATTTGGTGCTTG
     Falco_peregrinus            ------------------------------------------------------------
     Phoenicopterus_roseus       ----------------------------------------------------GGTGCATG
     Homo_sapiens                ------------------------------------------------------------
@@ -42,20 +41,19 @@ begin data;
     Globicephala_melas          AGCAGGAATAGTGGGTACTGGCCTAAGCTTGTTGATTCGTGCTGAATTAGGTCAACCTGG
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  AGCAGGAATAGTGGGCACTGCCTTAAGCCTACTAATTCGCGCTGAACTAGGTCAGCCCGG
-    Cavia_porcellus             AGCTGGTATAGTAGGTACTGCCCTAAGCTTGTTAATTCGAGCAGAACTGGGCCAGCCCGG
-    Oryctolagus_cuniculus       AGCTGGGATGGTGGGAACAGCCCTTAGCCTGCTAATTCGAGCAGAATTAGGTCAGCCAGG
     Ailuropoda_melanoleuca      AGCTGGTATGACGGGCACTGCTCTTAGCCTTCTAATCCGTGCTGAATTAGGTCAGCCTGG
     Meles_meles                 AGCTGGGATAGTAGGTACTGCTCTTAGTCTACTAATTCGTGCTGAATTAGGTCAACCCGG
     Loxodonta_cyclotis          AGCTGGTATAGTAGGGACTGCTTTTAGTATCCTAATTCGGGCAGAACTAGGTCAGCCAGG
     Rattus_norvegicus           AGCAGGAATAGTAGGGACAGCTTTAAGTATTCTAATTCGAGCTGAACTAGGACAGCCAGG
     Panthera_tigris             GGCCGGTATGGTAGGGACTGCTCTCAGTCTCTTAATCCGAGCCGAACTGGGTCAACCTGG
+    Procyon_lotor               GGCTGGAATAGTGGGCACCGCTCTCAGCCTACTAATTCGTGCTGAGTTAGGTCAACCGGG
+    Cavia_porcellus             AGCTGGTATAGTAGGTACTGCCCTAAGCTTGTTAATTCGAGCAGAACTGGGCCAGCCCGG
+    Xenopus_laevis              AGCAGGGATGGTCGGAACCGCTCTTAGCTTATTAATTCGAGCTGAACTTAGCCAGCCCGG
+    Oryctolagus_cuniculus       AGCTGGGATGGTGGGAACAGCCCTTAGCCTGCTAATTCGAGCAGAATTAGGTCAGCCAGG
+    Procavia_capensis           AGCTGGAATAGTAGGAACCGCCCTAAGCATCCTAATCCGAGCCGAACTCGGCCAACCAGG
     Bos_taurus                  GGCCGGTATAGTAGGAACAGCTCTAAGCCTTCTAATTCGCGCTGAATTAGGCCAACCCGG
     Gallus_gallus               GGCGGGCATAGCCGGCACAGCACTTAGCCTTCTAATCCGCGCAGAACTAGGACAGCCCGG
-    Procyon_lotor               GGCTGGAATAGTGGGCACCGCTCTCAGCCTACTAATTCGTGCTGAGTTAGGTCAACCGGG
-    Procavia_capensis           AGCTGGAATAGTAGGAACCGCCCTAAGCATCCTAATCCGAGCCGAACTCGGCCAACCAGG
     Pan_troglodytes             GGCTGGAGTCCTGGGCACAGCCCTAAGTCTCCTTATTCGGGCTGAACTAGGCCAACCAGG
-    Thunnus_albacares           ----------------------------------------------CTAAGCCAACCAGG
-    Xiphias_gladius             AGCCGGTATAGTAGGCACAGCCCTAAGTCTACTAATCCGAGCAGAACTCAGCCAACCTGG
     Falco_peregrinus            ----GGCATAGTCGGTACTGCCCTTAGCCTCCTTATTCGAACAGAACTTGGCCAACCAGG
     Phoenicopterus_roseus       AGCCGGGATAGTTGGCACAGCCCTAAGCCTACTCATTCGCGCAGAACTGGGACAACCTGG
     Homo_sapiens                --------------------------------TTATTCGAGCCGAGCTGGGCCAGCCAGG
@@ -70,20 +68,19 @@ begin data;
     Globicephala_melas          TACACTCATCGGAGATGACCAGCTTTACAATGTTCTAGTAACAGCTCACGCCTTCGTAAT
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  AACCCTACTTGGCGATGATCAAATCTATAATGTAATTGTTACAGCCCATGCCTTTGTAAT
-    Cavia_porcellus             AACACTCTTAGGCGATGATCAAATTTATAACGTAATCGTCACGGCCCATGCTTTCGTAAT
-    Oryctolagus_cuniculus       GACTCTACTCGGGGATGATCAAATCTATAATGTAATCGTCACCGCACATGCCTTTGTAAT
     Ailuropoda_melanoleuca      AGCCCTGTTAGGAGATGACCAAATTTACAATGTAGTTGTAACTGCCCACGCATTCGTAAT
     Meles_meles                 CACTTTATTGGGAGACGATCAGATCTACAATGTAGTCGTGACAGCCCATGCCTTCGTAAT
     Loxodonta_cyclotis          CTCTCTTCTTGGAGACGACCAAATCTATAATGTTGTTGTCACAGCACACGCCTTTGTAAT
     Rattus_norvegicus           CGCACTCCTAGGAGATGACCAAATCTATAATGTCATCGTCACAGCCCATGCATTCGTAAT
     Panthera_tigris             CACGCTACTAGGGGACGACCAAATTTATAATGTAGTCGTCACCGCCCATGCCTTTGTAAT
+    Procyon_lotor               TACTTTATTAGGAGATGATCAGATTTACAATGTAATCGTAACTGCCCATGCTTTCGTAAT
+    Cavia_porcellus             AACACTCTTAGGCGATGATCAAATTTATAACGTAATCGTCACGGCCCATGCTTTCGTAAT
+    Xenopus_laevis              AACACTACTTGGAGATGACCAAATTTATAATGTTATCGTTACAGCACATGCTTTTATTAT
+    Oryctolagus_cuniculus       GACTCTACTCGGGGATGATCAAATCTATAATGTAATCGTCACCGCACATGCCTTTGTAAT
+    Procavia_capensis           AGCCCTGCTGGGGGATGATCAAATCTACAACGTTGTAGTTACAGCTCACGCATTTGTAAT
     Bos_taurus                  AACTCTGCTCGGAGACGACCAAATCTACAACGTAGTTGTAACCGCACACGCATTTGTAAT
     Gallus_gallus               AACTCTCTTAGGAGACGACCAAATTTACAATGTAATCGTCACAGCCCATGCTTTCGTCAT
-    Procyon_lotor               TACTTTATTAGGAGATGATCAGATTTACAATGTAATCGTAACTGCCCATGCTTTCGTAAT
-    Procavia_capensis           AGCCCTGCTGGGGGATGATCAAATCTACAACGTTGTAGTTACAGCTCACGCATTTGTAAT
     Pan_troglodytes             CAACCTTCTAGGTAATGACCACATCTACAATGTCATCGTCACAGCCCATGCATTCGTAAT
-    Thunnus_albacares           TGCCCTTCTTGGGGACGACCAGATCTACAATGTAATCGTTACGGCCCATGCCTTCGTAAT
-    Xiphias_gladius             CGCCCTACTAGGGGATGACCAGATTTACAACGTAATCGTTACAGCTCACGCCTTTGTAAT
     Falco_peregrinus            AACTCTCCTAGGAGATGACCAAATCTACAATGTCATCGTCACTGCCCATGCCTTCGTAAT
     Phoenicopterus_roseus       AACTCTCCTAGGAGACGACCAAATCTATAACGTAATCGTTACCGCCCATGCCTTCGTAAT
     Homo_sapiens                CAACCTTCTAGGTAACGACCACATCTACAACGTTATCGTCACAGCCCATGCATTTGTAAT
@@ -98,20 +95,19 @@ begin data;
     Globicephala_melas          AATTTTCTTTATGGTTATACCTATCATAATCGGGGGCTTTGGAAACTGATTAGTTCCCTT
     Tursiops_truncatus          ------CTTTATAGTTATACCTATCATAATTGGAGGTTTTGGGAACTGGTTAGTCCCCTT
     Sus_scrofa                  AATCTTCTTTATAGTAATACCCATTATGATTGGGGGTTTTGGTAACTGACTCGTACCGCT
-    Cavia_porcellus             AATTTTCTTCATGGTTATACCAATTATAATTGGAGGCTTCGGAAACTGGTTAGTGCCCTT
-    Oryctolagus_cuniculus       AATCTTCTTTATAGTCATACCTATTATAATTGGAGGCTTCGGGAACTGGCTTGTCCCCCT
     Ailuropoda_melanoleuca      AATCTTCTTTATAGTTATGCCCATTATAATCGGAGGCTTTGGAAATTGACTAGTGCCTTT
     Meles_meles                 AATCTTCTTTATAGTTATACCCATCATAATTGGAGGCTTTGGAAACTGATTAGTCCCCCT
     Loxodonta_cyclotis          AATCTTCTTTATAGTTATGCCAATTATAATTGGAGGCTTTGGAAACTGGCTAATTCCACT
     Rattus_norvegicus           AATTTTCTTTATAGTAATACCTATAATAATTGGAGGCTTCGGGAACTGACTTGTACCACT
     Panthera_tigris             AATCTTCTTTATAGTAATGCCTATTATGATTGGAGGATTCGGAAACTGATTGGTTCCATT
+    Procyon_lotor               AATCTTTTTCATAGTTATACCAATCATGATTGGAGGATTCGGTAACTGGCTAGTACCTCT
+    Cavia_porcellus             AATTTTCTTCATGGTTATACCAATTATAATTGGAGGCTTCGGAAACTGGTTAGTGCCCTT
+    Xenopus_laevis              AATTTTCTTCATAGTCATGCCTATTATAATCGGTGGATTTGGGAACTGATTAGTTCCATT
+    Oryctolagus_cuniculus       AATCTTCTTTATAGTCATACCTATTATAATTGGAGGCTTCGGGAACTGGCTTGTCCCCCT
+    Procavia_capensis           AATTTTCTTCATAGTAATACCAATTATAATCGGAGGATTCGGCAACTGACTAGTCCCCCT
     Bos_taurus                  AATCTTCTTCATAGTAATACCAATCATAATTGGAGGATTCGGTAACTGACTTGTTCCCCT
     Gallus_gallus               AATCTTCTTTATAGTTATACCCATCATGATCGGTGGCTTCGGAAACTGACTAGTCCCGCT
-    Procyon_lotor               AATCTTTTTCATAGTTATACCAATCATGATTGGAGGATTCGGTAACTGGCTAGTACCTCT
-    Procavia_capensis           AATTTTCTTCATAGTAATACCAATTATAATCGGAGGATTCGGCAACTGACTAGTCCCCCT
     Pan_troglodytes             AATCTTCTTCATAGTAATGCCTATCATAATCGGAGGCTTTGGCAACTGGCTAGTCCCCTT
-    Thunnus_albacares           GATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGACTTATTCCTCT
-    Xiphias_gladius             GATCTTCTTTATAGTAATGCCAATCATGATTGGAGGGTTCGGAAATTGACTAATTCCCCT
     Falco_peregrinus            AATCTTTTTCATAGTTATACCCATTATGATCGGAGGATTTGGAAACTGACTAGTTCCCCT
     Phoenicopterus_roseus       AATCTTCTTCATAGTTATACCAATCATAATTGGAGGTTTCGGAAACTGACTGGTTCCACT
     Homo_sapiens                AATCTTCTTCATAGTAATACCCATCATAATCGGAGGCTTTGGCAACTGACTAGTTCCCCT
@@ -126,20 +122,19 @@ begin data;
     Globicephala_melas          AATAATTGGAGCCCCTGACATAGCATTCCCTCGTCTAAACAACATAAGCTTCTGACTACT
     Tursiops_truncatus          AATAATCGGAGCTCCTGACATAGCATTCCCCCGTCTAAACAACATAAGCTTCTGACTACT
     Sus_scrofa                  AATAATCGGAGCTCCCGATATGGCCTTTCCACGTATAAACAACATAAGTTTCTGACTACT
-    Cavia_porcellus             AATAATTGGTGCTCCAGACATAGCATTTCCGCGGATAAATAACATAAGCTTTTGACTCCT
-    Oryctolagus_cuniculus       GATAATTGGGGCTCCTGACATAGCCTTCCCCCGAATAAATAATATGAGCTTCTGACTTCT
     Ailuropoda_melanoleuca      GATAATTGGTGCGCCTGATATAGCGTTTCCCCGAATAAACAATATGAGTTTCTGATTACT
     Meles_meles                 AATAATTGGCGCACCCGACATAGCTTTCCCCCGAATAAATAATATAAGTTTCTGACTCCT
     Loxodonta_cyclotis          TATAATCGGAGCACCTGATATAGCTTTTCCTCGAATAAACAATATGAGTTTTTGACTACT
     Rattus_norvegicus           AATAATTGGAGCCCCTGATATAGCATTCCCACGAATAAATAACATAAGCTTTTGACTGCT
     Panthera_tigris             AATAATTGGAGCCCCCGATATAGCATTCCCTCGAATGAATAATATGAGCTTCTGACTCCT
+    Procyon_lotor               TATAATTGGAGCACCTGACATAGCTTTCCCACGAATAAATAATATAAGCTTTTGACTTCT
+    Cavia_porcellus             AATAATTGGTGCTCCAGACATAGCATTTCCGCGGATAAATAACATAAGCTTTTGACTCCT
+    Xenopus_laevis              AATAATTGGAGCCCCAGATATAGCATTTCCGCGAATAAATAATATAAGCTTTTGACTTCT
+    Oryctolagus_cuniculus       GATAATTGGGGCTCCTGACATAGCCTTCCCCCGAATAAATAATATGAGCTTCTGACTTCT
+    Procavia_capensis           AATAATCGGCTCCCCGGATATAGCATTCCCACGAATAAACAATATGAGCTTCTGACTACT
     Bos_taurus                  AATAATTGGTGCTCCCGATATAGCATTTCCCCGAATAAATAATATAAGCTTCTGACTCCT
     Gallus_gallus               TATAATCGGTGCCCCAGACATAGCATTCCCCCGCATAAATAACATAAGCTTCTGACTCCT
-    Procyon_lotor               TATAATTGGAGCACCTGACATAGCTTTCCCACGAATAAATAATATAAGCTTTTGACTTCT
-    Procavia_capensis           AATAATCGGCTCCCCGGATATAGCATTCCCACGAATAAACAATATGAGCTTCTGACTACT
     Pan_troglodytes             GATAATTGGTGCCCCCGACATGGCATTCCCCCGCATAAACAACATAAGCTTCTGACTCCT
-    Thunnus_albacares           AATGATCGGAGCCCCCGACATGGCATTCCCACGAATGAACAACATGAGCTTCTGACTCCT
-    Xiphias_gladius             AATGATTGGAGCCCCCGATATAGCATTCCCTCGAATGAATAACATAAGCTTCTGACTCCT
     Falco_peregrinus            TATAATTGGAGCTCCAGACATAGCATTTCCCCGCATAAACAACATGAGTTTCTGACTACT
     Phoenicopterus_roseus       CATAATTGGTGCTCCTGACATAGCATTTCCCCGCATAAACAACATAAGCTTCTGACTACT
     Homo_sapiens                AATAATCGGTGCCCCCGATATGGCGTTTCCCCGCATAAACAACATAAGCTTCTGACTCTT
@@ -154,20 +149,19 @@ begin data;
     Globicephala_melas          CCCCCCTTCCTTTCTACTACTGATAGCATCTTCAATAATTGAAGCCGGCGCAGGTACAGG
     Tursiops_truncatus          CCCCCCTTCCTTTCTACTACTAATAGCATCTTCAATAATTGAGGCCGGCGCAGGTACAGG
     Sus_scrofa                  TCCACCATCCTTCCTATTACTACTGGCATCCTCAATAGTAGAAGCCGGAGCGGGTACTGG
-    Cavia_porcellus             TCCCCCTTCATTTTTACTACTGTTATCCTCATCTATAGTCGAAGCTGGTGCTGGAACCGG
-    Oryctolagus_cuniculus       CCCCCCTTCATTCCTTCTTCTACTAGCCTCCTCAATAGTAGAAGCTGGGGCGGGGACTGG
     Ailuropoda_melanoleuca      ACCTCCATCCTTTCTTCTCCTTCTAGCTTCTTCCATAGTAGAAGCAGGCGCAGGGACTGG
     Meles_meles                 GCCTCCCTCCTTTCTTCTTCTCTTAGCCTCCTCCATAGTAGAAGCAGGTGCAGGAACAGG
     Loxodonta_cyclotis          GCCTCCATCTTTCCTACTACTTTTAGCATCCTCCATAGTAGAAGCTGGGGCAGGCACTGG
     Rattus_norvegicus           TCCTCCATCATTTCTACTCCTTTTAGCATCCTCCATAGTAGAAGCTGGAGCTGGAACAGG
     Panthera_tigris             TCCCCCGTCTTTCCTACTTTTGCTCGCATCATCTATGGTAGAGGCTGGAGCAGGGACTGG
+    Procyon_lotor               ACCACCATCATTCCTACTATTACTAGCATCATCCATAGTAGAAGCAGGAGCAGGGACCGG
+    Cavia_porcellus             TCCCCCTTCATTTTTACTACTGTTATCCTCATCTATAGTCGAAGCTGGTGCTGGAACCGG
+    Xenopus_laevis              TCCCCCATCATTTCTTTTATTACTAGCATCATCTGGGGTTGAAGCAGGAGCCGGAACAGG
+    Oryctolagus_cuniculus       CCCCCCTTCATTCCTTCTTCTACTAGCCTCCTCAATAGTAGAAGCTGGGGCGGGGACTGG
+    Procavia_capensis           ACCCCCGTCCTTTCTACTTCTGCTAGCCTCATCCATAGTAGAGGCCGGAGCAGGAACAGG
     Bos_taurus                  CCCTCCCTCATTCCTACTACTCCTCGCATCCTCTATAGTTGAAGCTGGGGCAGGAACAGG
     Gallus_gallus               CCCTCCCTCCTTCCTTCTCCTACTAGCCTCATCTACCGTAGAAGCTGGGGCCGGCACAGG
-    Procyon_lotor               ACCACCATCATTCCTACTATTACTAGCATCATCCATAGTAGAAGCAGGAGCAGGGACCGG
-    Procavia_capensis           ACCCCCGTCCTTTCTACTTCTGCTAGCCTCATCCATAGTAGAGGCCGGAGCAGGAACAGG
     Pan_troglodytes             ACCCCCTTCTCTCCTACTTCTACTTGCATCTGCCATAGTAGAAGCCGGCGCCGGAACAGG
-    Thunnus_albacares           TCCCCCCTCTTTCCTTCTGCTCCTAGCTTCTTCAGGAGTTGAGGCTGGAGCCGGAACCGG
-    Xiphias_gladius             CCCTCCATCATTCCTCCTCCTCCTTGCTTCTTCTGGAGTTGAAGCTGGCGCTGGAACCGG
     Falco_peregrinus            CCCCCCATCCTTTCTACTGCTCCTAGCATCTTCCACAGTAGAAGCTGGAGTTGGAACAGG
     Phoenicopterus_roseus       ACCCCCATCCTTCTTACTCCTCCTGGCCTCCTCCACAGTAGAAGCTGGAGCAGGCACAGG
     Homo_sapiens                ACCTCCCTCTCTCCTACTCCTGCTCGCATCTGCTATAGTGGAGGCCGGAGCAGGAACAGG
@@ -182,20 +176,19 @@ begin data;
     Globicephala_melas          CTGAACTGTATATCCTCCCCTAGCTGGAAATCTAGCACATGCAGGAGCCTCAGTAGACCT
     Tursiops_truncatus          CTGAACTGTTTACCCTCCTCTAGCTGGAAATCTGGCACATGCAGGAGCCTCAGTAGACCT
     Sus_scrofa                  ATGAACTGTATACCCACCTTTAGCTGGAAACTTAGCCCATGCAGGGGCTTCAGTTGATCT
-    Cavia_porcellus             GTGGACTGTTTACCCTCCTTTAGCAGGAAACCTGGCACATGCTGGGGCTTCCGTAGACCT
-    Oryctolagus_cuniculus       CTGAACTGTTTATCCACCTCTAGCCGGTAATCTTGCACATGCTGGAGCCTCAGTGGATCT
     Ailuropoda_melanoleuca      ATGAACTGTCTACCCTCCTCTAGCAGGCAACTTAGCCCATGCAGGAGCATCAGTAGACCT
     Meles_meles                 ATGGACTGTATACCCTCCTCTAGCAGGAAACTTGGCACATGCAGGAGCATCTGTAGATTT
     Loxodonta_cyclotis          TTGGACCGTATACCCTCCCCTGGCAGGAAACCTGGCCCATGCAGGAGCTTCTGTAGATTT
     Rattus_norvegicus           ATGAACAGTATACCCCCCCTTAGCCGGAAACCTAGCCCATGCTGGAGCATCCGTAGATTT
     Panthera_tigris             ATGGACAGTATACCCACCTCTAGCCGGCAACCTAGCTCATGCAGGAGCATCCGTAGATCT
+    Procyon_lotor               ATGAACCGTATATCCTCCTTTAGCAGGTAACCTAGCACATGCAGGAGCATCCGTGGACCT
+    Cavia_porcellus             GTGGACTGTTTACCCTCCTTTAGCAGGAAACCTGGCACATGCTGGGGCTTCCGTAGACCT
+    Xenopus_laevis              TTGAACTGTGTACCCGCCTTTAGCTGGAAACCTAGCACATGCTGGAGCATCAGTTGACCT
+    Oryctolagus_cuniculus       CTGAACTGTTTATCCACCTCTAGCCGGTAATCTTGCACATGCTGGAGCCTCAGTGGATCT
+    Procavia_capensis           CTGAACAGTATACCCGCCTCTGGCGGGTAATTTAGCCCACGCAGGAGCCTCTGTAGACCT
     Bos_taurus                  CTGAACCGTGTACCCTCCCTTAGCAGGCAACCTAGCCCATGCAGGAGCTTCAGTAGATCT
     Gallus_gallus               ATGGACAGTTTACCCCCCTTTAGCCGGCAACCTAGCCCACGCTGGCGCATCAGTAGACCT
-    Procyon_lotor               ATGAACCGTATATCCTCCTTTAGCAGGTAACCTAGCACATGCAGGAGCATCCGTGGACCT
-    Procavia_capensis           CTGAACAGTATACCCGCCTCTGGCGGGTAATTTAGCCCACGCAGGAGCCTCTGTAGACCT
     Pan_troglodytes             TTGAACAGTCTACCCTCCCTTAGCGGGAAACTACTCGCATCCTGGAGCCTCCGTAGACCT
-    Thunnus_albacares           TTGAACAGTCTACCCACCCCTTGCCGGCAACCTGGCCCACGCAGGGGCATCAGTTGACCT
-    Xiphias_gladius             GTGAACTGTCTACCCTCCTCTAGCAGGTAACCTAGCCCACGCAGGTGCATCTGTTGACCT
     Falco_peregrinus            ATGAACCGTATACCCCCCCTTAGCAGGCAACCTAGCCCACGCCGGTGCTTCAGTAGACCT
     Phoenicopterus_roseus       ATGAACTGTGTACCCACCACTAGCTGGCAACATAGCCCATGCCGGAGCCTCAGTAGACCT
     Homo_sapiens                TTGAACAGTCTACCCTCCCTTAGCAGGGAACTACTCCCACCCTGGAGCCTCCGTAGACCT
@@ -210,20 +203,19 @@ begin data;
     Globicephala_melas          TAC--CATTTTCTCCCTACATTTAGCCGGTGTATCTTCAATCCTCGGAGCTATTAACTTT
     Tursiops_truncatus          TAC--CATTTTCTCTCTACATTTAGCCGGTGTATCTTCAATCCTTGGAGCTATTAACTTC
     Sus_scrofa                  AAC--AATTTTCTCCCTACACCTTGCAGGTGTATCATCAATCCTAGGGGCTATTAACTTC
-    Cavia_porcellus             AAC--TATTTTTTCACTTCACTTGGCAGGTGTCTCTTCAATCCTTGGAGCAATCAACTTT
-    Oryctolagus_cuniculus       TAC--TATTTTCTCCCTTCACTTAGCTGGAGTATCATCTATTTTAGGGGCTATTAACTTT
     Ailuropoda_melanoleuca      AAC--AATCTTTTCTCTACATCTGGCAGGGGTCTCTTCTATTTTAGGGGCTATTAATTTT
     Meles_meles                 AAC--AATTTTCTCTCTTCACCTAGCAGGTGTCTCATCTATCCTAGGAGCCATTAATTTT
     Loxodonta_cyclotis          AAC--TATTTTTTCACTTCACCTTGCAGGAGTATCCTCTATTCTAAGTGCAATTAATTTT
     Rattus_norvegicus           AAC--TATTTTTTCCCTCCACCTAGCCGGGGTGTCTTCTATCTTAGGAGCTATCAACTTT
     Panthera_tigris             AAC--TATTTTTTCACTACACCTAGCAGGTGTCTCCTCAATCTTAGGTGCTATTAATTTT
+    Procyon_lotor               CAC--CATCTTCTCCCTTCACCTTGCAGGCGTCTCGTCCATCTTAGGTGCCATCAACTTC
+    Cavia_porcellus             AAC--TATTTTTTCACTTCACTTGGCAGGTGTCTCTTCAATCCTTGGAGCAATCAACTTT
+    Xenopus_laevis              AAC--AATTTTCTCCCTTCACTTAGCTGGTATTTCATCTATTTTAGGAGCAATTAACTTC
+    Oryctolagus_cuniculus       TAC--TATTTTCTCCCTTCACTTAGCTGGAGTATCATCTATTTTAGGGGCTATTAACTTT
+    Procavia_capensis           GAC--AATCTTCTCACTGCACCTAGCAGGGGTTTCCTCAATCTTAGGGGCTATCAACTTC
     Bos_taurus                  AAC--CATTTTCTCTTTACACTTAGCAGGAGTTTCCTCAATTTTAGGAGCCATCAACTTC
     Gallus_gallus               AGC--CATCTTTTCATTACACTTAGCAGGTGTTTCCTCCATTCTAGGAGCCATCAACTTT
-    Procyon_lotor               CAC--CATCTTCTCCCTTCACCTTGCAGGCGTCTCGTCCATCTTAGGTGCCATCAACTTC
-    Procavia_capensis           GAC--AATCTTCTCACTGCACCTAGCAGGGGTTTCCTCAATCTTAGGGGCTATCAACTTC
     Pan_troglodytes             AAC--CATCTTCTCCTTGCATCTGGCAGGCGTCTCCTCTATCCTAGGAGCCATTAACTTC
-    Thunnus_albacares           AAC--TATTTTCTCACTTCACTTAGCAGGGGTTTCCTCAATTCTTGGGGCAATTAACTTC
-    Xiphias_gladius             TAC--CATCTTCTCCCTTCACCTAGCTGGGATCTCCTCTATTCTGGGGGCAATCAACTTC
     Falco_peregrinus            GGC--TATCTTCTCCCTACACCTTGCAGGTGTATCTTCCATCTTAGGGGCAATCAACTTT
     Phoenicopterus_roseus       GGC--TATCTTCTCCCTCCACCTAGCAGGTGTATCATCTATTCTCGGAGCAATCAACTTT
     Homo_sapiens                AAC--CATCTTCTCCTTACACCTAGCAGGTGTCTCCTCTATCTTAGGGGCCATCAATTTC
@@ -238,20 +230,19 @@ begin data;
     Globicephala_melas          ATTACAACTATTATTAATATAAAACCACCCGCTATAACCCAATACCAAACACCCCTCTTC
     Tursiops_truncatus          ATCACAACTATTATTAATATAAAACCACCCGCTATAACTCAATACCAAACACCCCTCTTC
     Sus_scrofa                  ATTACCACAATTATTAACATAAAACCTCCCGCAATGTCTCAATACCAAACACCCCTGTTT
-    Cavia_porcellus             ATTACAACTATCATTAACATAAAACCACCTGCAATAACGCAATATCAAACACCATTATTT
-    Oryctolagus_cuniculus       ATTACAACTATTATTAATATGAAACCCCCTGCAATATCTCAATATCAAACCCCCTTATTC
     Ailuropoda_melanoleuca      ATTACCACTATTATCAACATGAAACCCCCTGCAATATCTCAATATCAAACTCCCCTATTC
     Meles_meles                 ATCACTACCATTATTAACATGAAACCACCTGCAATATCACAATACCAAACTCCCCTATTC
     Loxodonta_cyclotis          ATCACTACCATTATCAACATAAAACCTCCAGCTATGTCTCAATATCATATACCCTTATTT
     Rattus_norvegicus           ATCACCACTATCATTAATATAAACCCCCCTGCTATAACCCAATATCAGACACCTCTCTTT
     Panthera_tigris             ATTACTACTATTATTAATATAAAACCCCCTGCTATATCCCAATATCAAACACCCCTATTT
+    Procyon_lotor               ATCACCACTATTATTAACATGAAGCCCCCCGCTATATCCCAATACCAAATCCCACTTTTT
+    Cavia_porcellus             ATTACAACTATCATTAACATAAAACCACCTGCAATAACGCAATATCAAACACCATTATTT
+    Xenopus_laevis              ATCACAACAACAATTAACATAAAACCACCAGCTATATCTCAATACCAAACCCCACTATTT
+    Oryctolagus_cuniculus       ATTACAACTATTATTAATATGAAACCCCCTGCAATATCTCAATATCAAACCCCCTTATTC
+    Procavia_capensis           ATCACCACAATCATCAACATAAAACCCCCAGCAACCACCCAATATCAAACACCCCTATTC
     Bos_taurus                  ATTACAACAATTATCAACATAAAGCCCCCCGCAATGTCACAATACCAAACCCCTCTGTTC
     Gallus_gallus               ATCACTACCATCATCAACATAAAACCCCCCGCACTGTCACAATACCAAACACCCCTATTC
-    Procyon_lotor               ATCACCACTATTATTAACATGAAGCCCCCCGCTATATCCCAATACCAAATCCCACTTTTT
-    Procavia_capensis           ATCACCACAATCATCAACATAAAACCCCCAGCAACCACCCAATATCAAACACCCCTATTC
     Pan_troglodytes             ATCACAACAATTATTAATATAAAACCTCCTGCCATAACCCAATACCAAACACCCCTCTTC
-    Thunnus_albacares           ATCACAACAATTATCAATATGAAACCTGCAGCTATTTCTCAGTATCAAACACCACTGTTT
-    Xiphias_gladius             ATCACAACTATTATCAATATAAAACCAGCTGCCGTTTCTATGTACCAGATTCCTCTGTTC
     Falco_peregrinus            ATCACAACAGCCATTAACATAAAACCACCCGCCCTATCACAGTACCAAACCCCACTATTC
     Phoenicopterus_roseus       ATCACTACTGCTATCAACATAAAACCACCTGCCCTCTCACAATACCAAACCCCCCTATTC
     Homo_sapiens                ATCACAACAATTATCAATATAAAACCCCCTGCCATAACCCAATACCAAACGCCCCTCTTC
@@ -266,20 +257,19 @@ begin data;
     Globicephala_melas          GTCTGATCAGTCCTAGTCACAGCAATCTTACTTTTACTATCATTACCTGTCTTAGCAGCC
     Tursiops_truncatus          GTCTGATCAGTCTTAGTCACAGCAGTCTTACTTTTACTATCATTACCTGTTCTAGCAGCC
     Sus_scrofa                  GTCTGATCAGTACTAATCACAGCCGTACTACTTCTACTATCCCTGCCAGTTCTAGCAGCT
-    Cavia_porcellus             GTTTGGTCGGTACTAATTACTGCCGTTCTCCTTCTTTTATCCTTACCAGTTCTAGCTGCA
-    Oryctolagus_cuniculus       GTATGATCTGTTCTAATCACAGCCGTACTTCTTCTTCTCTCTTTACCGGTCCTAGCTGCT
     Ailuropoda_melanoleuca      GTGTGATCAGTACTTATCACAGCAGTACTTCTCCTTCTATCTTTACCAGTTTTAGCAGCC
     Meles_meles                 GTATGATCCGTACTAGTTACAGCCGTACTCTTACTTCTATCTCTACCAGTATTAGCGGCT
     Loxodonta_cyclotis          GTATGGTCCATTTTAATTACAGCCATCCTTCTCCTTCTATCCCTCCCAGTTCTAGCAGCA
     Rattus_norvegicus           GTATGATCCGTACTAATTACAGCCGTCCTACTACTTCTCTCACTGCCAGTATTAGCAGCA
     Panthera_tigris             GTCTGATCGGTTTTAATCACTGCTGTATTGCTACTTCTATCACTACCAGTTTTAGCAGCA
+    Procyon_lotor               GTATGGTCAGTACTTATTACAGCAGTACTTCTCTTATTATCGCTGCCAGTACTAGCAGCA
+    Cavia_porcellus             GTTTGGTCGGTACTAATTACTGCCGTTCTCCTTCTTTTATCCTTACCAGTTCTAGCTGCA
+    Xenopus_laevis              GTTTGATCAGTATTAATCACAGCTGTACTTTTACTTCTTTCTCTTCCTGTCTTAGCCGCA
+    Oryctolagus_cuniculus       GTATGATCTGTTCTAATCACAGCCGTACTTCTTCTTCTCTCTTTACCGGTCCTAGCTGCT
+    Procavia_capensis           GTCTGATCCGTACTAATTACTGCTGTACTACTTTTACTATCCCTACCAGTGCTAGCAGCC
     Bos_taurus                  GTATGATCCGTAATAATTACCGCCGTACTACTACTACTCTCGCTCCCTGTATTAGCAGCC
     Gallus_gallus               GTATGATCCGTCCTCATTACTGCCATCCTACTACTCCTCTCCTTACCCGTCCTAGCAGCT
-    Procyon_lotor               GTATGGTCAGTACTTATTACAGCAGTACTTCTCTTATTATCGCTGCCAGTACTAGCAGCA
-    Procavia_capensis           GTCTGATCCGTACTAATTACTGCTGTACTACTTTTACTATCCCTACCAGTGCTAGCAGCC
     Pan_troglodytes             GTCTGATCCGTCCTAATCACAGCAGTCTTACTTCTCCTATCCCTCCCAGTCCTAGCTGCT
-    Thunnus_albacares           GTATGAGCTGTACTAATTACAGCTGTTCTTCTCCTACTTTCCCTTCCAGTCCTTGCCGCT
-    Xiphias_gladius             GTGTGAGCCGTACTAATTACAGCTGTCCTCCTTCTCCTCTCCCTTCCCGTTCTAGCTGCC
     Falco_peregrinus            GTATGATCCGTACTTATTACCGCCGTACTCCTACTGCTCTCACTTCCAGTTCTGGCCGCT
     Phoenicopterus_roseus       GTATGATCTGTCCTCATCACCGCTGTCCTATTACTACTCTCACTTCCAGTCCTTGCCGCC
     Homo_sapiens                GTCTGATCCGTCCTAATCACAGCAGTCCTACTTCTCCTATCTCTCCCAGTCCTAGCTGCT
@@ -294,20 +284,19 @@ begin data;
     Globicephala_melas          GGAATTACTATACTATTAACTGATCGAAATCTAAA-CACAACCTTTTTTGACCCG-GCAG
     Tursiops_truncatus          GGAATTACTATACTACTAACCGATCGAAACCTAAA-CACAACCTT---------------
     Sus_scrofa                  GGCATTACCATACTACTGACAGACCGCAACCTGAA-CACAACCTTTTTTGATCCA-GCAG
-    Cavia_porcellus             GGTATTACAATGCTATTAACAGATCGAAATTTGAA-TACAACCTTTTTCGATCCT-GCTG
-    Oryctolagus_cuniculus       GGCATTACAATGCTTTTAACAGACCGAAACTTAAA-TACAACCTTCTTTGATCCT-GCAG
     Ailuropoda_melanoleuca      GGAATTACTATACTACTTACAGATCGAAATCTCAA-TACTACTTTCTTCGACCCG-GCTG
     Meles_meles                 GGTATTACTATACTACTAACAGACCGAAACCTAAA-TACAACCTTCTTCGACCCT-GCTG
     Loxodonta_cyclotis          GGTATTACAATATTATTAACGGATCGTAATCTCAA-TACTACTTTCTTTG----------
     Rattus_norvegicus           GGTATCACTATACTCCTTACAGACCGAAATCTAAA-TACTACTTTCTTCGACCCC-GCTG
     Panthera_tigris             GGCATCACTATACTACTGACAGATCGAAATCTGAA-CACCACATTTTTTGACCCCCGCCG
+    Procyon_lotor               GGCATCACCATATTACTCACCGACCGAAATCTGAA-CACAACCTTCTTTGACCCA-GCAG
+    Cavia_porcellus             GGTATTACAATGCTATTAACAGATCGAAATTTGAA-TACAACCTTTTTCGATCCT-GCTG
+    Xenopus_laevis              GGAATCACAATGTTATTAACAGATCGTAATCTGAA-TACAACTTTCTTTGACCCT-GCCG
+    Oryctolagus_cuniculus       GGCATTACAATGCTTTTAACAGACCGAAACTTAAA-TACAACCTTCTTTGATCCT-GCAG
+    Procavia_capensis           GGAATTACAATACTTCTAACAGATCGAAATATCAA-CACAACCTTTTTCGACCCA-GCGG
     Bos_taurus                  GGCATCACAATGCTATTAACAGACCGGAACCTAAA-TACAACCTTCTTCGACCCG-GCAG
     Gallus_gallus               GGGATTACCATACTACTTACCGACCGCAACCTTAA-CACCACATTCTTCGACCCA-GCTG
-    Procyon_lotor               GGCATCACCATATTACTCACCGACCGAAATCTGAA-CACAACCTTCTTTGACCCA-GCAG
-    Procavia_capensis           GGAATTACAATACTTCTAACAGATCGAAATATCAA-CACAACCTTTTTCGACCCA-GCGG
     Pan_troglodytes             GGCATCACCATACTATTGACAGATCGTAACCTCAA-CACTACCTTCTTCGATCCA-GCCG
-    Thunnus_albacares           GGTATTACAATGCTCCTTACAGACCGAAACCTAAA-TACAACCTTCTTCGACCCT-GCAG
-    Xiphias_gladius             GGAATTACCATGCTCTTAACAGACCGTAATTTAAA-CACCGCCTTCTTTGACCCT-GCAG
     Falco_peregrinus            GGCATCACCATACTACTAACCGACCGAAACCTGAA-CACTACATTCTTCGACCCC-GCCG
     Phoenicopterus_roseus       GGCATTACCATACTACTAACAGACCGAAACCTAAA-CACCACATTCTTCGATCCA-GCCG
     Homo_sapiens                GGCATCACTATACTACTAACAGACCGCAACCTCAA-CACCACCTTCTTCGACCCC-GCCG
@@ -322,20 +311,19 @@ begin data;
     Globicephala_melas          GAGGAGGAGACCCAATCTTGTATCAACACC------------------------------
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  GTGGTGGAGACCCTATCCTTTATCAACACTTGTTCTGAT---------------------
-    Cavia_porcellus             GGGGAGGGGACCCTATTCTGTATCAACACTTGTTC-------------------------
-    Oryctolagus_cuniculus       GAGGAGGAGACCCTATCCTCTACCAACACCTATTC-------------------------
     Ailuropoda_melanoleuca      GAGGAGGGGATCCCATTCTATATCAACATCTATTT-------------------------
     Meles_meles                 GAGGAGGGGATCCCATTCTTTACCAACATTTATTCTGATTTTTTGGCA------------
     Loxodonta_cyclotis          ------------------------------------------------------------
     Rattus_norvegicus           GAGGTGGAGACCCAA---------------------------------------------
     Panthera_tigris             GAGGAGGGGATCCTATCTTACTTATATCAACACCTATTC---------------------
+    Procyon_lotor               GAGGAGGAGACCCAATCCTATACCAGCACCTATTC-------------------------
+    Cavia_porcellus             GGGGAGGGGACCCTATTCTGTATCAACACTTGTTC-------------------------
+    Xenopus_laevis              GAGGAGGTGACCCAGTACTTTACCAACACCTGTT--------------------------
+    Oryctolagus_cuniculus       GAGGAGGAGACCCTATCCTCTACCAACACCTATTC-------------------------
+    Procavia_capensis           GTGGAGGAGACCCAGTTCTATATCAACACCTATTC-------------------------
     Bos_taurus                  GAGGAGGAGACCCTATTCTATATCAACACTTATTC-------------------------
     Gallus_gallus               GAGGAGGAGACCCAATCCTATACCAACACCTATTC-------------------------
-    Procyon_lotor               GAGGAGGAGACCCAATCCTATACCAGCACCTATTC-------------------------
-    Procavia_capensis           GTGGAGGAGACCCAGTTCTATATCAACACCTATTC-------------------------
     Pan_troglodytes             GGGGAGGAGACCCTATTCTATATCAGCACTTATTC-------------------------
-    Thunnus_albacares           GAGGGGGAGACCCAATCCTTTACCAACACCTATTCTGATTCTTTGG--------------
-    Xiphias_gladius             GAGGTGGGGATCCCATCCTCTACCAACACCTGTTCTGATTCTTC----------------
     Falco_peregrinus            GAGGGGGAGACCCTATTCTCTATCAACACCTATTCTGATTCTTCGGCCACCCAGAAGTTT
     Phoenicopterus_roseus       GAGGAGGCGACCCGGTCCTATACCAGCACCTCTTCTGATTCTTCGGTCACCCAGAAGTCT
     Homo_sapiens                GAGGAGGAGACCCCATTCTATACCAACACCTATTCTGATTTTTCGGTCACCCTGAAGTTT
@@ -350,20 +338,19 @@ begin data;
     Globicephala_melas          ------------------------------------------------------------
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  ------------------------------------------------------------
-    Cavia_porcellus             ------------------------------------------------------------
-    Oryctolagus_cuniculus       ------------------------------------------------------------
     Ailuropoda_melanoleuca      ------------------------------------------------------------
     Meles_meles                 ------------------------------------------------------------
     Loxodonta_cyclotis          ------------------------------------------------------------
     Rattus_norvegicus           ------------------------------------------------------------
     Panthera_tigris             ------------------------------------------------------------
+    Procyon_lotor               ------------------------------------------------------------
+    Cavia_porcellus             ------------------------------------------------------------
+    Xenopus_laevis              ------------------------------------------------------------
+    Oryctolagus_cuniculus       ------------------------------------------------------------
+    Procavia_capensis           ------------------------------------------------------------
     Bos_taurus                  ------------------------------------------------------------
     Gallus_gallus               ------------------------------------------------------------
-    Procyon_lotor               ------------------------------------------------------------
-    Procavia_capensis           ------------------------------------------------------------
     Pan_troglodytes             ------------------------------------------------------------
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             ------------------------------------------------------------
     Falco_peregrinus            ATATCCTAATCC------------------------------------------------
     Phoenicopterus_roseus       ACATCCTAATC-------------------------------------------------
     Homo_sapiens                ATATTCTTATCCTACCAGGCTTCGGAATAATCTCCCATATTGTAACTTACTACTCCGGAA
@@ -378,20 +365,19 @@ begin data;
     Globicephala_melas          ------------------------------------------------------------
     Tursiops_truncatus          ------------------------------------------------------------
     Sus_scrofa                  ------------------------------------------------------------
-    Cavia_porcellus             ------------------------------------------------------------
-    Oryctolagus_cuniculus       ------------------------------------------------------------
     Ailuropoda_melanoleuca      ------------------------------------------------------------
     Meles_meles                 ------------------------------------------------------------
     Loxodonta_cyclotis          ------------------------------------------------------------
     Rattus_norvegicus           ------------------------------------------------------------
     Panthera_tigris             ------------------------------------------------------------
+    Procyon_lotor               ------------------------------------------------------------
+    Cavia_porcellus             ------------------------------------------------------------
+    Xenopus_laevis              ------------------------------------------------------------
+    Oryctolagus_cuniculus       ------------------------------------------------------------
+    Procavia_capensis           ------------------------------------------------------------
     Bos_taurus                  ------------------------------------------------------------
     Gallus_gallus               ------------------------------------------------------------
-    Procyon_lotor               ------------------------------------------------------------
-    Procavia_capensis           ------------------------------------------------------------
     Pan_troglodytes             ------------------------------------------------------------
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             ------------------------------------------------------------
     Falco_peregrinus            ------------------------------------------------------------
     Phoenicopterus_roseus       ------------------------------------------------------------
     Homo_sapiens                AAAAAGAACC--------------------------------------------------
@@ -406,20 +392,19 @@ begin data;
     Globicephala_melas          ---------
     Tursiops_truncatus          ---------
     Sus_scrofa                  ---------
-    Cavia_porcellus             ---------
-    Oryctolagus_cuniculus       ---------
     Ailuropoda_melanoleuca      ---------
     Meles_meles                 ---------
     Loxodonta_cyclotis          ---------
     Rattus_norvegicus           ---------
     Panthera_tigris             ---------
+    Procyon_lotor               ---------
+    Cavia_porcellus             ---------
+    Xenopus_laevis              ---------
+    Oryctolagus_cuniculus       ---------
+    Procavia_capensis           ---------
     Bos_taurus                  ---------
     Gallus_gallus               ---------
-    Procyon_lotor               ---------
-    Procavia_capensis           ---------
     Pan_troglodytes             ---------
-    Thunnus_albacares           ---------
-    Xiphias_gladius             ---------
     Falco_peregrinus            ---------
     Phoenicopterus_roseus       ---------
     Homo_sapiens                ---------

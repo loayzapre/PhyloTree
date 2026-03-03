@@ -1,7 +1,7 @@
 #NEXUS
 
 begin data;
-    dimensions ntax=27 nchar=859;
+    dimensions ntax=26 nchar=859;
     format datatype=dna interleave gap=-;
 
     matrix
@@ -30,8 +30,7 @@ begin data;
     Phoenicopterus_roseus       ----------------------------------------------------GGTGCATG
     Crocodylus_acutus           -------------------------------TATATCCTTATCCT---------------
     Pelecanus_onocrotalus       ------------------------------------------------------------
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             -------------------------------GGCACCCTCTATCTAGTATTTGGTGCTTG
+    Xenopus_laevis              ------------------------------------CCTTTACTTAGTTTTTGGTGCTTG
 
     Balaenoptera_musculus       AGCAGGAATAGTAGGCACTGGCCTAAGCTTATTAATCCGCGCTGAACTAGGTCAGCCTGG
     Physeter_macrocephalus      AGCGGGAATGGTGGGCACTGGCCTAAGCTTGGTAATCCGCACCGAGTTAGGCCAACCCGG
@@ -58,8 +57,7 @@ begin data;
     Phoenicopterus_roseus       AGCCGGGATAGTTGGCACAGCCCTAAGCCTACTCATTCGCGCAGAACTGGGACAACCTGG
     Crocodylus_acutus           -GCCAGGGTTTGGAATAATCTCCCACGTAATTACATTCTACTCAAGCAAAAAAGAACCAT
     Pelecanus_onocrotalus       ------------------------------------------------------------
-    Thunnus_albacares           ----------------------------------------------CTAAGCCAACCAGG
-    Xiphias_gladius             AGCCGGTATAGTAGGCACAGCCCTAAGTCTACTAATCCGAGCAGAACTCAGCCAACCTGG
+    Xenopus_laevis              AGCAGGGATGGTCGGAACCGCTCTTAGCTTATTAATTCGAGCTGAACTTAGCCAGCCCGG
 
     Balaenoptera_musculus       CACACTAATCGGAGATGACCAAGTCTACAACGTATTAGTAACAGCCCACGCCTTCGTGAT
     Physeter_macrocephalus      TACATTAATTGGGGATGACCAAGTCTACAACGTGCTGGTAACAGCTCACGCCTTTGTGAT
@@ -86,8 +84,7 @@ begin data;
     Phoenicopterus_roseus       AACTCTCCTAGGAGACGACCAAATCTATAACGTAATCGTTACCGCCCATGCCTTCGTAAT
     Crocodylus_acutus           TTGGTTATATGGGGATAGTCTGAGCCATAATGT---------------------------
     Pelecanus_onocrotalus       ------------------------------------------------------------
-    Thunnus_albacares           TGCCCTTCTTGGGGACGACCAGATCTACAATGTAATCGTTACGGCCCATGCCTTCGTAAT
-    Xiphias_gladius             CGCCCTACTAGGGGATGACCAGATTTACAACGTAATCGTTACAGCTCACGCCTTTGTAAT
+    Xenopus_laevis              AACACTACTTGGAGATGACCAAATTTATAATGTTATCGTTACAGCACATGCTTTTATTAT
 
     Balaenoptera_musculus       AATCTTCTTCATAGTTATACCTATTATAATCGGCGGATTCGGAAATTGACTGGTCCCTCT
     Physeter_macrocephalus      AATTTTCTTCATAGTCATACCCATCATAATTGGCGGTTTCGGAAACTGATTAGTTCCTCT
@@ -114,8 +111,7 @@ begin data;
     Phoenicopterus_roseus       AATCTTCTTCATAGTTATACCAATCATAATTGGAGGTTTCGGAAACTGACTGGTTCCACT
     Crocodylus_acutus           --------------------------CAATCGGCTTCCTTGGA---------------TT
     Pelecanus_onocrotalus       ------------------------CATAATCGGAGGCTTTGGAAACTGACTAGTCCCTCT
-    Thunnus_albacares           GATTTTCTTTATAGTAATACCAATTATGATTGGAGGATTTGGAAACTGACTTATTCCTCT
-    Xiphias_gladius             GATCTTCTTTATAGTAATGCCAATCATGATTGGAGGGTTCGGAAATTGACTAATTCCCCT
+    Xenopus_laevis              AATTTTCTTCATAGTCATGCCTATTATAATCGGTGGATTTGGGAACTGATTAGTTCCATT
 
     Balaenoptera_musculus       AATGATTGGAGCACCCGACATAGCCTTCCCTCGTATAAATAACATAAGCTTCTGACTACT
     Physeter_macrocephalus      AATAATCGGAGCACCTGACATAGCCTTTCCTCGTATAAATAACATGAGCTTCTGACTACT
@@ -142,8 +138,7 @@ begin data;
     Phoenicopterus_roseus       CATAATTGGTGCTCCTGACATAGCATTTCCCCGCATAAACAACATAAGCTTCTGACTACT
     Crocodylus_acutus           CATTGTCTGAGCCCACCACATG---TTTACAGTAGGGATAGATGTTGATACTCGAGCATA
     Pelecanus_onocrotalus       CATAATTGGCGCCCCAGACATAGCATTTCCACGTATAAACAACATAAGCTTCTGACTCCT
-    Thunnus_albacares           AATGATCGGAGCCCCCGACATGGCATTCCCACGAATGAACAACATGAGCTTCTGACTCCT
-    Xiphias_gladius             AATGATTGGAGCCCCCGATATAGCATTCCCTCGAATGAATAACATAAGCTTCTGACTCCT
+    Xenopus_laevis              AATAATTGGAGCCCCAGATATAGCATTTCCGCGAATAAATAATATAAGCTTTTGACTTCT
 
     Balaenoptera_musculus       CCCTCCTTCCTTCCTACTCTTAATAGCATCCTCAATAATTGAAGCTGGTGCAGGTACAGG
     Physeter_macrocephalus      CCCCCCTTCATTCCTACTACTAATAGCTTCTTCAATAGTCGAAGCCGGCGCAGGTACAGG
@@ -170,8 +165,7 @@ begin data;
     Phoenicopterus_roseus       ACCCCCATCCTTCTTACTCCTCCTGGCCTCCTCCACAGTAGAAGCTGGAGCAGGCACAGG
     Crocodylus_acutus           TTTCACATCCGCCACAATAATTATCGCCATCCCCACTG-----------GTGTAAAAGTA
     Pelecanus_onocrotalus       GCCCCCATCCTTCCTACTCCTACTAGCCTCATCCACAGTAGAAGCAGGCGCAGGAACAGG
-    Thunnus_albacares           TCCCCCCTCTTTCCTTCTGCTCCTAGCTTCTTCAGGAGTTGAGGCTGGAGCCGGAACCGG
-    Xiphias_gladius             CCCTCCATCATTCCTCCTCCTCCTTGCTTCTTCTGGAGTTGAAGCTGGCGCTGGAACCGG
+    Xenopus_laevis              TCCCCCATCATTTCTTTTATTACTAGCATCATCTGGGGTTGAAGCAGGAGCCGGAACAGG
 
     Balaenoptera_musculus       CTGAACCGTATATCCCCCTTTAGCCGGAAACCTAGCACATGCAGGAGCCTCAGTCGACCT
     Physeter_macrocephalus      CTGGACTGTTTACCCCCCTCTAGCCGGAAATTTAGCACATGCAGGAGCATCCGTAGACCT
@@ -198,8 +192,7 @@ begin data;
     Phoenicopterus_roseus       ATGAACTGTGTACCCACCACTAGCTGGCAACATAGCCCATGCCGGAGCCTCAGTAGACCT
     Crocodylus_acutus           TTCAGCTGATTAGCCACTATTTAC-GGAGGGGTAGTAAAATGACAAGCCCCCATGCTCTG
     Pelecanus_onocrotalus       ATGAACCGTATACCCTCCACTAGCTGGCAACCTAGCCCATGCCGGAGCCTCTGTGGACCT
-    Thunnus_albacares           TTGAACAGTCTACCCACCCCTTGCCGGCAACCTGGCCCACGCAGGGGCATCAGTTGACCT
-    Xiphias_gladius             GTGAACTGTCTACCCTCCTCTAGCAGGTAACCTAGCCCACGCAGGTGCATCTGTTGACCT
+    Xenopus_laevis              TTGAACTGTGTACCCGCCTTTAGCTGGAAACCTAGCACATGCTGGAGCATCAGTTGACCT
 
     Balaenoptera_musculus       TAC---------CATTTTCTCCTTACACCTAGCCGGCGTATCCTCAATCCTCGGAGCTAT
     Physeter_macrocephalus      TAC---------CATCTTTTCCCTACACCTAGCTGGTGTCTCCTCAATCCTTGGAGCCAT
@@ -226,8 +219,7 @@ begin data;
     Phoenicopterus_roseus       GGC---------TATCTTCTCCCTCCACCTAGCAGGTGTATCATCTATTCTCGGAGCAAT
     Crocodylus_acutus           AGCACTCGGCTTCATTTTCTTATTCACAGTTGGAGGACTAACAGGAATTGTACTAGCTAA
     Pelecanus_onocrotalus       GGC---------TATCTTCTCACTCCATTTAGCAGGGGTATCCTCTATCCTAGGCGCAAT
-    Thunnus_albacares           AAC---------TATTTTCTCACTTCACTTAGCAGGGGTTTCCTCAATTCTTGGGGCAAT
-    Xiphias_gladius             TAC---------CATCTTCTCCCTTCACCTAGCTGGGATCTCCTCTATTCTGGGGGCAAT
+    Xenopus_laevis              AAC---------AATTTTCTCCCTTCACTTAGCTGGTATTTCATCTATTTTAGGAGCAAT
 
     Balaenoptera_musculus       CAATTTTATCACAACTATTATTAATATAAAACCACCTGCCATGACCCAATATCAAACTCC
     Physeter_macrocephalus      CAACTTTATTACAACCATTATCAACATAAAACCCCCAGCCATAACTCAATACCAAACACC
@@ -254,8 +246,7 @@ begin data;
     Phoenicopterus_roseus       CAACTTTATCACTACTGCTATCAACATAAAACCACCTGCCCTCTCACAATACCAAACCCC
     Crocodylus_acutus           CTCGTCACTAGACATTATTCTCCACGATACCTACTACGTAGTAGCCCACTTCCACTATGT
     Pelecanus_onocrotalus       CAACTTCATTACAACCGCTATCAACATAAAACCACCAGCCCTGTCACAATATCAGACACC
-    Thunnus_albacares           TAACTTCATCACAACAATTATCAATATGAAACCTGCAGCTATTTCTCAGTATCAAACACC
-    Xiphias_gladius             CAACTTCATCACAACTATTATCAATATAAAACCAGCTGCCGTTTCTATGTACCAGATTCC
+    Xenopus_laevis              TAACTTCATCACAACAACAATTAACATAAAACCACCAGCTATATCTCAATACCAAACCCC
 
     Balaenoptera_musculus       CCTTTTCGTATGATCAGTCCTAGTCACAGCAGTACTACTCTTATTATCATTACCTGTTTT
     Physeter_macrocephalus      TCTCTTCGTATGATCTATTTTAGTCACGGCTGTATTGCTCCTCCTATCCCTACCAGTCTT
@@ -282,8 +273,7 @@ begin data;
     Phoenicopterus_roseus       CCTATTCGTATGATCTGTCCTCATCACCGCTGTCCTATTACTACTCTCACTTCCAGTCCT
     Crocodylus_acutus           ATTATCTATGGGAGCAGTGTTCGCCATCATAAGCGGGTTCACCCACTGATTCCCGCTATT
     Pelecanus_onocrotalus       ATTATTCGTGTGATCCGTGCTCATCACCGCCGTTCTACTACTACTATCACTCCCAGTCCT
-    Thunnus_albacares           ACTGTTTGTATGAGCTGTACTAATTACAGCTGTTCTTCTCCTACTTTCCCTTCCAGTCCT
-    Xiphias_gladius             TCTGTTCGTGTGAGCCGTACTAATTACAGCTGTCCTCCTTCTCCTCTCCCTTCCCGTTCT
+    Xenopus_laevis              ACTATTTGTTTGATCAGTATTAATCACAGCTGTACTTTTACTTCTTTCTCTTCCTGTCTT
 
     Balaenoptera_musculus       AGCAGCCGGAATCACCATGCTACTTACTGACCGAAACCTAAATACAACCTTCTTCGA-CC
     Physeter_macrocephalus      AGCAGCTGGAATCACCATACTATTAACCGACCGAAACCTAAATACAACTTTCTTTGA-CC
@@ -310,8 +300,7 @@ begin data;
     Phoenicopterus_roseus       TGCCGCCGGCATTACCATACTACTAACAGACCGAAACCTAAACACCACATTCTTCGA-TC
     Crocodylus_acutus           CACAGGATTCACC-CTACACAGCACATGAACAAAAATTCAATTCATAATCATATTTA---
     Pelecanus_onocrotalus       GGCCGCCGGCATCACTATACTGCTTACAGACCGAAACCTGAACACCACATTCTTCGA-CC
-    Thunnus_albacares           TGCCGCTGGTATTACAATGCTCCTTACAGACCGAAACCTAAATACAACCTTCTTCGA-CC
-    Xiphias_gladius             AGCTGCCGGAATTACCATGCTCTTAACAGACCGTAATTTAAACACCGCCTTCTTTGA-CC
+    Xenopus_laevis              AGCCGCAGGAATCACAATGTTATTAACAGATCGTAATCTGAATACAACTTTCTTTGA-CC
 
     Balaenoptera_musculus       CTGCAGGTGGAGGAGATCCAAT----TCTGTATCAACACTTATTCTGATTCTTTGGCCAC
     Physeter_macrocephalus      CGGCAGGAGGAGGAGACCCTGT----TTTGTATCAACACTTATTCTGATTCTTCGGTCAC
@@ -338,8 +327,7 @@ begin data;
     Phoenicopterus_roseus       CAGCCGGAGGAGGCGACCCGGT----CCTATACCAGCACCTCTTCTGATTCTTCGGTCAC
     Crocodylus_acutus           ------CAGGTGTAAATCTAAC----CTTCTTCCCACAACACTTC---------------
     Pelecanus_onocrotalus       CCGCTGGAGGAGGTGACCCAGT----CCTATATCAGCACCTATTCTGATTTTTTGGTCAC
-    Thunnus_albacares           CTGCAGGAGGGGGAGACCCAAT----CCTTTACCAACACCTATTCTGATTCTTTGG----
-    Xiphias_gladius             CTGCAGGAGGTGGGGATCCCAT----CCTCTACCAACACCTGTTCTGATTCTTC------
+    Xenopus_laevis              CTGCCGGAGGAGGTGACCCAGT----ACTTTACCAACACCTGTT----------------
 
     Balaenoptera_musculus       CCA---------------------------------------------------------
     Physeter_macrocephalus      CC----------------------------------------------------------
@@ -366,8 +354,7 @@ begin data;
     Phoenicopterus_roseus       CCAGAAGTCTACATCCTAATC---------------------------------------
     Crocodylus_acutus           ---------------CTAGGCCTATCAGG--------------------------GATAC
     Pelecanus_onocrotalus       CCAGAAGTCTACATCCTAATCCTCCCAGGTTTTGGAATCATTTCACATGTAGTAGCATAC
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             ------------------------------------------------------------
+    Xenopus_laevis              ------------------------------------------------------------
 
     Balaenoptera_musculus       ------------------------------------------------------------
     Physeter_macrocephalus      ------------------------------------------------------------
@@ -394,8 +381,7 @@ begin data;
     Phoenicopterus_roseus       ------------------------------------------------------------
     Crocodylus_acutus           CACGACGATATT------------------------------------------------
     Pelecanus_onocrotalus       TATGCTGGTAAAAAAGAACCATTCGGGTACATAGGAATGGTATGAGCCATGCTATCCATC
-    Thunnus_albacares           ------------------------------------------------------------
-    Xiphias_gladius             ------------------------------------------------------------
+    Xenopus_laevis              ------------------------------------------------------------
 
     Balaenoptera_musculus       -------------------
     Physeter_macrocephalus      -------------------
@@ -422,7 +408,6 @@ begin data;
     Phoenicopterus_roseus       -------------------
     Crocodylus_acutus           -------------------
     Pelecanus_onocrotalus       GGATTCCTAGGCTTCATCG
-    Thunnus_albacares           -------------------
-    Xiphias_gladius             -------------------
+    Xenopus_laevis              -------------------
 ;
 end;

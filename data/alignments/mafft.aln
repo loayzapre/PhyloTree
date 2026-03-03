@@ -26,8 +26,7 @@ Falco_peregrinu ------------------------------------------------------------
 Phoenicopterus_ ----------------------------------------------------ggtgcatg
 Crocodylus_acut -------------------------------tatatccttatcct---------------
 Pelecanus_onocr ------------------------------------------------------------
-Thunnus_albacar ------------------------------------------------------------
-Xiphias_gladius -------------------------------ggcaccctctatctagtatttggtgcttg
+Xenopus_laevis  ------------------------------------cctttacttagtttttggtgcttg
                                                                             
 
 Balaenoptera_mu agcaggaatagtaggcactggcctaagcttattaatccgcgctgaactaggtcagcctgg
@@ -55,8 +54,7 @@ Falco_peregrinu ----ggcatagtcggtactgcccttagcctccttattcgaacagaacttggccaaccagg
 Phoenicopterus_ agccgggatagttggcacagccctaagcctactcattcgcgcagaactgggacaacctgg
 Crocodylus_acut -gccagggtttggaataatctcccacgtaattacattctactcaagcaaaaaagaaccat
 Pelecanus_onocr ------------------------------------------------------------
-Thunnus_albacar ----------------------------------------------ctaagccaaccagg
-Xiphias_gladius agccggtatagtaggcacagccctaagtctactaatccgagcagaactcagccaacctgg
+Xenopus_laevis  agcagggatggtcggaaccgctcttagcttattaattcgagctgaacttagccagcccgg
                                                                             
 
 Balaenoptera_mu cacactaatcggagatgaccaagtctacaacgtattagtaacagcccacgccttcgtgat
@@ -84,8 +82,7 @@ Falco_peregrinu aactctcctaggagatgaccaaatctacaatgtcatcgtcactgcccatgccttcgtaat
 Phoenicopterus_ aactctcctaggagacgaccaaatctataacgtaatcgttaccgcccatgccttcgtaat
 Crocodylus_acut ttggttatatggggatagtctgagccataatgt---------------------------
 Pelecanus_onocr ------------------------------------------------------------
-Thunnus_albacar tgcccttcttggggacgaccagatctacaatgtaatcgttacggcccatgccttcgtaat
-Xiphias_gladius cgccctactaggggatgaccagatttacaacgtaatcgttacagctcacgcctttgtaat
+Xenopus_laevis  aacactacttggagatgaccaaatttataatgttatcgttacagcacatgcttttattat
                                                                             
 
 Balaenoptera_mu aatcttcttcatagttatacctattataatcggcggattcggaaattgactggtccctct
@@ -113,8 +110,7 @@ Falco_peregrinu aatctttttcatagttatacccattatgatcggaggatttggaaactgactagttcccct
 Phoenicopterus_ aatcttcttcatagttataccaatcataattggaggtttcggaaactgactggttccact
 Crocodylus_acut --------------------------caatcggcttccttgga---------------tt
 Pelecanus_onocr ------------------------cataatcggaggctttggaaactgactagtccctct
-Thunnus_albacar gattttctttatagtaataccaattatgattggaggatttggaaactgacttattcctct
-Xiphias_gladius gatcttctttatagtaatgccaatcatgattggagggttcggaaattgactaattcccct
+Xenopus_laevis  aattttcttcatagtcatgcctattataatcggtggatttgggaactgattagttccatt
                                                                             
 
 Balaenoptera_mu aatgattggagcacccgacatagccttccctcgtataaataacataagcttctgactact
@@ -142,8 +138,7 @@ Falco_peregrinu tataattggagctccagacatagcatttccccgcataaacaacatgagtttctgactact
 Phoenicopterus_ cataattggtgctcctgacatagcatttccccgcataaacaacataagcttctgactact
 Crocodylus_acut cattgtctgagcccaccacatg---tttacagtagggatagatgttgatactcgagcata
 Pelecanus_onocr cataattggcgccccagacatagcatttccacgtataaacaacataagcttctgactcct
-Thunnus_albacar aatgatcggagcccccgacatggcattcccacgaatgaacaacatgagcttctgactcct
-Xiphias_gladius aatgattggagcccccgatatagcattccctcgaatgaataacataagcttctgactcct
+Xenopus_laevis  aataattggagccccagatatagcatttccgcgaataaataatataagcttttgacttct
                  ** .*. *  * *   *.**.   **. *      .*  .*..* ... ...** . . 
 
 Balaenoptera_mu ccctccttccttcctactcttaatagcatcctcaataattgaagctggtgcaggtacagg
@@ -171,8 +166,7 @@ Falco_peregrinu ccccccatcctttctactgctcctagcatcttccacagtagaagctggagttggaacagg
 Phoenicopterus_ acccccatccttcttactcctcctggcctcctccacagtagaagctggagcaggcacagg
 Crocodylus_acut tttcacatccgccacaataattatcgccatccccactg-----------gtgtaaaagta
 Pelecanus_onocr gcccccatccttcctactcctactagcctcatccacagtagaagcaggcgcaggaacagg
-Thunnus_albacar tcccccctctttccttctgctcctagcttcttcaggagttgaggctggagccggaaccgg
-Xiphias_gladius ccctccatcattcctcctcctccttgcttcttctggagttgaagctggcgctggaaccgg
+Xenopus_laevis  tcccccatcatttcttttattactagcatcatctggggttgaagcaggagccggaacagg
                  ..  * **  .. .  *  *  *  *  .  * .  .           *.  . *   .
 
 Balaenoptera_mu ctgaaccgtatatccccctttagccggaaacctagcacatgcaggagcctcagtcgacct
@@ -200,8 +194,7 @@ Falco_peregrinu atgaaccgtatacccccccttagcaggcaacctagcccacgccggtgcttcagtagacct
 Phoenicopterus_ atgaactgtgtacccaccactagctggcaacatagcccatgccggagcctcagtagacct
 Crocodylus_acut ttcagctgattagccactatttac-ggaggggtagtaaaatgacaagcccccatgctctg
 Pelecanus_onocr atgaaccgtataccctccactagctggcaacctagcccatgccggagcctctgtggacct
-Thunnus_albacar ttgaacagtctacccaccccttgccggcaacctggcccacgcaggggcatcagttgacct
-Xiphias_gladius gtgaactgtctaccctcctctagcaggtaacctagcccacgcaggtgcatctgttgacct
+Xenopus_laevis  ttgaactgtgtacccgcctttagctggaaacctagcacatgctggagcatcagttgacct
                  * ..* *  ** ** *. .* .* ** ..     .  *     . ** .* .*   .. 
 
 Balaenoptera_mu tac---------cattttctccttacacctagccggcgtatcctcaatcctcggagctat
@@ -229,8 +222,7 @@ Falco_peregrinu ggc---------tatcttctccctacaccttgcaggtgtatcttccatcttaggggcaat
 Phoenicopterus_ ggc---------tatcttctccctccacctagcaggtgtatcatctattctcggagcaat
 Crocodylus_acut agcactcggcttcattttcttattcacagttggaggactaacaggaattgtactagctaa
 Pelecanus_onocr ggc---------tatcttctcactccatttagcaggggtatcctctatcctaggcgcaat
-Thunnus_albacar aac---------tattttctcacttcacttagcaggggtttcctcaattcttggggcaat
-Xiphias_gladius tac---------catcttctcccttcacctagctgggatctcctctattctgggggcaat
+Xenopus_laevis  aac---------aattttctcccttcacttagctggtatttcatctattttaggagcaat
                  .*          **.**.*. .*     * *  **  *  *    **. *    ** * 
 
 Balaenoptera_mu caattttatcacaactattattaatataaaaccacctgccatgacccaatatcaaactcc
@@ -258,9 +250,8 @@ Falco_peregrinu caactttatcacaacagccattaacataaaaccacccgccctatcacagtaccaaacccc
 Phoenicopterus_ caactttatcactactgctatcaacataaaaccacctgccctctcacaataccaaacccc
 Crocodylus_acut ctcgtcactagacattattctccacgatacctactacgtagtagcccacttccactatgt
 Pelecanus_onocr caacttcattacaaccgctatcaacataaaaccaccagccctgtcacaatatcagacacc
-Thunnus_albacar taacttcatcacaacaattatcaatatgaaacctgcagctatttctcagtatcaaacacc
-Xiphias_gladius caacttcatcacaactattatcaatataaaaccagctgccgtttctatgtaccagattcc
-                .   *.  * .  *. ... *. *..  *  .     *.  .  *    * .**     .
+Xenopus_laevis  taacttcatcacaacaacaattaacataaaaccaccagctatatctcaataccaaacccc
+                .   *.  * .  *. ..  *. *..  *  .  .  *.  .  * ** * .**     .
 
 Balaenoptera_mu ccttttcgtatgatcagtcctagtcacagcagtactactcttattatcattacctgtttt
 Physeter_macroc tctcttcgtatgatctattttagtcacggctgtattgctcctcctatccctaccagtctt
@@ -287,8 +278,7 @@ Falco_peregrinu actattcgtatgatccgtacttattaccgccgtactcctactgctctcacttccagttct
 Phoenicopterus_ cctattcgtatgatctgtcctcatcaccgctgtcctattactactctcacttccagtcct
 Crocodylus_acut attatctatgggagcagtgttcgccatcataagcgggttcacccactgattcccgctatt
 Pelecanus_onocr attattcgtgtgatccgtgctcatcaccgccgttctactactactatcactcccagtcct
-Thunnus_albacar actgtttgtatgagctgtactaattacagctgttcttctcctactttcccttccagtcct
-Xiphias_gladius tctgttcgtgtgagccgtactaattacagctgtcctccttctcctctcccttcccgttct
+Xenopus_laevis  actatttgtttgatcagtattaatcacagctgtacttttacttctttctcttcctgtctt
                  .* *...*  *. * .*  * ...*. .. .     .*  . .     .* **  * .*
 
 Balaenoptera_mu agcagccggaatcaccatgctacttactgaccgaaacctaaatacaaccttcttcga-cc
@@ -316,9 +306,8 @@ Falco_peregrinu ggccgctggcatcaccatactactaaccgaccgaaacctgaacactacattcttcga-cc
 Phoenicopterus_ tgccgccggcattaccatactactaacagaccgaaacctaaacaccacattcttcga-tc
 Crocodylus_acut cacaggattcacc-ctacacagcacatgaacaaaaattcaattcataatcatattta---
 Pelecanus_onocr ggccgccggcatcactatactgcttacagaccgaaacctgaacaccacattcttcga-cc
-Thunnus_albacar tgccgctggtattacaatgctccttacagaccgaaacctaaatacaaccttcttcga-cc
-Xiphias_gladius agctgccggaattaccatgctcttaacagaccgtaatttaaacaccgccttctttga-cc
-                 .* *     *.. * *...  .  *. .*. . **. . * .   .  .          
+Xenopus_laevis  agccgcaggaatcacaatgttattaacagatcgtaatctgaatacaactttctttga-cc
+                 .* *     *.. * *...  .  *. .*. . **. . * .   *  .          
 
 Balaenoptera_mu ctgcaggtggaggagatccaat----tctgtatcaacacttattctgattctttggccac
 Physeter_macroc cggcaggaggaggagaccctgt----tttgtatcaacacttattctgattcttcggtcac
@@ -345,8 +334,7 @@ Falco_peregrinu ccgccggagggggagaccctat----tctctatcaacacctattctgattcttcggccac
 Phoenicopterus_ cagccggaggaggcgacccggt----cctataccagcacctcttctgattcttcggtcac
 Crocodylus_acut ------caggtgtaaatctaac----cttcttcccacaacacttc---------------
 Pelecanus_onocr ccgctggaggaggtgacccagt----cctatatcagcacctattctgattttttggtcac
-Thunnus_albacar ctgcaggagggggagacccaat----cctttaccaacacctattctgattctttgg----
-Xiphias_gladius ctgcaggaggtggggatcccat----cctctaccaacacctgttctgattcttc------
+Xenopus_laevis  ctgccggaggaggtgacccagt----actttaccaacacctgtt----------------
                                                                             
 
 Balaenoptera_mu cca---------------------------------------------------------
@@ -374,8 +362,7 @@ Falco_peregrinu ccagaagtttatatcctaatcc--------------------------------------
 Phoenicopterus_ ccagaagtctacatcctaatc---------------------------------------
 Crocodylus_acut ---------------ctaggcctatcagg--------------------------gatac
 Pelecanus_onocr ccagaagtctacatcctaatcctcccaggttttggaatcatttcacatgtagtagcatac
-Thunnus_albacar ------------------------------------------------------------
-Xiphias_gladius ------------------------------------------------------------
+Xenopus_laevis  ------------------------------------------------------------
                                                                             
 
 Balaenoptera_mu ------------------------------------------------------------
@@ -403,8 +390,7 @@ Falco_peregrinu ------------------------------------------------------------
 Phoenicopterus_ ------------------------------------------------------------
 Crocodylus_acut cacgacgatatt------------------------------------------------
 Pelecanus_onocr tatgctggtaaaaaagaaccattcgggtacataggaatggtatgagccatgctatccatc
-Thunnus_albacar ------------------------------------------------------------
-Xiphias_gladius ------------------------------------------------------------
+Xenopus_laevis  ------------------------------------------------------------
                                                                             
 
 Balaenoptera_mu -------------------
@@ -432,6 +418,5 @@ Falco_peregrinu -------------------
 Phoenicopterus_ -------------------
 Crocodylus_acut -------------------
 Pelecanus_onocr ggattcctaggcttcatcg
-Thunnus_albacar -------------------
-Xiphias_gladius -------------------
+Xenopus_laevis  -------------------
                                    

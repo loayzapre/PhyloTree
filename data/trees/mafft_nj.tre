@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
+Begin trees;  [Treefile saved Tue Mar  3 15:59:45 2026]
 [!
 >Data file = mafft.nexus
 >Neighbor-joining search settings:
@@ -9,5 +9,5 @@ Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
-tree 'PAUP_1' = [&U] (Balaenoptera_musculus:0,((Physeter_macrocephalus:0.099224,((Hippopotamus_amphibius:0.098548,Sus_scrofa:0.101982):0.004227,((((Homo_sapiens:0.047008,Pan_troglodytes:0.063921):0.064489,Procavia_capensis:0.117275):0.010740,(Equus_quagga:0.113137,(Thunnus_albacares:0.088821,Xiphias_gladius:0.107426):0.039089):0.009718):0.002211,((((((Ailuropoda_melanoleuca:0.108666,Meles_meles:0.092014):-0.000153,Loxodonta_cyclotis:0.131991):0.015957,(Panthera_tigris:0.113110,Rattus_norvegicus:0.103210):0.003858):0.003568,(Cavia_porcellus:0.131035,Oryctolagus_cuniculus:0.108190):0.009149):0.007156,((Procyon_lotor:0.117145,(Crocodylus_acutus:0.991688,Pelecanus_onocrotalus:0.039960):0.063526):0.003717,(Gallus_gallus:0.104659,(Falco_peregrinus:0.085619,Phoenicopterus_roseus:0.080438):0.011605):0.019974):0.012705):0.001869,Bos_taurus:0.107030):0.000420):0.003764):0.031972):0.010422,((Orcinus_orca:0.040327,Globicephala_melas:0.033506):0.009198,Tursiops_truncatus:0.034655):0.044900):0.085295);
+tree 'PAUP_1' = [&U] ((((((((((Balaenoptera_musculus:0.086559,((Orcinus_orca:0.041330,Globicephala_melas:0.032503):0.009824,Tursiops_truncatus:0.034029):0.043427):0.010487,Physeter_macrocephalus:0.099791):0.029687,(Hippopotamus_amphibius:0.095885,Equus_quagga:0.116594):0.005226):0.004823,(((Homo_sapiens:0.047301,Pan_troglodytes:0.063628):0.064332,Procavia_capensis:0.117432):0.010511,Bos_taurus:0.104325):0.003571):0.000194,Sus_scrofa:0.107186):0.003327,(Procyon_lotor:0.121864,((Gallus_gallus:0.104909,(Falco_peregrinus:0.085434,Phoenicopterus_roseus:0.080623):0.011355):0.018376,(Crocodylus_acutus:0.989935,Pelecanus_onocrotalus:0.041713):0.061611):0.008063):0.008157):0.005567,(((Ailuropoda_melanoleuca:0.108495,Meles_meles:0.092186):-0.000527,Loxodonta_cyclotis:0.132365):0.016208,(Panthera_tigris:0.113103,Rattus_norvegicus:0.103217):0.003732):0.004904):0.007553,Oryctolagus_cuniculus:0.111661):0.009409,Cavia_porcellus:0.123568):0.125862,Xenopus_laevis:0);
 End;

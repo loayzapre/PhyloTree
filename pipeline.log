@@ -1,0 +1,1164 @@
+nohup: ignoring input
+====================================
+Phylogenetic Pipeline
+====================================
+
+[1/5] Running sequence alignments...
+Input FASTA: data/raw/sequences.fsa
+Output dir : data/alignments
+
+[1/3] Running MAFFT...
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 26    1 / 26    2 / 26    3 / 26    4 / 26    5 / 26    6 / 26    7 / 26    8 / 26    9 / 26   10 / 26   11 / 26   12 / 26   13 / 26   14 / 26   15 / 26   16 / 26   17 / 26   18 / 26   19 / 26   20 / 26   21 / 26   22 / 26   23 / 26   24 / 26tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 26   10 / 26   20 / 26
+done.
+
+Progressive alignment ... 
+STEP     1 /25 STEP     2 /25 STEP     3 /25 
+Reallocating..done. *alloclen = 2392
+STEP     4 /25 STEP     5 /25 STEP     6 /25 STEP     7 /25 STEP     8 /25 STEP     9 /25 STEP    10 /25 STEP    11 /25 STEP    12 /25 STEP    13 /25 STEP    14 /25 STEP    15 /25 STEP    16 /25 STEP    17 /25 STEP    18 /25 STEP    19 /25 STEP    20 /25 STEP    21 /25 STEP    22 /25 STEP    23 /25 STEP    24 /25 STEP    25 /25 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 26   10 / 26   20 / 26
+Segment   1/  1    1- 860
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  identical.   STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  rejected.STEP 001-008-0  identical.   STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  identical.   STEP 001-011-0  identical.   STEP 001-011-1  identical.   STEP 001-012-0  identical.   STEP 001-012-1  identical.   STEP 001-013-0  identical.   STEP 001-013-1  identical.   STEP 001-014-0  identical.   STEP 001-014-1  identical.   STEP 001-015-0  identical.   STEP 001-015-1  identical.   STEP 001-016-0  identical.   STEP 001-016-1  identical.   STEP 001-017-0  identical.   STEP 001-017-1  identical.   STEP 001-018-0  identical.   STEP 001-018-1  identical.   STEP 001-019-0  identical.   STEP 001-019-1  identical.   STEP 001-020-0  identical.   STEP 001-020-1  identical.   STEP 001-021-0  identical.   STEP 001-021-1  identical.   STEP 001-022-0  identical.   STEP 001-022-1  identical.   STEP 001-023-0  identical.   STEP 001-023-1  identical.   STEP 001-024-0  identical.   STEP 001-024-1  identical.   STEP 001-025-1  rejected.STEP 002-025-1  rejected.STEP 002-024-0  identical.   STEP 002-024-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+All-to-all alignment.
+    0 / 26    1 / 26    2 / 26    3 / 26    4 / 26    5 / 26    6 / 26    7 / 26    8 / 26    9 / 26   10 / 26   11 / 26   12 / 26   13 / 26   14 / 26   15 / 26   16 / 26   17 / 26   18 / 26   19 / 26   20 / 26   21 / 26   22 / 26   23 / 26   24 / 26tbfast-pair (nuc) Version 7.526
+alg=L, model=DNA200 (2), 2.00 (6.00), -0.10 (-0.30), noshift, amax=0.0
+0 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 26   10 / 26   20 / 26
+done.
+
+Progressive alignment ... 
+STEP     1 /25 STEP     2 /25 STEP     3 /25 
+Reallocating..done. *alloclen = 2392
+STEP     4 /25 STEP     5 /25 STEP     6 /25 STEP     7 /25 STEP     8 /25 STEP     9 /25 STEP    10 /25 STEP    11 /25 STEP    12 /25 STEP    13 /25 STEP    14 /25 STEP    15 /25 STEP    16 /25 STEP    17 /25 STEP    18 /25 STEP    19 /25 STEP    20 /25 STEP    21 /25 STEP    22 /25 STEP    23 /25 STEP    24 /25 STEP    25 /25 
+done.
+tbfast (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 0
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Loading 'hat3' ... done.
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+    0 / 26   10 / 26   20 / 26
+Segment   1/  1    1- 860
+STEP 001-001-0  identical.   STEP 001-001-1  identical.   STEP 001-002-0  identical.   STEP 001-002-1  identical.   STEP 001-003-0  identical.   STEP 001-003-1  identical.   STEP 001-004-0  identical.   STEP 001-004-1  identical.   STEP 001-005-0  identical.   STEP 001-005-1  identical.   STEP 001-006-0  identical.   STEP 001-006-1  identical.   STEP 001-007-0  identical.   STEP 001-007-1  rejected.STEP 001-008-0  identical.   STEP 001-008-1  identical.   STEP 001-009-0  identical.   STEP 001-009-1  identical.   STEP 001-010-0  identical.   STEP 001-010-1  identical.   STEP 001-011-0  identical.   STEP 001-011-1  identical.   STEP 001-012-0  identical.   STEP 001-012-1  identical.   STEP 001-013-0  identical.   STEP 001-013-1  identical.   STEP 001-014-0  identical.   STEP 001-014-1  identical.   STEP 001-015-0  identical.   STEP 001-015-1  identical.   STEP 001-016-0  identical.   STEP 001-016-1  identical.   STEP 001-017-0  identical.   STEP 001-017-1  identical.   STEP 001-018-0  identical.   STEP 001-018-1  identical.   STEP 001-019-0  identical.   STEP 001-019-1  identical.   STEP 001-020-0  identical.   STEP 001-020-1  identical.   STEP 001-021-0  identical.   STEP 001-021-1  identical.   STEP 001-022-0  identical.   STEP 001-022-1  identical.   STEP 001-023-0  identical.   STEP 001-023-1  identical.   STEP 001-024-0  identical.   STEP 001-024-1  identical.   STEP 001-025-1  rejected.STEP 002-025-1  rejected.STEP 002-024-0  identical.   STEP 002-024-1  identical.   
+Converged.
+
+done
+dvtditr (nuc) Version 7.526
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+  wrote: data/alignments/mafft.fasta
+  wrote: data/alignments/mafft.aln
+
+[2/3] Running ClustalW...
+  wrote: data/alignments/clustalw.fasta
+  wrote: data/alignments/clustalw.aln
+
+[3/3] Running MUSCLE...
+
+muscle 5.3.linux64 []  8.0Gb RAM, 20 cores
+Built Jul 30 2025 21:13:04
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+[align data/raw/sequences.fsa]
+Input: 26 seqs, avg length 647, max 694, min 456
+
+00:00 9.0Mb     3.8% Derep 1 uniques, 0 dupes00:00 9.0Mb   100.0% Derep 26 uniques, 0 dupes
+00:00 9.0Mb  CPU has 20 cores, running 20 threads
+00:00 236Mb    0.31% Calc posteriors00:01 2.2Gb    28.6% Calc posteriors00:01 1.6Gb   100.0% Calc posteriors
+00:02 1.5Gb     4.0% UPGMA5         00:02 1.5Gb   100.0% UPGMA5
+00:02 1.5Gb    0.31% Consistency (1/2)00:02 1.5Gb   100.0% Consistency (1/2)
+00:02 1.5Gb    0.31% Consistency (2/2)00:02 1.5Gb   100.0% Consistency (2/2)
+00:02 1.5Gb     1.0% Refining         00:02 1.5Gb   100.0% Refining
+  wrote: data/alignments/muscle.aln
+
+Sanity checks:
+  ---- data/alignments/clustalw.fasta
+  >Hippopotamus_amphibius
+  --------------------------------------------------
+  --------------------------------------------------
+  --------------------------------------------------
+  ---- data/alignments/mafft.fasta
+  >Balaenoptera_musculus PV453157.1 isolate MTM4 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
+  --------------------acaaagacattggcaccctatatttactatttggtgcctg
+  agcaggaatagtaggcactggcctaagcttattaatccgcgctgaactaggtcagcctgg
+  cacactaatcggagatgaccaagtctacaacgtattagtaacagcccacgccttcgtgat
+  ---- data/alignments/muscle.fasta
+  >Crocodylus_acutus PV564673.1 voucher CRac110PAATL cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
+  ----------------------------------------TATATCCTTATCCTGCCAGGGTTTGGAATAATCTCCCACG
+  TAATTA-CATTCTA-CTCAAGCAAAAAAGAACC-----ATTTGGTTATATGGGGATAGTCTGAGCCATAATGTCA-----
+  ---------------------ATCGGCT------------------------------------------TCCTTGGATT
+  ---- data/alignments/clustalw.aln
+  CLUSTAL 2.1 multiple sequence alignment
+  
+  
+  Hippopotamus_amphibius      --------------------------------------------------
+  ---- data/alignments/mafft.aln
+  CLUSTAL format alignment by MAFFT L-INS-i (v7.526)
+  
+  
+  Balaenoptera_mu --------------------acaaagacattggcaccctatatttactatttggtgcctg
+  ---- data/alignments/muscle.aln
+  CLUSTAL X (1.81) multiple sequence alignment
+  
+  
+  Crocodylus_acutus                   ----------------------------------------TATATCCTTA
+
+Done.
+✓ Alignments completed
+
+[2/5] Converting alignments to NEXUS format...
+Converting data/alignments/clustalw.fasta -> data/alignments/clustalw.nexus
+Success: Saved to data/alignments/clustalw.nexus
+Converting data/alignments/mafft.fasta -> data/alignments/mafft.nexus
+Success: Saved to data/alignments/mafft.nexus
+Converting data/alignments/muscle.fasta -> data/alignments/muscle.nexus
+Success: Saved to data/alignments/muscle.nexus
+--------------------------------------
+Done. All files are in: data/alignments
+✓ NEXUS files created
+
+[3/5] Running PAUP tree inference...
+Using PAUP executable: /usr/local/bin/paup4a169
+
+--------------------------------------------------
+Processing data/alignments/clustalw.nexus
+Outgroups: Xenopus_laevis
+--------------------------------------------------
+paup>
+P A U P *
+Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
+Tue Mar  3 15:59:44 2026
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on 13th Gen Intel(R) Core(TM) i9-13900H
+    Current processor contains 10 CPU cores on 1 socket (hyperthreaded to 20 logical cores)
+    Executable built for Intel(R) 64 architecture
+    Compiled using GNU C compiler (gcc) 7.5.0
+    SSE vectorization enabled
+    SSSE3 instructions supported
+    Multithreading enabled using Pthreads
+
+paup>paup>execute data/alignments/clustalw.nexus;
+
+Processing of file "~/PhyloTree/data/alignments/clustalw.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 26 taxa, 849 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of input file "clustalw.nexus" completed.
+
+paup>paup>
+
+paup>paup>outgroup Xenopus_laevis;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 25
+
+paup>paup>set root=outgroup;
+
+paup>paup>
+
+paup>paup>[Parsimony tree]
+
+paup>paup>set criterion=parsimony;
+
+paup>paup>hsearch addseq=random nreps=10 swap=tbr;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 849 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        328 characters are constant (proportion = 0.386337)
+        225 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 296
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 10
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 160636
+  Score of best tree(s) found = 2164
+  Number of trees retained = 1
+  Time used = 0.05 sec (CPU time = 0.05 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1            2164            4       1
+     2         2         -         -            2165            8       1
+     3         1         -         -            2166            3       1
+     4         1         -         -            2167            9       1
+     5         4         -         -            2168            6       1
+     6         2         -         -            2169            1       1
+     7         1         -         -            2170            2       1
+     8         1         -         -            2172           10       1
+     9         1         -         -            2173            5       1
+    10         1         -         -            2174            7       1
+
+paup>savetrees file=data/trees/clustalw_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/clustalw_parsimony.tre"
+
+paup>paup>
+
+paup>paup>cleartrees;
+
+All trees have been cleared from memory.
+
+paup>paup>
+
+paup>paup>[Neighbour Joining tree]
+
+paup>paup>set criterion=distance;
+
+Optimality criterion set to distance.
+
+paup>paup>dset distance=hky;
+
+paup>nj;
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = HKY85
+  849 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+      /---------- Hippopotamus amphibius
+     /+
+     |\------------- Equus quagga
+     |
+     |   /---------- Balaenoptera musculus
+     |   |
+     |   |     /----- Orcinus orca
+     |   |    /+
+     |   |    |\---- Globicephala melas
+     +---+----+
+     |   |    \---- Tursiops truncatus
+     |   |
+     |   \---------- Physeter macrocephalus
+     |
+    /+----------- Sus scrofa
+    ||
+    ||/------------ Procavia capensis
+    |||
+    |\+      /------- Pan troglodytes
+    | \------+
+    |        \----- Homo sapiens
+    |
+    |     /-------- Pelecanus onocrotalus
+   /+    /+
+   ||    |\-------------------------------------------------------------------------------------------------------------------- Crocodylus acutus
+   ||  /-+
+   || /+ \--------- Phoenicopterus roseus
+   || ||
+   ||/+\---------- Falco peregrinus
+   ||||
+   |++\------------ Gallus gallus
+  /+||
+  |||\------------- Procyon lotor
+  |||
+  ||\----------- Bos taurus
+  ||
+  ||  /----------- Ailuropoda melanoleuca
+  ||/-+
+  ||| \--------- Meles meles
+ /+||
+ ||\+  /------------ Loxodonta cyclotis
+ || | /+
+ || | |\------------- Panthera tigris
+/+| \-+
+|||   \---------- Rattus norvegicus
+|||
+||\------------ Oryctolagus cuniculus
+||
+|\-------------- Cavia porcellus
+|
+\------------ Xenopus laevis
+
+Tree found by neighbor-joining method stored in tree buffer
+paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+paup>savetrees file=data/trees/clustalw_nj.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/clustalw_nj.tre"
+
+paup>paup>
+
+paup>quit;
+--------------------------------------------------
+Processing data/alignments/mafft.nexus
+Outgroups: Xenopus_laevis
+--------------------------------------------------
+paup>
+P A U P *
+Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
+Tue Mar  3 15:59:45 2026
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on 13th Gen Intel(R) Core(TM) i9-13900H
+    Current processor contains 10 CPU cores on 1 socket (hyperthreaded to 20 logical cores)
+    Executable built for Intel(R) 64 architecture
+    Compiled using GNU C compiler (gcc) 7.5.0
+    SSE vectorization enabled
+    SSSE3 instructions supported
+    Multithreading enabled using Pthreads
+
+paup>paup>execute data/alignments/mafft.nexus;
+
+Processing of file "~/PhyloTree/data/alignments/mafft.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 26 taxa, 859 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of input file "mafft.nexus" completed.
+
+paup>paup>
+
+paup>paup>outgroup Xenopus_laevis;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 25
+
+paup>paup>set root=outgroup;
+
+paup>paup>
+
+paup>paup>[Parsimony tree]
+
+paup>paup>set criterion=parsimony;
+
+paup>paup>hsearch addseq=random nreps=10 swap=tbr;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 859 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        356 characters are constant (proportion = 0.414435)
+        209 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 294
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 10
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 194147
+  Score of best tree(s) found = 2127
+  Number of trees retained = 1
+  Time used = 0.07 sec (CPU time = 0.07 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1            2127            2       4
+     2         1         -         -            2131            1       1
+     3         2         -         -            2132            6       2*
+     4         1         -         -            2133            4       1
+     5         1         -         -            2134           10       1
+     6         1         -         -            2135            5       1
+
+Note(s):
+    * Multiple hits on islands of unsaved trees may in fact represent different islands
+
+paup>savetrees file=data/trees/mafft_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/mafft_parsimony.tre"
+
+paup>paup>
+
+paup>paup>cleartrees;
+
+All trees have been cleared from memory.
+
+paup>paup>
+
+paup>paup>[Neighbour Joining tree]
+
+paup>paup>set criterion=distance;
+
+Optimality criterion set to distance.
+
+paup>paup>dset distance=hky;
+
+paup>nj;
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = HKY85
+  859 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+         /---------- Balaenoptera musculus
+         |
+        /+     /----- Orcinus orca
+        ||    /+
+        ||    |\---- Globicephala melas
+     /--+\----+
+     |  |     \---- Tursiops truncatus
+     |  |
+    /+  \------------ Physeter macrocephalus
+    ||
+    |+----------- Hippopotamus amphibius
+    ||
+    |\-------------- Equus quagga
+    |
+    |         /----- Homo sapiens
+    | /-------+
+    | |       \------- Pan troglodytes
+    |/+
+    ++\-------------- Procavia capensis
+    ||
+    |\------------ Bos taurus
+    |
+   /+------------ Sus scrofa
+   ||
+   ||/-------------- Procyon lotor
+   |||
+   |||  /------------ Gallus gallus
+   |\+  |
+   | +--+/---------- Falco peregrinus
+   | |  \+
+   | |   \---------- Phoenicopterus roseus
+   | |
+   | |       /----------------------------------------------------------------------------------------------------------------- Crocodylus acutus
+   | \-------+
+   |         \---- Pelecanus onocrotalus
+   |
+   |  /------------ Ailuropoda melanoleuca
+   | /+
+   | |\---------- Meles meles
+ /-+/+
+ | ||\--------------- Loxodonta cyclotis
+ | ++
+ | ||/------------- Panthera tigris
+/+ |\+
+|| | \----------- Rattus norvegicus
+|| |
+|| \------------ Oryctolagus cuniculus
+||
+|\--------------- Cavia porcellus
+|
+\------------- Xenopus laevis
+
+Tree found by neighbor-joining method stored in tree buffer
+paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+paup>savetrees file=data/trees/mafft_nj.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/mafft_nj.tre"
+
+paup>paup>
+
+paup>quit;
+--------------------------------------------------
+Processing data/alignments/muscle.nexus
+Outgroups: Xenopus_laevis
+--------------------------------------------------
+paup>
+P A U P *
+Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
+Tue Mar  3 15:59:45 2026
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on 13th Gen Intel(R) Core(TM) i9-13900H
+    Current processor contains 10 CPU cores on 1 socket (hyperthreaded to 20 logical cores)
+    Executable built for Intel(R) 64 architecture
+    Compiled using GNU C compiler (gcc) 7.5.0
+    SSE vectorization enabled
+    SSSE3 instructions supported
+    Multithreading enabled using Pthreads
+
+paup>paup>execute data/alignments/muscle.nexus;
+
+Processing of file "~/PhyloTree/data/alignments/muscle.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 26 taxa, 912 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of input file "muscle.nexus" completed.
+
+paup>paup>
+
+paup>paup>outgroup Xenopus_laevis;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 25
+
+paup>paup>set root=outgroup;
+
+paup>paup>
+
+paup>paup>[Parsimony tree]
+
+paup>paup>set criterion=parsimony;
+
+paup>paup>hsearch addseq=random nreps=10 swap=tbr;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 912 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        432 characters are constant (proportion = 0.473684)
+        186 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 294
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: random
+    Number of replicates = 10
+    Starting seed = generated automatically
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 169440
+  Score of best tree(s) found = 2107
+  Number of trees retained = 1
+  Time used = 0.05 sec (CPU time = 0.06 sec)
+
+Tree-island profile:
+                     First      Last                        First    Times
+Island      Size      tree      tree           Score    replicate      hit
+--------------------------------------------------------------------------
+     1         1         1         1            2107            1       1
+     2         1         -         -            2110            9       1
+     3         2         -         -            2111            6       1
+     4         2         -         -            2112            5       1
+     5         1         -         -            2113            7       2*
+     6         2         -         -            2114            3       1
+     7         1         -         -            2116           10       1
+     8         2         -         -            2117            2       1
+     9         4         -         -            2118            4       1
+
+Note(s):
+    * Multiple hits on islands of unsaved trees may in fact represent different islands
+
+paup>savetrees file=data/trees/muscle_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/muscle_parsimony.tre"
+
+paup>paup>
+
+paup>paup>cleartrees;
+
+All trees have been cleared from memory.
+
+paup>paup>
+
+paup>paup>[Neighbour Joining tree]
+
+paup>paup>set criterion=distance;
+
+Optimality criterion set to distance.
+
+paup>paup>dset distance=hky;
+
+paup>nj;
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = HKY85
+  912 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+      /------------------------------------------------------------------------------------------------------------------------ Crocodylus acutus
+  /---+
+  |   \----------- Procyon lotor
+  |
+  |      /----------- Falco peregrinus
+  |      |
+  |     /+ /--------- Phoenicopterus roseus
+  |     |\-+
+  | /---+  \--------- Pelecanus onocrotalus
+  | |   |
+  | |   \------------- Gallus gallus
+  | |
+  | | /--------------- Procavia capensis
+  | | |
+  | +-+       /-------- Pan troglodytes
+  | | \-------+
+  | |         \------- Homo sapiens
+  | |
+/-+ |    /------------- Physeter macrocephalus
+| | |    |
+| | |/---+/----------- Balaenoptera musculus
+| | ||   ||
+| | ||   \+      /------ Orcinus orca
+| | ||    |     /+
+| | ||    |     |\----- Globicephala melas
+| | ++    \-----+
+| |/+|          \---- Tursiops truncatus
+| ||||
+| ||||/------------- Sus scrofa
+| |||||
+| |||\+------------- Hippopotamus amphibius
+| ||| |
+| ||| \---------------- Equus quagga
+| |||
+| ||\------------ Bos taurus
+| \+
+|  | /------------- Rattus norvegicus
+|  | |
+|  | +--------------- Panthera tigris
+|  | |
+|  +-+ /-------------- Ailuropoda melanoleuca
+|  | |/+
+|  | ||\------------ Meles meles
+|  | \+
+|  |  \---------------- Loxodonta cyclotis
+|  |
+|  |/----------------- Cavia porcellus
+|  \+
+|   \-------------- Oryctolagus cuniculus
+|
+\--------------- Xenopus laevis
+
+Tree found by neighbor-joining method stored in tree buffer
+paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+paup>savetrees file=data/trees/muscle_nj.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/trees/muscle_nj.tre"
+
+paup>paup>
+
+paup>quit;
+
+------------------------------------------
+Finished!
+Trees saved in data/trees
+------------------------------------------
+✓ Trees generated
+
+[4/5] Computing tree distances and consensus...
+Using PAUP executable: /usr/local/bin/paup4a169
+
+Starting Tree Comparison Analysis...
+paup>
+P A U P *
+Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
+Tue Mar  3 15:59:45 2026
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on 13th Gen Intel(R) Core(TM) i9-13900H
+    Current processor contains 10 CPU cores on 1 socket (hyperthreaded to 20 logical cores)
+    Executable built for Intel(R) 64 architecture
+    Compiled using GNU C compiler (gcc) 7.5.0
+    SSE vectorization enabled
+    SSSE3 instructions supported
+    Multithreading enabled using Pthreads
+
+paup>paup>
+
+paup>paup>execute data/alignments/clustalw.nexus;
+
+Processing of file "~/PhyloTree/data/alignments/clustalw.nexus" begins...
+
+Data read in DNA format
+
+Data matrix has 26 taxa, 849 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Processing of input file "clustalw.nexus" completed.
+
+paup>paup>
+
+paup>paup>[Load trees]
+
+paup>gettrees file=data/trees/clustalw_parsimony.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/clustalw_parsimony.tre
+  Keeping: trees from file (replacing any trees already in memory)
+  1 tree read from file
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>gettrees file=data/trees/clustalw_nj.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/clustalw_nj.tre
+  Keeping: trees in memory plus trees from file
+  1 tree originally in memory
+  1 tree read from file
+  1 tree from file kept
+  2 trees now in memory
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>gettrees file=data/trees/mafft_parsimony.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/mafft_parsimony.tre
+  Keeping: trees in memory plus trees from file
+  2 trees originally in memory
+  1 tree read from file
+  1 tree from file kept
+  3 trees now in memory
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>gettrees file=data/trees/mafft_nj.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/mafft_nj.tre
+  Keeping: trees in memory plus trees from file
+  3 trees originally in memory
+  1 tree read from file
+  1 tree from file kept
+  4 trees now in memory
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>gettrees file=data/trees/muscle_parsimony.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/muscle_parsimony.tre
+  Keeping: trees in memory plus trees from file
+  4 trees originally in memory
+  1 tree read from file
+  1 tree from file kept
+  5 trees now in memory
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>gettrees file=data/trees/muscle_nj.tre mode=7;
+
+Processing TREES block from file: ~/PhyloTree/data/trees/muscle_nj.tre
+  Keeping: trees in memory plus trees from file
+  5 trees originally in memory
+  1 tree read from file
+  1 tree from file kept
+  6 trees now in memory
+
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>paup>
+
+paup>paup>[Activate outgroup]
+
+paup>paup>outgroup Xenopus_laevis;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 25
+
+paup>paup>set root=outgroup outroot=monophyl;
+
+paup>paup>
+
+paup>paup>[Root all loaded trees]
+
+paup>roottrees;
+
+6 trees converted from unrooted to rooted using outgroup method
+paup>
+paup>paup>
+
+paup>paup>[Distance matrix]
+
+paup>treedist;
+
+RF (= symmetric difference) distances between trees
+
+    1  2  3  4  5  6
+1   -
+2  20  -
+3  12 24  -
+4  26 14 24  -
+5   8 22  4 22  -
+6  22 26 20 24 18  -
+
+Distribution of RF (= symmetric difference) distances between trees
+
+ D  normD
+           /--------------------------------------------------------------------------------------------------------------------------------------
+ 4 (0.083) |############################################# (1)
+ 6 (0.125) | (0)
+ 8 (0.167) |############################################# (1)
+10 (0.208) | (0)
+12 (0.250) |############################################# (1)
+14 (0.292) |############################################# (1)
+16 (0.333) | (0)
+18 (0.375) |############################################# (1)
+20 (0.417) |######################################################################################### (2)
+22 (0.458) |###################################################################################################################################### (3)
+24 (0.500) |###################################################################################################################################### (3)
+26 (0.542) |######################################################################################### (2)
+           \--------------------------------------------------------------------------------------------------------------------------------------
+
+Time used for tree distance calculations = 0.00 sec (CPU time = 0.00 sec)
+paup>
+paup>paup>
+
+paup>paup>[Majority-rule consensus]
+
+paup>contree all / strict=no majrule=yes percent=50;
+
+50% Majority-rule consensus of 6 trees
+
+                                                                                                                /---------- Hippopotamus amphibius(1)
+                                                                                 /-------------100--------------+
+                                                                                 |                              \---------- Equus quagga(2)
+                                                                                 |
+                                                                       /---83----+          /------------------------------ Balaenoptera musculus(4)
+                                                                       |         |          |
+                                                                       |         |          +------------------------------ Physeter macrocephalus(5)
+                                                                       |         \---100----+
+                                                                       |                    |                   /---------- Orcinus orca(6)
+                                                             /---83----+                    |         /---100---+
+                                                             |         |                    |         |         \---------- Globicephala melas(7)
+                                                             |         |                    \---100---+
+                                                             |         |                              \-------------------- Tursiops truncatus(8)
+                                                             |         |
+                                                             |         \--------------------------------------------------- Sus scrofa(9)
+                                                             |
+                                                             |                                                  /---------- Pelecanus onocrotalus(3)
+                                                             |                                        /---67----+
+                                                             |                                        |         \---------- Phoenicopterus roseus(24)
+                                                   /---67----+                              /---67----+
+                                                   |         +--------------67--------------+         \-------------------- Falco peregrinus(23)
+                                                   |         |                              |
+                                                   |         |                              \------------------------------ Gallus gallus(21)
+                                                   |         |
+                                                   |         +------------------------------------------------------------- Procavia capensis(19)
+                                                   |         |
+                                                   |         +------------------------------------------------------------- Bos taurus(20)
+                                         /---67----+         |
+                                         |         |         |                                                  /---------- Pan troglodytes(22)
+                                         |         |         \-----------------------100------------------------+
+                                         |         |                                                            \---------- Homo sapiens(25)
+                                         |         |
+                                         |         +----------------------------------------------------------------------- Procyon lotor(15)
+                                         |         |
+                               /---83----+         \----------------------------------------------------------------------- Crocodylus acutus(26)
+                               |         |
+                               |         |                                                                      /---------- Ailuropoda melanoleuca(10)
+                               |         |                                                            /---83----+
+                               |         |                                                            |         \---------- Meles meles(11)
+                               |         |                                                  /---67----+
+                    /----83----+         |                                                  |         \-------------------- Loxodonta cyclotis(12)
+                    |          |         \-----------------------100------------------------+
+                    |          |                                                            +------------------------------ Rattus norvegicus(13)
+                    |          |                                                            |
+          /---100---+          |                                                            \------------------------------ Panthera tigris(14)
+          |         |          |
+          |         |          \------------------------------------------------------------------------------------------- Oryctolagus cuniculus(18)
+----------+         |
+          |         \------------------------------------------------------------------------------------------------------ Cavia porcellus(16)
+          |
+          \---------------------------------------------------------------------------------------------------------------- Xenopus laevis(17)
+
+Groups found in one or more trees and frequency of occurrence:
+
+         1         2     2
+12345678901234567890123456          Freq        %
+-------------------------------------------------
+.........*****............             6  100.00%
+.....................*..*.             6  100.00%
+.....**...................             6  100.00%
+.....***..................             6  100.00%
+...*****..................             6  100.00%
+**........................             6  100.00%
+****************.*********             6  100.00%
+**.*****..................             5   83.33%
+**.******.................             5   83.33%
+***************...********             5   83.33%
+***************..*********             5   83.33%
+.........**...............             5   83.33%
+..*....................*..             4   66.67%
+..*...................**..             4   66.67%
+..*.................*.**..             4   66.67%
+*********.........*******.             4   66.67%
+*********.....*...********             4   66.67%
+.........***..............             4   66.67%
+..............*..........*             3   50.00%
+..*.................*****.             3   50.00%
+..*................******.             3   50.00%
+...**.....................             3   50.00%
+..................*..*..*.             3   50.00%
+...*.***..................             3   50.00%
+...........*.*............             2   33.33%
+...........***............             2   33.33%
+..*......................*             2   33.33%
+..*.................*.**.*             2   33.33%
+..*...........*.....*.**.*             2   33.33%
+.........***.*............             2   33.33%
+**.******.........*.......             2   33.33%
+............**............             2   33.33%
+.........*.***............             1   16.67%
+..*...............*******.             1   16.67%
+..*....................*.*             1   16.67%
+..*...................**.*             1   16.67%
+..*...........*....**.**.*             1   16.67%
+**.******.........*..*..*.             1   16.67%
+**************....*******.             1   16.67%
+***************...*******.             1   16.67%
+......................**..             1   16.67%
+....................*.**..             1   16.67%
+..................**.*..*.             1   16.67%
+**.*****.........paup>.**.*..*.             1   16.67%
+**.******.........**.*..*.             1   16.67%
+...............*.*........             1   16.67%
+.........*****.*.*........             1   16.67%
+..*...............*.*****.             1   16.67%
+**......*.................             1   16.67%
+*********.........*.*****.             1   16.67%
+**************.*.********.             1   16.67%
+
+paup>paup>
+
+paup>paup>[Save only the consensus tree]
+
+paup>savetrees file=data/reports/consensus.tre format=altnex brlens=yes replace=yes from=1 to=1;
+paup>
+1 tree saved to file "~/PhyloTree/data/reports/consensus.tre"
+
+paup>paup>
+
+paup>paup>log stop;
+
+Log file status not changed (no log file open).
+
+paup>paup>
+
+paup>quit;
+
+------------------------------------------
+Tree comparison complete
+Log saved to:       data/reports/paup_commands.log
+Consensus saved to: data/reports/consensus.tre
+------------------------------------------
+✓ Tree comparison completed
+
+[5/5] Exporting tree figures...
+Rendering 7 trees to: data/reports/figures
+✓ clustalw_parsimony.tre
+✓ clustalw_nj.tre
+✓ mafft_parsimony.tre
+✓ mafft_nj.tre
+✓ muscle_parsimony.tre
+✓ muscle_nj.tre
+✓ consensus.tre
+
+All figures exported.
+✓ Figures exported
+
+====================================
+Pipeline finished successfully
+Results located in:
+  data/trees/
+  data/reports/
+====================================

@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
+Begin trees;  [Treefile saved Tue Mar  3 15:59:45 2026]
 [!
 >Data file = mafft.nexus
 >Heuristic search settings:
@@ -9,9 +9,9 @@ Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
 >      Of 859 total characters:
 >        All characters are of type 'unord'
 >        All characters have equal weight
->        353 characters are constant (proportion = 0.410943)
->        207 variable characters are parsimony-uninformative
->        Number of parsimony-informative characters = 299
+>        356 characters are constant (proportion = 0.414435)
+>        209 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 294
 >    Gaps are treated as "missing"
 >  Starting tree(s) obtained via stepwise addition
 >    Addition sequence: random
@@ -27,10 +27,10 @@ Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
 >  Trees are unrooted
 >
 >Heuristic search completed
->  Total number of rearrangements tried = 263834
->  Score of best tree(s) found = 2199
->  Number of trees retained = 11
->  Time used = 0.09 sec (CPU time = 0.08 sec)
+>  Total number of rearrangements tried = 194147
+>  Score of best tree(s) found = 2127
+>  Number of trees retained = 1
+>  Time used = 0.07 sec (CPU time = 0.07 sec)
 ]
-tree 'PAUP_1' = [&U] (Balaenoptera_musculus:33,((Physeter_macrocephalus:50,((((((Hippopotamus_amphibius:39,Sus_scrofa:41):30,(Procyon_lotor:49,Crocodylus_acutus:264):49):31,((((Ailuropoda_melanoleuca:59,Meles_meles:51):33,Loxodonta_cyclotis:44):38,Panthera_tigris:51):32,Rattus_norvegicus:43):30):28,(Procavia_capensis:61,(Equus_quagga:37,(Thunnus_albacares:56,Xiphias_gladius:46):30):37):40):29,((Homo_sapiens:27,Pan_troglodytes:33):52,(Gallus_gallus:49,(Falco_peregrinus:43,(Phoenicopterus_roseus:31,Pelecanus_onocrotalus:37):31):28):43):33):22,(Bos_taurus:42,(Cavia_porcellus:78,Oryctolagus_cuniculus:55):37):22):46):31,(Orcinus_orca:23,(Globicephala_melas:8,Tursiops_truncatus:20):16):34):27);
+tree 'PAUP_1' = [&U] ((((((((((((Balaenoptera_musculus:50,Physeter_macrocephalus:61):22,((Orcinus_orca:31,Globicephala_melas:16):8,Tursiops_truncatus:12):19):21,(Hippopotamus_amphibius:45,Equus_quagga:65):23):39,Sus_scrofa:44):35,Procavia_capensis:57):32,(((Homo_sapiens:24,Pan_troglodytes:36):58,(Gallus_gallus:48,(Falco_peregrinus:43,(Phoenicopterus_roseus:31,Pelecanus_onocrotalus:37):31):29):37):32,Bos_taurus:48):28):26,((((Ailuropoda_melanoleuca:59,Meles_meles:51):33,Loxodonta_cyclotis:44):36,Panthera_tigris:53):30,Rattus_norvegicus:45):37):32,Procyon_lotor:50):38,Crocodylus_acutus:262):36,Oryctolagus_cuniculus:52):31,Cavia_porcellus:58):45,Xenopus_laevis:47);
 End;
