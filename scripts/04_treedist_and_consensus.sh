@@ -16,19 +16,19 @@ mkdir -p "$REPORT_DIR"
 # --------------------------------------------------
 
 TREES=(
-    "$TREE_DIR/clustalw_parsimony.tre"
-    "$TREE_DIR/clustalw_nj.tre"
-    "$TREE_DIR/mafft_parsimony.tre"
-    "$TREE_DIR/mafft_nj.tre"
-    "$TREE_DIR/muscle_parsimony.tre"
-    "$TREE_DIR/muscle_nj.tre"
+    "$TREE_DIR/clustalw.trim_parsimony.tre"
+    "$TREE_DIR/clustalw.trim_nj.tre"
+    "$TREE_DIR/mafft.trim_parsimony.tre"
+    "$TREE_DIR/mafft.trim_nj.tre"
+    "$TREE_DIR/muscle.trim_parsimony.tre"
+    "$TREE_DIR/muscle.trim_nj.tre"
 )
 
 # --------------------------------------------------
 # 3. Any NEXUS alignment (only for taxa definitions)
 # --------------------------------------------------
 
-DATA_FILE="$ALIGN_DIR/clustalw.nexus"
+DATA_FILE="$ALIGN_DIR/clustalw.trim.nexus"
 
 # --------------------------------------------------
 # 4. PAUP executable + required libs

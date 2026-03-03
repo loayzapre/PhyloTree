@@ -1,10 +1,10 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 16:39:40 2026]
+Begin trees;  [Treefile saved Tue Mar  3 17:13:09 2026]
 [!
->Data file = clustalw.nexus
+>Data file = clustalw.trim.nexus
 >
->Processing TREES block from file: ~/PhyloTree/data/trees/muscle_nj.tre
+>Processing TREES block from file: ~/PhyloTree/data/trees/muscle.trim_nj.tre
 >  Keeping: trees in memory plus trees from file
 >  5 trees originally in memory
 >  1 tree read from file
@@ -13,5 +13,5 @@ Begin trees;  [Treefile saved Tue Mar  3 16:39:40 2026]
 >
 >  Time used = 0.00 sec (CPU time = 0.00 sec)
 ]
-tree 'PAUP_1' = [&R] (((((((Hippopotamus_amphibius:44,Sus_scrofa:36):34,(((((((Pelecanus_onocrotalus:37,Phoenicopterus_roseus:31):30,Falco_peregrinus:44):30,Gallus_gallus:47):33,(Procyon_lotor:61,Columba_livia:306):59):30,((Equus_caballus:61,Procavia_capensis:48):33,(Pan_troglodytes:32,Homo_sapiens:28):43):37):26,Bos_taurus:43):31,((Balaenoptera_musculus:41,((Orcinus_orca:29,Globicephala_melas:18):7,Tursiops_truncatus:13):40):29,Physeter_macrocephalus:42):49):29):25,(Rattus_norvegicus:39,(Loxodonta_cyclotis:65,Panthera_tigris:56):32):36):27,(Meles_meles:47,Ailuropoda_melanoleuca:63):27):33,Oryctolagus_cuniculus:48):37,Cavia_porcellus:57):44,Xenopus_laevis:46):0;
+tree 'PAUP_1' = [&R] (((((((Balaenoptera_musculus:32,(Physeter_macrocephalus:50,((Orcinus_orca:31,Globicephala_melas:12):8,Tursiops_truncatus:12):39):25):44,(Sus_scrofa:38,Hippopotamus_amphibius:42):27):26,((Equus_caballus:52,Procavia_capensis:54):32,(Bos_taurus:50,((((Falco_peregrinus:49,Phoenicopterus_roseus:46):16,(Corvus_corax:51,Anas_platyrhynchos:61):19):25,Gallus_gallus:48):25,(Pan_troglodytes:36,Homo_sapiens:24):47):29):22):21):19,(Rattus_norvegicus:45,((Loxodonta_cyclotis:46,(Meles_meles:51,Ailuropoda_melanoleuca:59):31):28,(Panthera_tigris:33,Felis_catus:48):38):25):31):32,Oryctolagus_cuniculus:52):31,Cavia_porcellus:54):42,Xenopus_laevis:48):0;
 End;

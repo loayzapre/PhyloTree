@@ -62,12 +62,12 @@ def main():
     fig_dir.mkdir(parents=True, exist_ok=True)
 
     tree_files = [
-        tree_dir / "clustalw_parsimony.tre",
-        tree_dir / "clustalw_nj.tre",
-        tree_dir / "mafft_parsimony.tre",
-        tree_dir / "mafft_nj.tre",
-        tree_dir / "muscle_parsimony.tre",
-        tree_dir / "muscle_nj.tre",
+        tree_dir / "clustalw.trim_parsimony.tre",
+        tree_dir / "clustalw.trim_nj.tre",
+        tree_dir / "mafft.trim_parsimony.tre",
+        tree_dir / "mafft.trim_nj.tre",
+        tree_dir / "muscle.trim_parsimony.tre",
+        tree_dir / "muscle.trim_nj.tre",
         report_dir / "consensus.tre",
     ]
 
