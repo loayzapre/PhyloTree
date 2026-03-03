@@ -2,10 +2,10 @@
 
 # 1. Configuration
 # List your Nexus files here
-INPUT_FILES=("alignment1.nexus" "alignment2.nexus" "alignment3.nexus")
+INPUT_FILES=("clustalw.nexus" "mafft.nexus" "muscle.nexus")
 
 # Define the Outgroup name (IMPORTANT: Must match the name inside your Nexus file)
-OUTGROUP_NAME="Pez_Cebra"
+OUTGROUP_NAME=("MW417983.1" "PX623998.1")
 
 # 2. Loop through files
 for FILE in "${INPUT_FILES[@]}"
