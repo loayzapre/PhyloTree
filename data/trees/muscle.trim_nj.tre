@@ -1,0 +1,13 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Mar  3 16:39:39 2026]
+[!
+>Data file = muscle.trim.nexus
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = HKY85
+>  All characters have equal weight
+>  (Tree is unrooted)
+]
+tree 'PAUP_1' = [&U] ((((((Columba_livia:0.755798,Meles_meles:0.073237):0.019975,Oryctolagus_cuniculus:0.097432):0.017238,((((Hippopotamus_amphibius:0.100848,Sus_scrofa:0.102294):0.007437,(Physeter_macrocephalus:0.101378,(Balaenoptera_musculus:0.084208,((Orcinus_orca:0.040533,Globicephala_melas:0.032214):0.012707,Tursiops_truncatus:0.031737):0.046306):0.005675):0.030819):0.006309,(Equus_caballus:0.109355,Procavia_capensis:0.109310):0.011247):0.001999,(((((Falco_peregrinus:0.087911,Phoenicopterus_roseus:0.082678):0.009814,(Gallus_gallus:0.097570,Anas_platyrhynchos:0.112048):0.002377):0.021559,(Pan_troglodytes:0.058645,Homo_sapiens:0.053098):0.068636):0.008441,Bos_taurus:0.097984):0.004172,Procyon_lotor:0.126137):0.004130):0.003640):0.003254,(Rattus_norvegicus:0.103331,(Panthera_tigris:0.111197,(Ailuropoda_melanoleuca:0.108818,Loxodonta_cyclotis:0.132367):0.006266):0.006134):0.005714):0.015854,Cavia_porcellus:0.118678):0.128787,Xenopus_laevis:0);
+End;

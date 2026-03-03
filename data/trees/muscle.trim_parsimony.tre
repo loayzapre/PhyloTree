@@ -1,0 +1,36 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Mar  3 16:39:39 2026]
+[!
+>Data file = muscle.trim.nexus
+>Heuristic search settings:
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 744 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        321 characters are constant (proportion = 0.431452)
+>        154 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 269
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>Heuristic search completed
+>  Total number of rearrangements tried = 356009
+>  Score of best tree(s) found = 2002
+>  Number of trees retained = 4
+>  Time used = 0.09 sec (CPU time = 0.09 sec)
+]
+tree 'PAUP_1' = [&U] ((((((((Columba_livia:221,Oryctolagus_cuniculus:44):29,(Hippopotamus_amphibius:31,((Physeter_macrocephalus:40,(Balaenoptera_musculus:41,((Orcinus_orca:29,Globicephala_melas:14):7,Tursiops_truncatus:13):39):26):51,Sus_scrofa:51):16):31):25,Equus_caballus:42):26,(((Falco_peregrinus:42,((Gallus_gallus:58,Anas_platyrhynchos:58):26,Phoenicopterus_roseus:37):22):39,Bos_taurus:51):18,(Procavia_capensis:59,(Pan_troglodytes:37,Homo_sapiens:23):47):25):26):18,(Rattus_norvegicus:42,(Panthera_tigris:52,((Ailuropoda_melanoleuca:59,Meles_meles:51):33,Loxodonta_cyclotis:44):33):30):30):26,Procyon_lotor:59):31,Cavia_porcellus:64):34,Xenopus_laevis:52);
+End;

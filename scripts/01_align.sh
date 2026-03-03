@@ -111,3 +111,52 @@ done
 
 echo
 echo "Done."
+
+echo
+echo "[4/4] End-trimming alignments (remove primer-induced gaps at ends only)..."
+
+python3 - <<PY
+import os
+from Bio import AlignIO
+
+outdir = r"$OUTDIR"
+min_cov = 0.7
+
+def trim_alignment(infile):
+    aln = AlignIO.read(infile, "fasta")
+    n = len(aln)
+    L = aln.get_alignment_length()
+
+    cov = []
+    for i in range(L):
+        col = aln[:, i]
+        cov.append(1 - col.count("-")/n)
+
+    left = 0
+    while left < L and cov[left] < min_cov:
+        left += 1
+
+    right = L - 1
+    while right > left and cov[right] < min_cov:
+        right -= 1
+
+    trimmed = aln[:, left:right+1]
+
+    base = os.path.basename(infile).replace(".fasta","")
+    out_fasta = os.path.join(outdir, base + ".trim.fasta")
+    out_aln   = os.path.join(outdir, base + ".trim.aln")
+
+    AlignIO.write(trimmed, out_fasta, "fasta")
+    AlignIO.write(trimmed, out_aln, "clustal")
+
+    print(f"{base}: {L} -> {trimmed.get_alignment_length()} (trimmed ends)")
+
+for f in os.listdir(outdir):
+    if f.endswith(".fasta") and not f.endswith(".trim.fasta"):
+        trim_alignment(os.path.join(outdir,f))
+
+PY
+
+echo
+echo "Trimmed alignments created:"
+ls "$OUTDIR"/*.trim.*

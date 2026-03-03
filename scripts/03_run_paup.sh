@@ -19,7 +19,7 @@ ALIGN_FILES=("clustalw" "mafft" "muscle")
 INPUT_FILES=()
 
 for f in "${ALIGN_FILES[@]}"; do
-    INPUT_FILES+=("$ALIGN_DIR/${f}.nexus")
+    INPUT_FILES+=("$ALIGN_DIR/${f}.trim.nexus")
 done
 
 # --------------------------------------------------

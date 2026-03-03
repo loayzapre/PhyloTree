@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 15:59:45 2026]
+Begin trees;  [Treefile saved Tue Mar  3 16:38:30 2026]
 [!
 >Data file = mafft.nexus
 >Neighbor-joining search settings:
@@ -9,5 +9,5 @@ Begin trees;  [Treefile saved Tue Mar  3 15:59:45 2026]
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
-tree 'PAUP_1' = [&U] ((((((((((Balaenoptera_musculus:0.086559,((Orcinus_orca:0.041330,Globicephala_melas:0.032503):0.009824,Tursiops_truncatus:0.034029):0.043427):0.010487,Physeter_macrocephalus:0.099791):0.029687,(Hippopotamus_amphibius:0.095885,Equus_quagga:0.116594):0.005226):0.004823,(((Homo_sapiens:0.047301,Pan_troglodytes:0.063628):0.064332,Procavia_capensis:0.117432):0.010511,Bos_taurus:0.104325):0.003571):0.000194,Sus_scrofa:0.107186):0.003327,(Procyon_lotor:0.121864,((Gallus_gallus:0.104909,(Falco_peregrinus:0.085434,Phoenicopterus_roseus:0.080623):0.011355):0.018376,(Crocodylus_acutus:0.989935,Pelecanus_onocrotalus:0.041713):0.061611):0.008063):0.008157):0.005567,(((Ailuropoda_melanoleuca:0.108495,Meles_meles:0.092186):-0.000527,Loxodonta_cyclotis:0.132365):0.016208,(Panthera_tigris:0.113103,Rattus_norvegicus:0.103217):0.003732):0.004904):0.007553,Oryctolagus_cuniculus:0.111661):0.009409,Cavia_porcellus:0.123568):0.125862,Xenopus_laevis:0);
+tree 'PAUP_1' = [&U] ((((((((Balaenoptera_musculus:0.080949,((Orcinus_orca:0.039622,Globicephala_melas:0.034211):0.013352,Tursiops_truncatus:0.030500):0.047861):0.009377,Physeter_macrocephalus:0.098095):0.029264,(Hippopotamus_amphibius:0.097706,Sus_scrofa:0.102824):0.006258):0.008504,((((Homo_sapiens:0.049527,Pan_troglodytes:0.061402):0.067983,(Gallus_gallus:0.105031,(Falco_peregrinus:0.090230,(Phoenicopterus_roseus:0.071894,Pelecanus_onocrotalus:0.071098):0.011371):0.010086):0.021701):0.010062,Procyon_lotor:0.129500):0.002108,(Procavia_capensis:0.109563,Equus_caballus:0.108672):0.012755):0.000316):0.005583,(((Ailuropoda_melanoleuca:0.110324,Meles_meles:0.090357):0.001301,Loxodonta_cyclotis:0.130537):0.014429,(Panthera_tigris:0.114911,Rattus_norvegicus:0.101409):0.004902):0.005397):0.000806,((Bos_taurus:0.064671,Columba_livia:0.817960):0.018997,Oryctolagus_cuniculus:0.096362):0.020263):0.015930,Cavia_porcellus:0.119641):0.129788,Xenopus_laevis:0);
 End;
