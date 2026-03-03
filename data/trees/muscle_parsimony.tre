@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 14:51:48 2026]
+Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
 [!
 >Data file = muscle.nexus
 >Heuristic search settings:
@@ -9,8 +9,8 @@ Begin trees;  [Treefile saved Tue Mar  3 14:51:48 2026]
 >      Of 912 total characters:
 >        All characters are of type 'unord'
 >        All characters have equal weight
->        413 characters are constant (proportion = 0.452851)
->        199 variable characters are parsimony-uninformative
+>        432 characters are constant (proportion = 0.473684)
+>        180 variable characters are parsimony-uninformative
 >        Number of parsimony-informative characters = 300
 >    Gaps are treated as "missing"
 >  Starting tree(s) obtained via stepwise addition
@@ -27,10 +27,10 @@ Begin trees;  [Treefile saved Tue Mar  3 14:51:48 2026]
 >  Trees are unrooted
 >
 >Heuristic search completed
->  Total number of rearrangements tried = 247503
->  Score of best tree(s) found = 2271
->  Number of trees retained = 1
->  Time used = 0.13 sec (CPU time = 0.12 sec)
+>  Total number of rearrangements tried = 288683
+>  Score of best tree(s) found = 2176
+>  Number of trees retained = 2
+>  Time used = 0.08 sec (CPU time = 0.08 sec)
 ]
-tree 'PAUP_1' = [&U] ((((((PV564673.1:233,OR530896.1:56):39,(((PQ902107.1:37,OM669759.1:34):31,JX160009.1:52):27,PV770493.1:41):34):33,OK184390.1:46):41,(((PQ902075.1:42,(PQ432899.1:37,(PV453157.1:41,((EU496323.1:29,EU496306.1:18):7,OR934709.1:13):40):35):27):39,PP527105.1:44):27,(MW147257.1:55,(OK184264.1:37,PQ284536.1:23):56):38):30):19,(((((OR714810.1:156,OL310913.1:44):30,(MZ049396.1:59,PP506641.1:51):23):34,KF297807.1:56):28,PX849779.1:45):25,(OK184348.1:78,OR360425.1:55):30):33):46,MW417983.1:63,PX623998.1:54);
+tree 'PAUP_1' = [&U] (Crocodylus_acutus:151,((((Falco_peregrinus:46,(Phoenicopterus_roseus:32,Pelecanus_onocrotalus:38):28):27,Gallus_gallus:50):39,((((((Rattus_norvegicus:49,(Panthera_tigris:59,Loxodonta_cyclotis:62):22):26,(Ailuropoda_melanoleuca:65,Meles_meles:45):26):23,(Cavia_porcellus:76,Oryctolagus_cuniculus:57):22):36,((Xiphias_gladius:49,Thunnus_albacares:53):34,Equus_quagga:34):36):34,((Procavia_capensis:55,(Pan_troglodytes:37,Homo_sapiens:23):56):34,(((Physeter_macrocephalus:37,(Balaenoptera_musculus:41,((Orcinus_orca:29,Globicephala_melas:18):7,Tursiops_truncatus:13):40):35):27,Hippopotamus_amphibius:41):39,Sus_scrofa:44):32):34):29,Bos_taurus:48):34):35,Procyon_lotor:54):115);
 End;

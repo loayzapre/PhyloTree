@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 14:51:47 2026]
+Begin trees;  [Treefile saved Tue Mar  3 15:15:09 2026]
 [!
 >Data file = mafft.nexus
 >Neighbor-joining search settings:
@@ -9,5 +9,5 @@ Begin trees;  [Treefile saved Tue Mar  3 14:51:47 2026]
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
-tree 'PAUP_1' = [&U] ((((((((PV453157.1:0.083173,((EU496323.1:0.040248,EU496306.1:0.033585):0.008657,OR934709.1:0.035196):0.047203):0.007903,PQ432899.1:0.100682):0.031845,(PQ902075.1:0.099355,PP527105.1:0.101175):0.005229):0.004238,((((MZ049396.1:0.108462,PP506641.1:0.092219):0.002446,OL310913.1:0.129392):0.013472,(((OR714810.1:0.361563,(OR530896.1:0.085632,PV564673.1:0.940108):0.021649):0.005927,PX849779.1:0.093606):0.006231,KF297807.1:0.109372):0.007999):0.008232,(OK184348.1:0.131605,OR360425.1:0.107620):0.010952):0.001629):0.008615,OK184390.1:0.101910):0.002652,((PQ284536.1:0.046792,OK184264.1:0.064136):0.067598,(JX160009.1:0.104588,(PV770493.1:0.088152,(OM669759.1:0.071383,PQ902107.1:0.071610):0.013449):0.009836):0.021865):0.004495):0.002944,MW147257.1:0.120184):0.045315,PX623998.1:0.089657,MW417983.1:0.106590);
+tree 'PAUP_1' = [&U] (Balaenoptera_musculus:0,((Physeter_macrocephalus:0.099224,((Hippopotamus_amphibius:0.098548,Sus_scrofa:0.101982):0.004227,((((Homo_sapiens:0.047008,Pan_troglodytes:0.063921):0.064489,Procavia_capensis:0.117275):0.010740,(Equus_quagga:0.113137,(Thunnus_albacares:0.088821,Xiphias_gladius:0.107426):0.039089):0.009718):0.002211,((((((Ailuropoda_melanoleuca:0.108666,Meles_meles:0.092014):-0.000153,Loxodonta_cyclotis:0.131991):0.015957,(Panthera_tigris:0.113110,Rattus_norvegicus:0.103210):0.003858):0.003568,(Cavia_porcellus:0.131035,Oryctolagus_cuniculus:0.108190):0.009149):0.007156,((Procyon_lotor:0.117145,(Crocodylus_acutus:0.991688,Pelecanus_onocrotalus:0.039960):0.063526):0.003717,(Gallus_gallus:0.104659,(Falco_peregrinus:0.085619,Phoenicopterus_roseus:0.080438):0.011605):0.019974):0.012705):0.001869,Bos_taurus:0.107030):0.000420):0.003764):0.031972):0.010422,((Orcinus_orca:0.040327,Globicephala_melas:0.033506):0.009198,Tursiops_truncatus:0.034655):0.044900):0.085295);
 End;
