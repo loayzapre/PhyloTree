@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 
 # 1. Configuration
-INPUT_FILES=("alignment1.fasta" "alignment2.fasta" "alignment3.fasta")
-OUTPUT_DIR="../data/alignments"  # Change this to your preferred path
+INPUT_FILES=("data/alignments/clustalw.fasta" "data/alignments/mafft.fasta" "data/alignments/muscle.fasta")
+OUTPUT_DIR="data/alignments"  # Change this to your preferred path
 
 # 2. Create the output directory if it doesn't exist
 if [ ! -d "$OUTPUT_DIR" ]; then
