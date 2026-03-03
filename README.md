@@ -1,9 +1,42 @@
 ## Software requirements
 
+    project/
+    ├─ data/
+    │  ├─ raw/
+    │  │  └─ whales.fasta                 # input sequences (FASTA)
+    │  ├─ alignments/
+    │  │  ├─ mafft.aln                    # CLUSTAL format
+    │  │  ├─ clustalw.aln                 # CLUSTAL format
+    │  │  ├─ muscle.aln                   # CLUSTAL format (or any 3rd method)
+    │  │  ├─ mafft.nex                    # NEXUS for PAUP
+    │  │  ├─ clustalw.nex
+    │  │  └─ muscle.nex
+    │  ├─ trees/
+    │  │  ├─ mafft_pars.tre               # Newick (or NEXUS tree block)
+    │  │  ├─ mafft_nj.tre
+    │  │  ├─ clustalw_pars.tre
+    │  │  ├─ clustalw_nj.tre
+    │  │  ├─ muscle_pars.tre
+    │  │  └─ muscle_nj.tre
+    │  └─ reports/
+    │     ├─ treedist.tsv                 # pairwise distances table
+    │     ├─ consensus.tre                # consensus tree (Newick)
+    │     └─ paup_commands.log            # optional
+    ├─ scripts/
+    │  ├─ 01_align.sh
+    │  ├─ 02_convert_to_nexus.py
+    │  ├─ 03_paup_build_trees.nex         # PAUP command script template
+    │  ├─ 03_run_paup.sh
+    │  ├─ 04_treedist_and_consensus.nex   # PAUP script for treedist+consensus
+    │  ├─ 05_export_figtrees.md           # instructions checklist (manual step)
+    │  └─ run_all.sh
+    └─ README.md
+
+
 1. Create the Conda environment
 It is recommended to use conda or mamba to create an isolated environment.
-    conda create -n whale_phylo python=3.11
-    conda activate whale_phylo
+    conda env create -f environment.yml
+    conda activate phylo
 
 Then
     pip install -r requirements.txt

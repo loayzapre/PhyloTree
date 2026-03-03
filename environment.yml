@@ -1,0 +1,12 @@
+name: phylo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - mafft
+  - clustalw
+  - muscle
+  - biopython
+  - pandas
+  - numpy
