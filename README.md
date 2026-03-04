@@ -40,6 +40,7 @@ It is recommended to use conda or mamba to create an isolated environment.
     conda activate phylo
 
 Then
+
     pip install -r requirements.txt
 
 External tools (must be installed separately):
