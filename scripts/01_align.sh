@@ -113,50 +113,42 @@ echo
 echo "Done."
 
 echo
-echo "[4/4] End-trimming alignments (remove primer-induced gaps at ends only)..."
+echo "[4/4] Gap-column filtering using seqconverter (--remgapcols) ..."
 
-python3 - <<PY
-import os
-from Bio import AlignIO
+command -v seqconverter >/dev/null 2>&1 || die "seqconverter not found (pip install seqconverter)"
 
-outdir = r"$OUTDIR"
-min_cov = 0.7
+# Remove columns where fraction of gaps >= this
+# WARNING: 0.0 removes any column containing at least one gap (very aggressive).
+REM_GAP_FRAC="${REM_GAP_FRAC:-0.5}"
 
-def trim_alignment(infile):
-    aln = AlignIO.read(infile, "fasta")
-    n = len(aln)
-    L = aln.get_alignment_length()
+shopt -s nullglob
 
-    cov = []
-    for i in range(L):
-        col = aln[:, i]
-        cov.append(1 - col.count("-")/n)
+for infile in "$OUTDIR"/*.fasta; do
+  [[ "$infile" == *.trim.fasta ]] && continue
 
-    left = 0
-    while left < L and cov[left] < min_cov:
-        left += 1
+  base="$(basename "$infile" .fasta)"
+  out_fasta="$OUTDIR/${base}.trim.fasta"
+  out_aln="$OUTDIR/${base}.trim.aln"
 
-    right = L - 1
-    while right > left and cov[right] < min_cov:
-        right -= 1
+  echo "  filtering: $base  (remgapcols >= $REM_GAP_FRAC)"
 
-    trimmed = aln[:, left:right+1]
+  # 1) FASTA
+  seqconverter -i "$infile" \
+    --informat fasta \
+    --outformat fasta \
+    --remgapcols "$REM_GAP_FRAC" \
+    > "$out_fasta" || die "seqconverter failed on $infile (FASTA)"
 
-    base = os.path.basename(infile).replace(".fasta","")
-    out_fasta = os.path.join(outdir, base + ".trim.fasta")
-    out_aln   = os.path.join(outdir, base + ".trim.aln")
+  # 2) CLUSTAL
+  seqconverter -i "$infile" \
+    --informat fasta \
+    --outformat clustal \
+    --remgapcols "$REM_GAP_FRAC" \
+    > "$out_aln" || die "seqconverter failed on $infile (CLUSTAL)"
 
-    AlignIO.write(trimmed, out_fasta, "fasta")
-    AlignIO.write(trimmed, out_aln, "clustal")
-
-    print(f"{base}: {L} -> {trimmed.get_alignment_length()} (trimmed ends)")
-
-for f in os.listdir(outdir):
-    if f.endswith(".fasta") and not f.endswith(".trim.fasta"):
-        trim_alignment(os.path.join(outdir,f))
-
-PY
+  head -n 1 "$out_aln" | grep -q "^CLUSTAL" || die "$out_aln is not CLUSTAL format"
+done
 
 echo
-echo "Trimmed alignments created:"
-ls "$OUTDIR"/*.trim.*
+echo "Filtered alignments created:"
+ls -1 "$OUTDIR"/*.trim.* 2>/dev/null || echo "  (none)"
