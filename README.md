@@ -33,8 +33,9 @@
     └─ README.md
 
 
-1. Create the Conda environment
+### Create the Conda environment
 It is recommended to use conda or mamba to create an isolated environment.
+
     conda env create -f environment.yml
     conda activate phylo
 
@@ -53,6 +54,7 @@ These tools must be available in the system PATH so they can be called
 from the scripts.
 
 ### PAUP configuration (important)
+
 The script 03_run_paup.sh requires the PAUP executable path.
 
 If paup is available in your PATH, the script will detect it automatically.
@@ -61,4 +63,5 @@ Otherwise you must specify the executable manually when running the script.
 
 ## How to run
 Ajust outgroup name in 03 and 04 script, and then 
+
     nohup bash run_all.sh > pipeline.log 2>&1 &

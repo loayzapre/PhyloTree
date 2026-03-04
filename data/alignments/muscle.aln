@@ -11,8 +11,8 @@ Pan_troglodytes                     --------------------------------------------
 Bos_taurus                          -----------------------------------------------TAC
 Phoenicopterus_roseus               --------------------------------------------------
 Balaenoptera_musculus               ----------------------------------ACAAAGACATTGGCAC
-Globicephala_melas                  --------------ATGACTATTCTCTACCAATCACAAGGATATCGGTAC
 Orcinus_orca                        --------------ATGACTATTCTCTACCAATCACAAAGACATTGGCAC
+Globicephala_melas                  --------------ATGACTATTCTCTACCAATCACAAGGATATCGGTAC
 Homo_sapiens                        --------------------------------------------------
 Cavia_porcellus                     -----------------------------------------------TAC
 Sus_scrofa                          --------------------------------------------------
@@ -38,8 +38,8 @@ Pan_troglodytes                     ACTATACCTACTATTCGGCGCATGGGCTGGAGTCCTGGGCACAG
 Bos_taurus                          CCTTTATCTACTATTTGGTGCTTGGGCCGGTATAGTAGGAACAGCTCTAA
 Phoenicopterus_roseus               ----------------GGTGCATGAGCCGGGATAGTTGGCACAGCCCTAA
 Balaenoptera_musculus               CCTATATTTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACTGGCCTAA
-Globicephala_melas                  CCTGTATTTACTATTTGGCGCTTGAGCAGGAATAGTGGGTACTGGCCTAA
 Orcinus_orca                        CCTGTATTTACTATTTGGCGCCTGAGCGGGAATAGTAGGTACTGGTCTAA
+Globicephala_melas                  CCTGTATTTACTATTTGGCGCTTGAGCAGGAATAGTGGGTACTGGCCTAA
 Homo_sapiens                        --------------------------------------------------
 Cavia_porcellus                     CCTATACCTCCTGTTTGGTGCTTGAGCTGGTATAGTAGGTACTGCCCTAA
 Sus_scrofa                          ----------------GGTGCCTGAGCAGGAATAGTGGGCACTGCCTTAA
@@ -65,8 +65,8 @@ Pan_troglodytes                     GTCTCCTTATTCGGGCTGAACTAGGCCAACCAGGCAACCTTCTA
 Bos_taurus                          GCCTTCTAATTCGCGCTGAATTAGGCCAACCCGGAACTCTGCTCGGAGAC
 Phoenicopterus_roseus               GCCTACTCATTCGCGCAGAACTGGGACAACCTGGAACTCTCCTAGGAGAC
 Balaenoptera_musculus               GCTTATTAATCCGCGCTGAACTAGGTCAGCCTGGCACACTAATCGGAGAT
-Globicephala_melas                  GCTTGTTGATTCGTGCTGAATTAGGTCAACCTGGTACACTCATCGGAGAT
 Orcinus_orca                        GCTTATTGATTCGTGCTGAATTAGGTCAACCTGGTACACTTATTGGAGAC
+Globicephala_melas                  GCTTGTTGATTCGTGCTGAATTAGGTCAACCTGGTACACTCATCGGAGAT
 Homo_sapiens                        ------TTATTCGAGCCGAGCTGGGCCAGCCAGGCAACCTTCTAGGTAAC
 Cavia_porcellus                     GCTTGTTAATTCGAGCAGAACTGGGCCAGCCCGGAACACTCTTAGGCGAT
 Sus_scrofa                          GCCTACTAATTCGCGCTGAACTAGGTCAGCCCGGAACCCTACTTGGCGAT
@@ -92,8 +92,8 @@ Pan_troglodytes                     GACCACATCTACAATGTCATCGTCACAGCCCATGCATTCGTAAT
 Bos_taurus                          GACCAAATCTACAACGTAGTTGTAACCGCACACGCATTTGTAATAATCTT
 Phoenicopterus_roseus               GACCAAATCTATAACGTAATCGTTACCGCCCATGCCTTCGTAATAATCTT
 Balaenoptera_musculus               GACCAAGTCTACAACGTATTAGTAACAGCCCACGCCTTCGTGATAATCTT
-Globicephala_melas                  GACCAGCTTTACAATGTTCTAGTAACAGCTCACGCCTTCGTAATAATTTT
 Orcinus_orca                        GACCAGCTTTATAATGTTCTAGTAACAGCTCATGCCTTCGTAATAATTTT
+Globicephala_melas                  GACCAGCTTTACAATGTTCTAGTAACAGCTCACGCCTTCGTAATAATTTT
 Homo_sapiens                        GACCACATCTACAACGTTATCGTCACAGCCCATGCATTTGTAATAATCTT
 Cavia_porcellus                     GATCAAATTTATAACGTAATCGTCACGGCCCATGCTTTCGTAATAATTTT
 Sus_scrofa                          GATCAAATCTATAATGTAATTGTTACAGCCCATGCCTTTGTAATAATCTT
@@ -119,8 +119,8 @@ Pan_troglodytes                     CTTCATAGTAATGCCTATCATAATCGGAGGCTTTGGCAACTGGC
 Bos_taurus                          CTTCATAGTAATACCAATCATAATTGGAGGATTCGGTAACTGACTTGTTC
 Phoenicopterus_roseus               CTTCATAGTTATACCAATCATAATTGGAGGTTTCGGAAACTGACTGGTTC
 Balaenoptera_musculus               CTTCATAGTTATACCTATTATAATCGGCGGATTCGGAAATTGACTGGTCC
-Globicephala_melas                  CTTTATGGTTATACCTATCATAATCGGGGGCTTTGGAAACTGATTAGTTC
 Orcinus_orca                        CTTTATAGTCATACCTATCATAATTGGAGGTTTTGGAAACTGATTAGTTC
+Globicephala_melas                  CTTTATGGTTATACCTATCATAATCGGGGGCTTTGGAAACTGATTAGTTC
 Homo_sapiens                        CTTCATAGTAATACCCATCATAATCGGAGGCTTTGGCAACTGACTAGTTC
 Cavia_porcellus                     CTTCATGGTTATACCAATTATAATTGGAGGCTTCGGAAACTGGTTAGTGC
 Sus_scrofa                          CTTTATAGTAATACCCATTATGATTGGGGGTTTTGGTAACTGACTCGTAC
@@ -146,8 +146,8 @@ Pan_troglodytes                     CCTTGATAATTGGTGCCCCCGACATGGCATTCCCCCGCATAAAC
 Bos_taurus                          CCCTAATAATTGGTGCTCCCGATATAGCATTTCCCCGAATAAATAATATA
 Phoenicopterus_roseus               CACTCATAATTGGTGCTCCTGACATAGCATTTCCCCGCATAAACAACATA
 Balaenoptera_musculus               CTCTAATGATTGGAGCACCCGACATAGCCTTCCCTCGTATAAATAACATA
-Globicephala_melas                  CCTTAATAATTGGAGCCCCTGACATAGCATTCCCTCGTCTAAACAACATA
 Orcinus_orca                        CCTTAATAATTGGAGCCCCTGACATAGCATTCCCTCGTCTAAACAACATA
+Globicephala_melas                  CCTTAATAATTGGAGCCCCTGACATAGCATTCCCTCGTCTAAACAACATA
 Homo_sapiens                        CCCTAATAATCGGTGCCCCCGATATGGCGTTTCCCCGCATAAACAACATA
 Cavia_porcellus                     CCTTAATAATTGGTGCTCCAGACATAGCATTTCCGCGGATAAATAACATA
 Sus_scrofa                          CGCTAATAATCGGAGCTCCCGATATGGCCTTTCCACGTATAAACAACATA
@@ -173,8 +173,8 @@ Pan_troglodytes                     AGCTTCTGACTCCTACCCCCTTCTCTCCTACTTCTACTTGCATC
 Bos_taurus                          AGCTTCTGACTCCTCCCTCCCTCATTCCTACTACTCCTCGCATCCTCTAT
 Phoenicopterus_roseus               AGCTTCTGACTACTACCCCCATCCTTCTTACTCCTCCTGGCCTCCTCCAC
 Balaenoptera_musculus               AGCTTCTGACTACTCCCTCCTTCCTTCCTACTCTTAATAGCATCCTCAAT
-Globicephala_melas                  AGCTTCTGACTACTCCCCCCTTCCTTTCTACTACTGATAGCATCTTCAAT
 Orcinus_orca                        AGCTTCTGACTACTTCCCCCTTCCTTCCTACTATTAATAGCGTCTTCGAT
+Globicephala_melas                  AGCTTCTGACTACTCCCCCCTTCCTTTCTACTACTGATAGCATCTTCAAT
 Homo_sapiens                        AGCTTCTGACTCTTACCTCCCTCTCTCCTACTCCTGCTCGCATCTGCTAT
 Cavia_porcellus                     AGCTTTTGACTCCTTCCCCCTTCATTTTTACTACTGTTATCCTCATCTAT
 Sus_scrofa                          AGTTTCTGACTACTTCCACCATCCTTCCTATTACTACTGGCATCCTCAAT
@@ -200,8 +200,8 @@ Pan_troglodytes                     AGTAGAAGCCGGCGCCGGAACAGGTTGAACAGTCTACCCTCCCT
 Bos_taurus                          AGTTGAAGCTGGGGCAGGAACAGGCTGAACCGTGTACCCTCCCTTAGCAG
 Phoenicopterus_roseus               AGTAGAAGCTGGAGCAGGCACAGGATGAACTGTGTACCCACCACTAGCTG
 Balaenoptera_musculus               AATTGAAGCTGGTGCAGGTACAGGCTGAACCGTATATCCCCCTTTAGCCG
-Globicephala_melas                  AATTGAAGCCGGCGCAGGTACAGGCTGAACTGTATATCCTCCCCTAGCTG
 Orcinus_orca                        AGTTGAAGCTGGCGCAGGTACAGGCTGAACTGTATATCCTCCCTTAGCCG
+Globicephala_melas                  AATTGAAGCCGGCGCAGGTACAGGCTGAACTGTATATCCTCCCCTAGCTG
 Homo_sapiens                        AGTGGAGGCCGGAGCAGGAACAGGTTGAACAGTCTACCCTCCCTTAGCAG
 Cavia_porcellus                     AGTCGAAGCTGGTGCTGGAACCGGGTGGACTGTTTACCCTCCTTTAGCAG
 Sus_scrofa                          AGTAGAAGCCGGAGCGGGTACTGGATGAACTGTATACCCACCTTTAGCTG
@@ -227,8 +227,8 @@ Pan_troglodytes                     GAAACTACTCGCATCCTGGAGCCTCCGTAGACCTAACCATCTTC
 Bos_taurus                          GCAACCTAGCCCATGCAGGAGCTTCAGTAGATCTAACCATTTTCTCTTTA
 Phoenicopterus_roseus               GCAACATAGCCCATGCCGGAGCCTCAGTAGACCTGGCTATCTTCTCCCTC
 Balaenoptera_musculus               GAAACCTAGCACATGCAGGAGCCTCAGTCGACCTTACCATTTTCTCCTTA
-Globicephala_melas                  GAAATCTAGCACATGCAGGAGCCTCAGTAGACCTTACCATTTTCTCCCTA
 Orcinus_orca                        GAAATCTAGCACATGCAGGAGCCTCAGTAGACCTTACTATTTTCTCCCTA
+Globicephala_melas                  GAAATCTAGCACATGCAGGAGCCTCAGTAGACCTTACCATTTTCTCCCTA
 Homo_sapiens                        GGAACTACTCCCACCCTGGAGCCTCCGTAGACCTAACCATCTTCTCCTTA
 Cavia_porcellus                     GAAACCTGGCACATGCTGGGGCTTCCGTAGACCTAACTATTTTTTCACTT
 Sus_scrofa                          GAAACTTAGCCCATGCAGGGGCTTCAGTTGATCTAACAATTTTCTCCCTA
@@ -254,8 +254,8 @@ Pan_troglodytes                     CATCTGGCAGGCGTCTCCTCTATCCTAGGAGCCATTAACTTCAT
 Bos_taurus                          CACTTAGCAGGAGTTTCCTCAATTTTAGGAGCCATCAACTTCATTACAAC
 Phoenicopterus_roseus               CACCTAGCAGGTGTATCATCTATTCTCGGAGCAATCAACTTTATCACTAC
 Balaenoptera_musculus               CACCTAGCCGGCGTATCCTCAATCCTCGGAGCTATCAATTTTATCACAAC
-Globicephala_melas                  CATTTAGCCGGTGTATCTTCAATCCTCGGAGCTATTAACTTTATTACAAC
 Orcinus_orca                        CATTTAGCCGGCGTATCTTCAATCCTTGGGGCTATTAACTTCATTACAAC
+Globicephala_melas                  CATTTAGCCGGTGTATCTTCAATCCTCGGAGCTATTAACTTTATTACAAC
 Homo_sapiens                        CACCTAGCAGGTGTCTCCTCTATCTTAGGGGCCATCAATTTCATCACAAC
 Cavia_porcellus                     CACTTGGCAGGTGTCTCTTCAATCCTTGGAGCAATCAACTTTATTACAAC
 Sus_scrofa                          CACCTTGCAGGTGTATCATCAATCCTAGGGGCTATTAACTTCATTACCAC
@@ -281,8 +281,8 @@ Pan_troglodytes                     AATTATTAATATAAAACCTCCTGCCATAACCCAATACCAAACAC
 Bos_taurus                          AATTATCAACATAAAGCCCCCCGCAATGTCACAATACCAAACCCCTCTGT
 Phoenicopterus_roseus               TGCTATCAACATAAAACCACCTGCCCTCTCACAATACCAAACCCCCCTAT
 Balaenoptera_musculus               TATTATTAATATAAAACCACCTGCCATGACCCAATATCAAACTCCCCTTT
-Globicephala_melas                  TATTATTAATATAAAACCACCCGCTATAACCCAATACCAAACACCCCTCT
 Orcinus_orca                        TATTATTAATATAAAACCACCCGCTATGACTCAATACCAAACACCTCTCT
+Globicephala_melas                  TATTATTAATATAAAACCACCCGCTATAACCCAATACCAAACACCCCTCT
 Homo_sapiens                        AATTATCAATATAAAACCCCCTGCCATAACCCAATACCAAACGCCCCTCT
 Cavia_porcellus                     TATCATTAACATAAAACCACCTGCAATAACGCAATATCAAACACCATTAT
 Sus_scrofa                          AATTATTAACATAAAACCTCCCGCAATGTCTCAATACCAAACACCCCTGT
@@ -308,8 +308,8 @@ Pan_troglodytes                     TCGTCTGATCCGTCCTAATCACAGCAGTCTTACTTCTCCTATCC
 Bos_taurus                          TCGTATGATCCGTAATAATTACCGCCGTACTACTACTACTCTCGCTCCCT
 Phoenicopterus_roseus               TCGTATGATCTGTCCTCATCACCGCTGTCCTATTACTACTCTCACTTCCA
 Balaenoptera_musculus               TCGTATGATCAGTCCTAGTCACAGCAGTACTACTCTTATTATCATTACCT
-Globicephala_melas                  TCGTCTGATCAGTCCTAGTCACAGCAATCTTACTTTTACTATCATTACCT
 Orcinus_orca                        TCGTCTGATCAGTCCTTGTTACAGCAACCTTACTTTTACTATCACTACCT
+Globicephala_melas                  TCGTCTGATCAGTCCTAGTCACAGCAATCTTACTTTTACTATCATTACCT
 Homo_sapiens                        TCGTCTGATCCGTCCTAATCACAGCAGTCCTACTTCTCCTATCTCTCCCA
 Cavia_porcellus                     TTGTTTGGTCGGTACTAATTACTGCCGTTCTCCTTCTTTTATCCTTACCA
 Sus_scrofa                          TTGTCTGATCAGTACTAATCACAGCCGTACTACTTCTACTATCCCTGCCA
@@ -335,8 +335,8 @@ Pan_troglodytes                     GTCCTAGCTGCTGGCATCACCATACTATTGACAGATCGTAACCT
 Bos_taurus                          GTATTAGCAGCCGGCATCACAATGCTATTAACAGACCGGAACCTAAATAC
 Phoenicopterus_roseus               GTCCTTGCCGCCGGCATTACCATACTACTAACAGACCGAAACCTAAACAC
 Balaenoptera_musculus               GTTTTAGCAGCCGGAATCACCATGCTACTTACTGACCGAAACCTAAATAC
-Globicephala_melas                  GTCTTAGCAGCCGGAATTACTATACTATTAACTGATCGAAATCTAAACAC
 Orcinus_orca                        GTCTTAGCAGCCGGAATTACTATACTATTGACTGATCGAAATCTAAACAC
+Globicephala_melas                  GTCTTAGCAGCCGGAATTACTATACTATTAACTGATCGAAATCTAAACAC
 Homo_sapiens                        GTCCTAGCTGCTGGCATCACTATACTACTAACAGACCGCAACCTCAACAC
 Cavia_porcellus                     GTTCTAGCTGCAGGTATTACAATGCTATTAACAGATCGAAATTTGAATAC
 Sus_scrofa                          GTTCTAGCAGCTGGCATTACCATACTACTGACAGACCGCAACCTGAACAC
@@ -362,8 +362,8 @@ Pan_troglodytes                     TACCTTCTTCGATC-CAGCCGGGGGAGGAGACCCTATTC----T
 Bos_taurus                          AACCTTCTTCGACC-CGGCAGGAGGAGGAGACCCTATTC----TATATCA
 Phoenicopterus_roseus               CACATTCTTCGATC-CAGCCGGAGGAGGCGACCCGGTCC----TATACCA
 Balaenoptera_musculus               AACCTTCTTCGACC-CTGCAGGTGGAGGAGATCCAATTC----TGTATCA
-Globicephala_melas                  AACCTTTTTTGACC-CGGCAGGAGGAGGAGACCCAATCT----TGTATCA
 Orcinus_orca                        AACCTTTTTCGACC-CGGCAGGAGGAGGGGATCCAATCT----TATATCA
+Globicephala_melas                  AACCTTTTTTGACC-CGGCAGGAGGAGGAGACCCAATCT----TGTATCA
 Homo_sapiens                        CACCTTCTTCGACC-CCGCCGGAGGAGGAGACCCCATTC----TATACCA
 Cavia_porcellus                     AACCTTTTTCGATC-CTGCTGGGGGAGGGGACCCTATTC----TGTATCA
 Sus_scrofa                          AACCTTTTTTGATC-CAGCAGGTGGTGGAGACCCTATCC----TTTATCA
@@ -389,8 +389,8 @@ Pan_troglodytes                     GCACTTATTC----------------------------------
 Bos_taurus                          ACACTTATTC----------------------------------------
 Phoenicopterus_roseus               GCACCTCTTCTGATTCTTCGGTCACCCAGAAGTCTACATCCTA-------
 Balaenoptera_musculus               ACACTTATTCTGATTCTTTGGCCACCC-----------------------
-Globicephala_melas                  ACACC---------------------------------------------
 Orcinus_orca                        ACACT---------------------------------------------
+Globicephala_melas                  ACACC---------------------------------------------
 Homo_sapiens                        ACACCTATTCTGATTTTTCGGTCACCCTGAAGTTTATATTCTTATCCTAC
 Cavia_porcellus                     ACACTTGTTC----------------------------------------
 Sus_scrofa                          ACACTTGTTCTGA-------------------------------------
@@ -416,8 +416,8 @@ Pan_troglodytes                     --------------------------------------------
 Bos_taurus                          --------------------------------------------------
 Phoenicopterus_roseus               --------------------------------------------------
 Balaenoptera_musculus               --------------------------------------------------
-Globicephala_melas                  --------------------------------------------------
 Orcinus_orca                        --------------------------------------------------
+Globicephala_melas                  --------------------------------------------------
 Homo_sapiens                        CAGGCTTCGGAATAATCTCCCATATTGTAACTTACTACTCCGGAAAAAAA
 Cavia_porcellus                     --------------------------------------------------
 Sus_scrofa                          --------------------------------------------------
@@ -443,8 +443,8 @@ Pan_troglodytes                     --------------------------------------------
 Bos_taurus                          --------------------------------------------------
 Phoenicopterus_roseus               --------------------------------------------------
 Balaenoptera_musculus               --------------------------------------------------
-Globicephala_melas                  --------------------------------------------------
 Orcinus_orca                        --------------------------------------------------
+Globicephala_melas                  --------------------------------------------------
 Homo_sapiens                        GA------------------------------------------------
 Cavia_porcellus                     --------------------------------------------------
 Sus_scrofa                          --------------------------------------------------
@@ -470,8 +470,8 @@ Pan_troglodytes                     ---------
 Bos_taurus                          ---------
 Phoenicopterus_roseus               ------ATC
 Balaenoptera_musculus               --------A
-Globicephala_melas                  ---------
 Orcinus_orca                        ---------
+Globicephala_melas                  ---------
 Homo_sapiens                        ------ACC
 Cavia_porcellus                     ---------
 Sus_scrofa                          --------T

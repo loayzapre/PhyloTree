@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Wed Mar  4 15:34:03 2026]
+Begin trees;  [Treefile saved Wed Mar  4 15:58:50 2026]
 [!
 >Data file = muscle.trim.nexus
 >Heuristic search settings:
@@ -27,10 +27,10 @@ Begin trees;  [Treefile saved Wed Mar  4 15:34:03 2026]
 >  Trees are unrooted
 >
 >Heuristic search completed
->  Total number of rearrangements tried = 456651
->  Score of best tree(s) found = 1847
->  Number of trees retained = 2
->  Time used = 0.23 sec (CPU time = 0.21 sec)
+>  Total number of rearrangements tried = 252149
+>  Score of best tree(s) found = 1848
+>  Number of trees retained = 3
+>  Time used = 0.10 sec (CPU time = 0.09 sec)
 ]
-tree 'PAUP_1' = [&U] (((((((Hippopotamus_amphibius:37,(((Balaenoptera_musculus:41,((Globicephala_melas:15,Orcinus_orca:29):7,Tursiops_truncatus:13):40):30,Physeter_macrocephalus:39):50,Sus_scrofa:52):10):29,(((Equus_caballus:58,Procavia_capensis:51):33,(((Falco_peregrinus:50,Phoenicopterus_roseus:45):15,(Anas_platyrhynchos:63,Corvus_corax:50):20):23,Gallus_gallus:52):36):20,(Pan_troglodytes:33,Homo_sapiens:27):40):27):27,(Meles_meles:49,Ailuropoda_melanoleuca:61):28):22,(Rattus_norvegicus:41,((Panthera_tigris:33,Felis_catus:51):39,Loxodonta_cyclotis:58):31):31):16,(Bos_taurus:56,Oryctolagus_cuniculus:67):23):30,Cavia_porcellus:64):37,Xenopus_laevis:48);
+tree 'PAUP_1' = [&U] (((((((Hippopotamus_amphibius:38,((Balaenoptera_musculus:41,((Orcinus_orca:29,Globicephala_melas:15):7,Tursiops_truncatus:13):40):31,Physeter_macrocephalus:38):28):40,Sus_scrofa:43):27,((Equus_caballus:54,Procavia_capensis:55):30,(((((Falco_peregrinus:49,Phoenicopterus_roseus:46):16,(Anas_platyrhynchos:62,Corvus_corax:51):19):26,Gallus_gallus:49):27,(Pan_troglodytes:36,Homo_sapiens:24):50):29,Bos_taurus:53):25):20):22,(Rattus_norvegicus:48,((Panthera_tigris:34,Felis_catus:50):35,((Meles_meles:51,Ailuropoda_melanoleuca:59):31,Loxodonta_cyclotis:46):33):26):32):34,Oryctolagus_cuniculus:53):31,Cavia_porcellus:58):42,Xenopus_laevis:52);
 End;

@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Wed Mar  4 15:34:04 2026]
+Begin trees;  [Treefile saved Wed Mar  4 15:58:50 2026]
 [!
 >Data file = muscle.trim.nexus
 >Neighbor-joining search settings:
@@ -9,5 +9,5 @@ Begin trees;  [Treefile saved Wed Mar  4 15:34:04 2026]
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
-tree 'PAUP_1' = [&U] (((((((Hippopotamus_amphibius:0.101426,Sus_scrofa:0.101716):0.005356,((Balaenoptera_musculus:0.085196,((Globicephala_melas:0.032785,Orcinus_orca:0.039717):0.012826,Tursiops_truncatus:0.031874):0.044124):0.009279,Physeter_macrocephalus:0.101368):0.031716):0.006503,((Equus_caballus:0.109712,Procavia_capensis:0.108627):0.010999,(((((Falco_peregrinus:0.087623,Phoenicopterus_roseus:0.082966):0.008438,(Anas_platyrhynchos:0.107796,Corvus_corax:0.092035):0.004071):0.003345,Gallus_gallus:0.103842):0.021979,(Pan_troglodytes:0.059505,Homo_sapiens:0.052114):0.066718):0.006261,Bos_taurus:0.100458):0.006453):0.004500):0.003584,Oryctolagus_cuniculus:0.116320):0.002455,(Rattus_norvegicus:0.108445,((Panthera_tigris:0.064902,Felis_catus:0.080088):0.051292,((Meles_meles:0.092235,Ailuropoda_melanoleuca:0.108887):0.000635,Loxodonta_cyclotis:0.131337):0.012064):0.002810):0.004234):0.014288,Cavia_porcellus:0.120805):0.128624,Xenopus_laevis:0);
+tree 'PAUP_1' = [&U] (((((((Hippopotamus_amphibius:0.101426,Sus_scrofa:0.101716):0.005356,((Balaenoptera_musculus:0.085196,((Orcinus_orca:0.039717,Globicephala_melas:0.032785):0.012826,Tursiops_truncatus:0.031874):0.044124):0.009279,Physeter_macrocephalus:0.101368):0.031716):0.006503,((Equus_caballus:0.109712,Procavia_capensis:0.108627):0.010999,(((((Falco_peregrinus:0.087623,Phoenicopterus_roseus:0.082966):0.008438,(Anas_platyrhynchos:0.107796,Corvus_corax:0.092035):0.004071):0.003345,Gallus_gallus:0.103842):0.021979,(Pan_troglodytes:0.059505,Homo_sapiens:0.052114):0.066718):0.006261,Bos_taurus:0.100458):0.006453):0.004500):0.003584,Oryctolagus_cuniculus:0.116320):0.002455,(Rattus_norvegicus:0.108445,((Panthera_tigris:0.064902,Felis_catus:0.080088):0.051292,((Meles_meles:0.092235,Ailuropoda_melanoleuca:0.108887):0.000635,Loxodonta_cyclotis:0.131337):0.012064):0.002810):0.004234):0.014288,Cavia_porcellus:0.120805):0.128624,Xenopus_laevis:0);
 End;

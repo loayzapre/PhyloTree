@@ -155,11 +155,11 @@ Input: 26 seqs, avg length 651, max 694, min 456
 
 00:00 9.0Mb     3.8% Derep 1 uniques, 0 dupes00:00 9.0Mb   100.0% Derep 26 uniques, 0 dupes
 00:00 9.0Mb  CPU has 20 cores, running 20 threads
-00:00 236Mb    0.31% Calc posteriors00:01 2.4Gb    27.7% Calc posteriors00:02 1.7Gb    98.2% Calc posteriors00:02 1.6Gb   100.0% Calc posteriors
-00:02 1.4Gb     4.0% UPGMA5         00:02 1.4Gb   100.0% UPGMA5
-00:02 1.4Gb    0.31% Consistency (1/2)00:02 1.4Gb   100.0% Consistency (1/2)
-00:02 1.4Gb    0.31% Consistency (2/2)00:02 1.4Gb   100.0% Consistency (2/2)
-00:02 1.4Gb     1.0% Refining         00:02 1.4Gb   100.0% Refining
+00:00 236Mb    0.31% Calc posteriors00:01 2.4Gb    31.7% Calc posteriors00:02 2.1Gb    89.2% Calc posteriors00:02 1.6Gb   100.0% Calc posteriors
+00:02 1.5Gb     4.0% UPGMA5         00:02 1.5Gb   100.0% UPGMA5
+00:02 1.5Gb    0.31% Consistency (1/2)00:02 1.5Gb   100.0% Consistency (1/2)
+00:02 1.5Gb    0.31% Consistency (2/2)00:02 1.5Gb   100.0% Consistency (2/2)
+00:02 1.5Gb     1.0% Refining         00:03 1.5Gb    93.0% Refining00:03 1.5Gb   100.0% Refining
   wrote: data/alignments/muscle.aln
 
 Sanity checks:
@@ -170,9 +170,9 @@ Sanity checks:
   GCTTATTAATCCGCGCTGAACTAGGTCAGCCTGGCACACTAATCGGAGAT
   ---- data/alignments/clustalw.trim.fasta
   >Balaenoptera_musculus
-  AATGATTGGAGCACCCGACATAGCCTTCCCTCGTATAAATAACATAAGCTTCTGACTACT
-  CCCTCCTTCCTTCCTACTCTTAATAGCATCCTCAATAATTGAAGCTGGTGCAGGTACAGG
-  CTGAACCGTATATCCCCCTTTAGCCGGAAACCTAGCACATGCAGGAGCCTCAGTCGACCT
+  CACCCTATATTTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACTGGCCTAAGCTTATT
+  AATCCGCGCTGAACTAGGTCAGCCTGGCACACTAATCGGAGATGACCAAGTCTACAACGT
+  ATTAGTAACAGCCCACGCCTTCGTGATAATCTTCTTCATAGTTATACCTATTATAATCGG
   ---- data/alignments/mafft.fasta
   >Balaenoptera_musculus PV453157.1 isolate MTM4 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
   ----------------------------------acaaagacattggcaccctatattta
@@ -180,9 +180,9 @@ Sanity checks:
   ctaggtcagcctggcacactaatcggagatgaccaagtctacaacgtattagtaacagcc
   ---- data/alignments/mafft.trim.fasta
   >Balaenoptera_musculus PV453157.1 isolate MTM4 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
-  aatgattggagcacccgacatagccttccctcgtataaataacataagcttctgactact
-  ccctccttccttcctactcttaatagcatcctcaataattgaagctggtgcaggtacagg
-  ctgaaccgtatatccccctttagccggaaacctagcacatgcaggagcctcagtcgacct
+  CACCCTATATTTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACTGGCCTAAGCTTATT
+  AATCCGCGCTGAACTAGGTCAGCCTGGCACACTAATCGGAGATGACCAAGTCTACAACGT
+  ATTAGTAACAGCCCACGCCTTCGTGATAATCTTCTTCATAGTTATACCTATTATAATCGG
   ---- data/alignments/muscle.fasta
   >Hippopotamus_amphibius PQ902075.1 isolate AIWC_RES_24_0304 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
   --------------------------------------------------------------------------------
@@ -190,48 +190,48 @@ Sanity checks:
   --------------------------------------------------------------------------------
   ---- data/alignments/muscle.trim.fasta
   >Hippopotamus_amphibius PQ902075.1 isolate AIWC_RES_24_0304 cytochrome c oxidase subunit I (COX1) gene, partial cds; mitochondrial
-  AATAATCGGAGCCCCTGATATGGCCTTTCCTCGAATAAATAACATAAGCTTCTGACTACT
-  TCCTCCCTCCTTCCTACTACTATTAGCATCCTCCATGGTAGAAGCAGGGGCAGGAACAGG
-  TTGAACCGTCTATCCCCCTTTAGCCGGAAATTTAGCCCATGCTGGAGCCTCTGTAGATCT
+  ------------------------------------------------------------
+  ------------------------------------------------------------
+  ------------------------------------------------------------
   ---- data/alignments/clustalw.aln
   CLUSTAL 2.1 multiple sequence alignment
   
   
   Balaenoptera_musculus       ----------------------------------ACAAAGACATTGGCAC
   ---- data/alignments/clustalw.trim.aln
-  CLUSTAL X (1.81) multiple sequence alignment
+  CLUSTAL W (1.83) multiple sequence alignment
   
   
-  Balaenoptera_musculus               AATGATTGGAGCACCCGACATAGCCTTCCCTCGTATAAATAACATAAGCT
+  Balaenoptera_musculus       CACCCTATATTTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACTGGCCTAAGCTTATT
   ---- data/alignments/mafft.aln
   CLUSTAL format alignment by MAFFT L-INS-i (v7.526)
   
   
   Balaenoptera_mu ----------------------------------acaaagacattggcaccctatattta
   ---- data/alignments/mafft.trim.aln
-  CLUSTAL X (1.81) multiple sequence alignment
+  CLUSTAL W (1.83) multiple sequence alignment
   
   
-  Balaenoptera_musculus               aatgattggagcacccgacatagccttccctcgtataaataacataagct
+  Balaenoptera_musculus       CACCCTATATTTACTATTTGGTGCCTGAGCAGGAATAGTAGGCACTGGCCTAAGCTTATT
   ---- data/alignments/muscle.aln
   CLUSTAL X (1.81) multiple sequence alignment
   
   
   Hippopotamus_amphibius              --------------------------------------------------
   ---- data/alignments/muscle.trim.aln
-  CLUSTAL X (1.81) multiple sequence alignment
+  CLUSTAL W (1.83) multiple sequence alignment
   
   
-  Hippopotamus_amphibius              AATAATCGGAGCCCCTGATATGGCCTTTCCTCGAATAAATAACATAAGCT
+  Hippopotamus_amphibius      ------------------------------------------------------------
 
 Done.
 
-[4/4] End-trimming alignments (remove primer-induced gaps at ends only)...
-clustalw: 859 -> 646 (trimmed ends)
-muscle: 859 -> 646 (trimmed ends)
-mafft: 859 -> 646 (trimmed ends)
+[4/4] Gap-column filtering using seqconverter (--remgapcols) ...
+  filtering: clustalw  (remgapcols >= 0.5)
+  filtering: mafft  (remgapcols >= 0.5)
+  filtering: muscle  (remgapcols >= 0.5)
 
-Trimmed alignments created:
+Filtered alignments created:
 data/alignments/clustalw.trim.aln
 data/alignments/clustalw.trim.fasta
 data/alignments/clustalw.trim.nexus
@@ -264,7 +264,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Tue Mar  3 17:13:08 2026
+Wed Mar  4 15:58:48 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -285,7 +285,7 @@ Processing of file "~/PhyloTree/data/alignments/clustalw.trim.nexus" begins...
 
 Data read in DNA format
 
-Data matrix has 26 taxa, 646 characters
+Data matrix has 26 taxa, 658 characters
 Valid character-state symbols: ACGT
 Missing data identified by '?'
 Gaps identified by '-'
@@ -326,12 +326,12 @@ paup>paup>hsearch addseq=random nreps=10 swap=tbr;
 Heuristic search settings:
   Optimality criterion = parsimony
     Character-status summary:
-      Of 646 total characters:
+      Of 658 total characters:
         All characters are of type 'unord'
         All characters have equal weight
-        353 characters are constant (proportion = 0.54644)
-        25 variable characters are parsimony-uninformative
-        Number of parsimony-informative characters = 268
+        356 characters are constant (proportion = 0.541033)
+        26 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 276
     Gaps are treated as "missing"
   Starting tree(s) obtained via stepwise addition
     Addition sequence: random
@@ -347,23 +347,24 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 227102
-  Score of best tree(s) found = 1806
-  Number of trees retained = 9
-  Time used = 0.10 sec (CPU time = 0.11 sec)
+  Total number of rearrangements tried = 360126
+  Score of best tree(s) found = 1847
+  Number of trees retained = 2
+  Time used = 0.13 sec (CPU time = 0.12 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         2         1         2            1806            1       1
-     2         2         8         9            1806            9       1
-     3         5         3         7            1806            3       3
-     4         1         -         -            1807            2       1
-     5         2         -         -            1807            7       1
-     6         1         -         -            1808            8       1
-     7         2         -         -            1808            4       1
-     8         3         -         -            1809           10       1
+     1         2         1         2            1847            8       1
+     2         2         -         -            1848            2       4*
+     3         3         -         -            1850            5       2*
+     4         1         -         -            1851            7       1
+     5         7         -         -            1852            6       1
+     6         2         -         -            1857            1       1
+
+Note(s):
+    * Multiple hits on islands of unsaved trees may in fact represent different islands
 
 paup>savetrees file=data/trees/clustalw.trim_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
 paup>
@@ -390,63 +391,63 @@ paup>nj;
 Neighbor-joining search settings:
   Ties (if encountered) will be broken systematically
   Distance measure = HKY85
-  646 characters are included
+  658 characters are included
   All characters have equal weight
   (Tree is unrooted)
 
 Neighbor-joining tree:
 
-                                                     /--------------------------------------------------------- Balaenoptera musculus
-                                                     |
-                                                 /---+                                      /--------------------------- Orcinus orca
-                                                 |   |                              /-------+
-                                                 |   |                              |       \---------------------- Globicephala melas
-                            /--------------------+   \------------------------------+
-                            |                    |                                  \---------------------- Tursiops truncatus
-                            |                    |
-                        /---+                    \-------------------------------------------------------------------- Physeter macrocephalus
-                        |   |
-                        |   |  /---------------------------------------------------------------------- Sus scrofa
-                        |   \--+
-                        |      \----------------------------------------------------------------- Hippopotamus amphibius
+                                                    /-------------------------------------------------------- Balaenoptera musculus
+                                                    |
+                                               /----+                                     /-------------------------- Orcinus orca
+                                               |    |                             /-------+
+                                               |    |                             |       \---------------------- Globicephala melas
+                           /-------------------+    \-----------------------------+
+                           |                   |                                  \--------------------- Tursiops truncatus
+                           |                   |
+                        /--+                   \------------------------------------------------------------------ Physeter macrocephalus
+                        |  |
+                        |  |   /-------------------------------------------------------------------- Sus scrofa
+                        |  \---+
+                        |      \---------------------------------------------------------------- Hippopotamus amphibius
                         |
-                    /---+         /------------------------------------------------------------------------ Equus caballus
-                    |   |/--------+
-                    |   ||        \------------------------------------------------------------------------- Procavia capensis
-                    |   ||
-                    |   ||    /----------------------------------------------------------------- Bos taurus
-                    |   \+    |
-                    |    |    |                          /--------------------------------------------------------- Falco peregrinus
-                    |    |    |                    /-----+
-                    |    |    |                    |     \-------------------------------------------------------- Phoenicopterus roseus
-                    |    \----+                 /--+
-                    |         |                 |  | /------------------------------------------------------------ Corvus corax
-               /----+         |                 |  \-+
-               |    |         |     /-----------+    \------------------------------------------------------------------------- Anas platyrhynchos
-               |    |         |     |           |
-               |    |         \-----+           \--------------------------------------------------------------------- Gallus gallus
-               |    |               |
-               |    |               |                                           /----------------------------------------- Pan troglodytes
-               |    |               \-------------------------------------------+
-               |    |                                                           \---------------------------------- Homo sapiens
-               |    |
-               |    |      /--------------------------------------------------------------------- Rattus norvegicus
-               |    |      |
-        /------+    |      |     /------------------------------------------------------------------------------------- Loxodonta cyclotis
-        |      |    \------+     |
-        |      |           |/----+  /------------------------------------------------------------- Meles meles
-        |      |           ||    \--+
-        |      |           \+       \------------------------------------------------------------------------ Ailuropoda melanoleuca
-        |      |            |
-/-------+      |            |                                    /------------------------------------------- Panthera tigris
-|       |      |            \------------------------------------+
-|       |      |                                                 \---------------------------------------------------- Felis catus
-|       |      |
-|       |      \------------------------------------------------------------------------ Oryctolagus cuniculus
+                    /---+         /----------------------------------------------------------------------- Equus caballus
+                    |   +---------+
+                    |   |         \----------------------------------------------------------------------- Procavia capensis
+                    |   |
+                    |   |     /---------------------------------------------------------------- Bos taurus
+                    |   |     |
+                    |   |     |                          /-------------------------------------------------------- Falco peregrinus
+                    |   |     |                    /-----+
+                    |   |     |                    |     \------------------------------------------------------- Phoenicopterus roseus
+                    |   \-----+                  /-+
+                /---+         |                  | |  /----------------------------------------------------------- Corvus corax
+                |   |         |                  | \--+
+                |   |         |      /-----------+    \------------------------------------------------------------------------ Anas platyrhynchos
+                |   |         |      |           |
+                |   |         \------+           \-------------------------------------------------------------------- Gallus gallus
+                |   |                |
+                |   |                |                                           /---------------------------------------- Pan troglodytes
+        /-------+   |                \-------------------------------------------+
+        |       |   |                                                            \--------------------------------- Homo sapiens
+        |       |   |
+        |       |   \-------------------------------------------------------------------------- Oryctolagus cuniculus
+        |       |
+        |       |   /--------------------------------------------------------------------- Rattus norvegicus
+        |       |   |
+        |       |   |     /----------------------------------------------------------------------------------- Loxodonta cyclotis
+        |       \---+     |
+/-------+           |/----+  /----------------------------------------------------------- Meles meles
+|       |           ||    \--+
+|       |           \+       \----------------------------------------------------------------------- Ailuropoda melanoleuca
+|       |            |
+|       |            |                                   /------------------------------------------- Panthera tigris
+|       |            \-----------------------------------+
+|       |                                                \--------------------------------------------------- Felis catus
 |       |
-|       \-------------------------------------------------------------------------------- Cavia porcellus
+|       \------------------------------------------------------------------------------- Cavia porcellus
 |
-\--------------------------------------------------------------------------- Xenopus laevis
+\---------------------------------------------------------------------------- Xenopus laevis
 
 Tree found by neighbor-joining method stored in tree buffer
 paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
@@ -465,7 +466,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Tue Mar  3 17:13:08 2026
+Wed Mar  4 15:58:49 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -486,7 +487,7 @@ Processing of file "~/PhyloTree/data/alignments/mafft.trim.nexus" begins...
 
 Data read in DNA format
 
-Data matrix has 26 taxa, 646 characters
+Data matrix has 26 taxa, 658 characters
 Valid character-state symbols: ACGT
 Missing data identified by '?'
 Gaps identified by '-'
@@ -527,12 +528,12 @@ paup>paup>hsearch addseq=random nreps=10 swap=tbr;
 Heuristic search settings:
   Optimality criterion = parsimony
     Character-status summary:
-      Of 646 total characters:
+      Of 658 total characters:
         All characters are of type 'unord'
         All characters have equal weight
-        353 characters are constant (proportion = 0.54644)
-        26 variable characters are parsimony-uninformative
-        Number of parsimony-informative characters = 267
+        356 characters are constant (proportion = 0.541033)
+        27 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 275
     Gaps are treated as "missing"
   Starting tree(s) obtained via stepwise addition
     Addition sequence: random
@@ -548,23 +549,19 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 226884
-  Score of best tree(s) found = 1806
-  Number of trees retained = 7
-  Time used = 0.06 sec (CPU time = 0.06 sec)
+  Total number of rearrangements tried = 189733
+  Score of best tree(s) found = 1848
+  Number of trees retained = 2
+  Time used = 0.07 sec (CPU time = 0.07 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         2         6         7            1806            4       2
-     2         5         1         5            1806            3       1
-     3         1         -         -            1807            8       1
-     4         2         -         -            1807            2       1
-     5         1         -         -            1808            5       1
-     6         2         -         -            1808            9       1
-     7         3         -         -            1808            1       2*
-     8         2         -         -            1812            7       1
+     1         2         1         2            1848            3       3
+     2         1         -         -            1853            1       4*
+     3         2         -         -            1853            6       2*
+     4         1         -         -            1854            7       1
 
 Note(s):
     * Multiple hits on islands of unsaved trees may in fact represent different islands
@@ -594,63 +591,63 @@ paup>nj;
 Neighbor-joining search settings:
   Ties (if encountered) will be broken systematically
   Distance measure = HKY85
-  646 characters are included
+  658 characters are included
   All characters have equal weight
   (Tree is unrooted)
 
 Neighbor-joining tree:
 
-                                                     /--------------------------------------------------------- Balaenoptera musculus
-                                                     |
-                                                 /---+                                      /--------------------------- Orcinus orca
-                                                 |   |                              /-------+
-                                                 |   |                              |       \---------------------- Globicephala melas
-                            /--------------------+   \------------------------------+
-                            |                    |                                  \---------------------- Tursiops truncatus
-                            |                    |
-                        /---+                    \-------------------------------------------------------------------- Physeter macrocephalus
-                        |   |
-                        |   |  /----------------------------------------------------------------- Hippopotamus amphibius
-                        |   \--+
-                        |      \---------------------------------------------------------------------- Sus scrofa
+                                                    /-------------------------------------------------------- Balaenoptera musculus
+                                                    |
+                                               /----+                                     /-------------------------- Orcinus orca
+                                               |    |                             /-------+
+                                               |    |                             |       \---------------------- Globicephala melas
+                           /-------------------+    \-----------------------------+
+                           |                   |                                  \--------------------- Tursiops truncatus
+                           |                   |
+                        /--+                   \------------------------------------------------------------------ Physeter macrocephalus
+                        |  |
+                        |  |   /---------------------------------------------------------------- Hippopotamus amphibius
+                        |  \---+
+                        |      \-------------------------------------------------------------------- Sus scrofa
                         |
-                        |                                                       /---------------------------------- Homo sapiens
-                        |           /-------------------------------------------+
-                        |           |                                           \----------------------------------------- Pan troglodytes
-                        |           |
-                    /---+     /-----+           /--------------------------------------------------------------------- Gallus gallus
-                    |   |     |     |           |
-                    |   |     |     |           |        /--------------------------------------------------------- Falco peregrinus
-                    |   |     |     \-----------+  /-----+
-                    |   |     |                 |  |     \-------------------------------------------------------- Phoenicopterus roseus
-                    |   |/----+                 \--+
-                    |   ||    |                    | /------------------------------------------------------------ Corvus corax
-                    |   ||    |                    \-+
-                    |   ||    |                      \------------------------------------------------------------------------- Anas platyrhynchos
-                    |   \+    |
-                    |    |    \----------------------------------------------------------------- Bos taurus
-               /----+    |
-               |    |    |        /------------------------------------------------------------------------- Procavia capensis
-               |    |    \--------+
-               |    |             \------------------------------------------------------------------------ Equus caballus
-               |    |
-               |    |               /------------------------------------------------------------------------ Ailuropoda melanoleuca
-               |    |            /--+
-               |    |            |  \------------------------------------------------------------- Meles meles
-               |    |       /----+
-        /------+    |       |    \------------------------------------------------------------------------------------- Loxodonta cyclotis
-        |      |    |      /+
-        |      |    |      ||                                   /------------------------------------------- Panthera tigris
-        |      |    \------+\-----------------------------------+
-        |      |           |                                    \----------------------------------------------------- Felis catus
-/-------+      |           |
-|       |      |           \--------------------------------------------------------------------- Rattus norvegicus
-|       |      |
-|       |      \------------------------------------------------------------------------ Oryctolagus cuniculus
+                        |                                                        /--------------------------------- Homo sapiens
+                        |            /-------------------------------------------+
+                        |            |                                           \---------------------------------------- Pan troglodytes
+                        |            |
+                    /---+     /------+           /-------------------------------------------------------------------- Gallus gallus
+                    |   |     |      |           |
+                    |   |     |      |           |       /-------------------------------------------------------- Falco peregrinus
+                    |   |     |      \-----------+ /-----+
+                    |   |     |                  | |     \------------------------------------------------------- Phoenicopterus roseus
+                    |   +-----+                  \-+
+                    |   |     |                    |  /----------------------------------------------------------- Corvus corax
+                    |   |     |                    \--+
+                /---+   |     |                       \------------------------------------------------------------------------ Anas platyrhynchos
+                |   |   |     |
+                |   |   |     \---------------------------------------------------------------- Bos taurus
+                |   |   |
+                |   |   |         /----------------------------------------------------------------------- Procavia capensis
+                |   |   \---------+
+                |   |             \----------------------------------------------------------------------- Equus caballus
+                |   |
+                |   \-------------------------------------------------------------------------- Oryctolagus cuniculus
+        /-------+
+        |       |            /----------------------------------------------------------------------- Ailuropoda melanoleuca
+        |       |         /--+
+        |       |         |  \----------------------------------------------------------- Meles meles
+        |       |    /----+
+        |       |    |    \----------------------------------------------------------------------------------- Loxodonta cyclotis
+/-------+       |   /+
+|       |       |   ||                                  /------------------------------------------ Panthera tigris
+|       |       \---+\----------------------------------+
+|       |           |                                   \---------------------------------------------------- Felis catus
+|       |           |
+|       |           \--------------------------------------------------------------------- Rattus norvegicus
 |       |
-|       \-------------------------------------------------------------------------------- Cavia porcellus
+|       \------------------------------------------------------------------------------- Cavia porcellus
 |
-\--------------------------------------------------------------------------- Xenopus laevis
+\---------------------------------------------------------------------------- Xenopus laevis
 
 Tree found by neighbor-joining method stored in tree buffer
 paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
@@ -669,7 +666,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Tue Mar  3 17:13:09 2026
+Wed Mar  4 15:58:49 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -690,7 +687,7 @@ Processing of file "~/PhyloTree/data/alignments/muscle.trim.nexus" begins...
 
 Data read in DNA format
 
-Data matrix has 26 taxa, 646 characters
+Data matrix has 26 taxa, 658 characters
 Valid character-state symbols: ACGT
 Missing data identified by '?'
 Gaps identified by '-'
@@ -731,12 +728,12 @@ paup>paup>hsearch addseq=random nreps=10 swap=tbr;
 Heuristic search settings:
   Optimality criterion = parsimony
     Character-status summary:
-      Of 646 total characters:
+      Of 658 total characters:
         All characters are of type 'unord'
         All characters have equal weight
-        353 characters are constant (proportion = 0.54644)
-        26 variable characters are parsimony-uninformative
-        Number of parsimony-informative characters = 267
+        356 characters are constant (proportion = 0.541033)
+        27 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 275
     Gaps are treated as "missing"
   Starting tree(s) obtained via stepwise addition
     Addition sequence: random
@@ -752,25 +749,25 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 198570
-  Score of best tree(s) found = 1806
-  Number of trees retained = 5
-  Time used = 0.05 sec (CPU time = 0.04 sec)
+  Total number of rearrangements tried = 252149
+  Score of best tree(s) found = 1848
+  Number of trees retained = 3
+  Time used = 0.10 sec (CPU time = 0.09 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         5         1         5            1806            3       1
-     2         1         -         -            1807            1       3*
-     3         1         -         -            1808            4       1
-     4         2         -         -            1808            2       2*
-     5         2         -         -            1809            5       1
-     6         3         -         -            1809           10       1
-     7         2         -         -            1814            9       1
-
-Note(s):
-    * Multiple hits on islands of unsaved trees may in fact represent different islands
+     1         1         3         3            1848            7       1
+     2         2         1         2            1848            3       1
+     3         2         -         -            1849            8       1
+     4         1         -         -            1850            9       1
+     5         2         -         -            1850            5       1
+     6         3         -         -            1850            2       1
+     7         2         -         -            1852            6       1
+     8         8         -         -            1853            1       1
+     9         1         -         -            1856            4       1
+    10         1         -         -            1865           10       1
 
 paup>savetrees file=data/trees/muscle.trim_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
 paup>
@@ -797,63 +794,63 @@ paup>nj;
 Neighbor-joining search settings:
   Ties (if encountered) will be broken systematically
   Distance measure = HKY85
-  646 characters are included
+  658 characters are included
   All characters have equal weight
   (Tree is unrooted)
 
 Neighbor-joining tree:
 
-                               /----------------------------------------------------------------- Hippopotamus amphibius
-                            /--+
-                            |  \---------------------------------------------------------------------- Sus scrofa
-                            |
-                            |                        /--------------------------------------------------------- Balaenoptera musculus
-                        /---+                        |
-                        |   |                    /---+                                      /--------------------------- Orcinus orca
-                        |   |                    |   |                              /-------+
-                        |   |                    |   |                              |       \---------------------- Globicephala melas
-                        |   \--------------------+   \------------------------------+
-                        |                        |                                  \---------------------- Tursiops truncatus
-                        |                        |
-                        |                        \-------------------------------------------------------------------- Physeter macrocephalus
+                               /---------------------------------------------------------------- Hippopotamus amphibius
+                           /---+
+                           |   \-------------------------------------------------------------------- Sus scrofa
+                           |
+                           |                        /-------------------------------------------------------- Balaenoptera musculus
+                        /--+                        |
+                        |  |                   /----+                                     /-------------------------- Orcinus orca
+                        |  |                   |    |                             /-------+
+                        |  |                   |    |                             |       \---------------------- Globicephala melas
+                        |  \-------------------+    \-----------------------------+
+                        |                      |                                  \--------------------- Tursiops truncatus
+                        |                      |
+                        |                      \------------------------------------------------------------------ Physeter macrocephalus
                         |
-                    /---+         /------------------------------------------------------------------------ Equus caballus
-                    |   |/--------+
-                    |   ||        \------------------------------------------------------------------------- Procavia capensis
-                    |   ||
-                    |   ||                               /--------------------------------------------------------- Falco peregrinus
-                    |   ||                         /-----+
-                    |   ||                         |     \-------------------------------------------------------- Phoenicopterus roseus
-                    |   ||                      /--+
-                    |   \+                      |  | /------------------------------------------------------------------------- Anas platyrhynchos
-                    |    |                      |  \-+
-                    |    |          /-----------+    \------------------------------------------------------------ Corvus corax
-               /----+    |          |           |
-               |    |    |    /-----+           \--------------------------------------------------------------------- Gallus gallus
-               |    |    |    |     |
-               |    |    |    |     |                                           /----------------------------------------- Pan troglodytes
-               |    |    \----+     \-------------------------------------------+
-               |    |         |                                                 \---------------------------------- Homo sapiens
-               |    |         |
-               |    |         \----------------------------------------------------------------- Bos taurus
-               |    |
-               |    |      /--------------------------------------------------------------------- Rattus norvegicus
-               |    |      |
-        /------+    |      |                                    /------------------------------------------- Panthera tigris
-        |      |    \------+/-----------------------------------+
-        |      |           ||                                   \----------------------------------------------------- Felis catus
-        |      |           ||
-        |      |           \+       /------------------------------------------------------------- Meles meles
-        |      |            |    /--+
-/-------+      |            |    |  \------------------------------------------------------------------------ Ailuropoda melanoleuca
-|       |      |            \----+
-|       |      |                 \------------------------------------------------------------------------------------- Loxodonta cyclotis
-|       |      |
-|       |      \------------------------------------------------------------------------ Oryctolagus cuniculus
+                    /---+         /----------------------------------------------------------------------- Equus caballus
+                    |   +---------+
+                    |   |         \----------------------------------------------------------------------- Procavia capensis
+                    |   |
+                    |   |                                /-------------------------------------------------------- Falco peregrinus
+                    |   |                          /-----+
+                    |   |                          |     \------------------------------------------------------- Phoenicopterus roseus
+                    |   |                        /-+
+                    |   |                        | |  /------------------------------------------------------------------------ Anas platyrhynchos
+                    |   |                        | \--+
+                /---+   |            /-----------+    \----------------------------------------------------------- Corvus corax
+                |   |   |            |           |
+                |   |   |     /------+           \-------------------------------------------------------------------- Gallus gallus
+                |   |   |     |      |
+                |   |   |     |      |                                           /---------------------------------------- Pan troglodytes
+                |   |   \-----+      \-------------------------------------------+
+                |   |         |                                                  \--------------------------------- Homo sapiens
+        /-------+   |         |
+        |       |   |         \---------------------------------------------------------------- Bos taurus
+        |       |   |
+        |       |   \-------------------------------------------------------------------------- Oryctolagus cuniculus
+        |       |
+        |       |   /--------------------------------------------------------------------- Rattus norvegicus
+        |       |   |
+        |       |   |                                   /------------------------------------------ Panthera tigris
+        |       \---+/----------------------------------+
+/-------+           ||                                  \---------------------------------------------------- Felis catus
+|       |           ||
+|       |           \+       /----------------------------------------------------------- Meles meles
+|       |            |    /--+
+|       |            |    |  \----------------------------------------------------------------------- Ailuropoda melanoleuca
+|       |            \----+
+|       |                 \----------------------------------------------------------------------------------- Loxodonta cyclotis
 |       |
-|       \-------------------------------------------------------------------------------- Cavia porcellus
+|       \------------------------------------------------------------------------------- Cavia porcellus
 |
-\--------------------------------------------------------------------------- Xenopus laevis
+\---------------------------------------------------------------------------- Xenopus laevis
 
 Tree found by neighbor-joining method stored in tree buffer
 paup>Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
@@ -879,7 +876,7 @@ Starting Tree Comparison Analysis...
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Tue Mar  3 17:13:09 2026
+Wed Mar  4 15:58:50 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -902,7 +899,7 @@ Processing of file "~/PhyloTree/data/alignments/clustalw.trim.nexus" begins...
 
 Data read in DNA format
 
-Data matrix has 26 taxa, 646 characters
+Data matrix has 26 taxa, 658 characters
 Valid character-state symbols: ACGT
 Missing data identified by '?'
 Gaps identified by '-'
@@ -1017,23 +1014,30 @@ paup>treedist;
 
 RF (= symmetric difference) distances between trees
 
-   1 2 3 4 5 6
-1  -
-2  2 -
-3  6 6 -
-4  2 0 6 -
-5  6 6 0 6 -
-6  2 0 6 0 6 -
+    1  2  3  4  5  6
+1   -
+2  18  -
+3  20  6  -
+4  18  0  6  -
+5  18  4  2  4  -
+6  18  0  6  0  4  -
 
 Distribution of RF (= symmetric difference) distances between trees
 
-D  normD
-          /---------------------------------------------------------------------------------------------------------------------------------------
-0 (0.000) |#################################################################### (4)
-2 (0.042) |################################################### (3)
-4 (0.083) | (0)
-6 (0.125) |####################################################################################################################################### (8)
-          \---------------------------------------------------------------------------------------------------------------------------------------
+ D  normD
+           /--------------------------------------------------------------------------------------------------------------------------------------
+ 0 (0.000) |##################################################################################################### (3)
+ 2 (0.042) |################################## (1)
+ 4 (0.083) |##################################################################################################### (3)
+ 6 (0.125) |##################################################################################################### (3)
+ 8 (0.167) | (0)
+10 (0.208) | (0)
+12 (0.250) | (0)
+14 (0.292) | (0)
+16 (0.333) | (0)
+18 (0.375) |###################################################################################################################################### (4)
+20 (0.417) |################################## (1)
+           \--------------------------------------------------------------------------------------------------------------------------------------
 
 Time used for tree distance calculations = 0.00 sec (CPU time = 0.00 sec)
 paup>
@@ -1045,57 +1049,57 @@ paup>contree all / strict=no majrule=yes percent=50;
 
 50% Majority-rule consensus of 6 trees
 
-                                                                                            /------------------------------ Balaenoptera musculus(1)
-                                                                                            |
-                                                                                            +------------------------------ Physeter macrocephalus(2)
-                                                                                 /---100----+
-                                                                                 |          |                   /---------- Orcinus orca(3)
-                                                                                 |          |         /---100---+
-                                                                                 |          |         |         \---------- Globicephala melas(4)
-                                                   /-------------67--------------+          \---100---+
-                                                   |                             |                    \-------------------- Tursiops truncatus(5)
-                                                   |                             |
-                                                   |                             |                              /---------- Sus scrofa(18)
-                                                   |                             \--------------67--------------+
-                                                   |                                                            \---------- Hippopotamus amphibius(25)
-                                         /---100---+
-                                         |         |                                                            /---------- Equus caballus(6)
-                                         |         |         /-----------------------100------------------------+
-                                         |         |         |                                                  \---------- Procavia capensis(16)
-                                         |         |         |
-                                         |         |         |         /--------------------------------------------------- Bos taurus(17)
-                                         |         \---100---+         |
-                                         |                   |         |                                        /---------- Falco peregrinus(19)
-                                         |                   |         |                              /---100---+
-                                         |                   |         |                              |         \---------- Phoenicopterus roseus(20)
-                                         |                   \---100---+                    /---100---+
-                                         |                             |                    |         |         /---------- Corvus corax(21)
-                               /---100---+                             |                    |         \---100---+
-                               |         |                             |         /---100----+                   \---------- Anas platyrhynchos(22)
-                               |         |                             |         |          |
-                               |         |                             \---100---+          \------------------------------ Gallus gallus(23)
-                               |         |                                       |
-                               |         |                                       |                              /---------- Pan troglodytes(24)
-                               |         |                                       \-------------100--------------+
-                               |         |                                                                      \---------- Homo sapiens(26)
-                    paup>           |         |
-                               |         |                                       /----------------------------------------- Rattus norvegicus(7)
-                               |         |                                       |
-                    /---100----+         |                                       |                    /-------------------- Loxodonta cyclotis(8)
-                    |          |         \------------------100------------------+                    |
-                    |          |                                                 |          /---100---+         /---------- Meles meles(9)
-                    |          |                                                 |          |         \---100---+
-                    |          |                                                 \---100----+                   \---------- Ailuropoda melanoleuca(10)
-                    |          |                                                            |
-          /---100---+          |                                                            |                   /---------- Panthera tigris(11)
-          |         |          |                                                            \--------100--------+
-          |         |          |                                                                                \---------- Felis catus(12)
-          |         |          |
-----------+         |          \------------------------------------------------------------------------------------------- Oryctolagus cuniculus(15)
-          |         |
-          |         \------------------------------------------------------------------------------------------------------ Cavia porcellus(13)
-          |
-          \---------------------------------------------------------------------------------------------------------------- Xenopus laevis(14)
+                                                                                         /--------------------------------- Balaenoptera musculus(1)
+                                                                                         |
+                                                                              /---100----+                     /----------- Orcinus orca(3)
+                                                                              |          |          /---100----+
+                                                                              |          |          |          \----------- Globicephala melas(4)
+                                                                   /---100----+          \---100----+
+                                                                   |          |                     \---------------------- Tursiops truncatus(5)
+                                                                   |          |
+                                                                   |          \-------------------------------------------- Physeter macrocephalus(2)
+                                            /---------100----------+
+                                            |                      +------------------------------------------------------- Sus scrofa(18)
+                                            |                      |
+                                            |                      \------------------------------------------------------- Hippopotamus amphibius(25)
+                                            |
+                                 /----83----+                                                                  /----------- Equus caballus(6)
+                                 |          |          /--------------------------100--------------------------+
+                                 |          |          |                                                       \----------- Procavia capensis(16)
+                                 |          |          |
+                                 |          |          |           /------------------------------------------------------- Bos taurus(17)
+                                 |          \----83----+           |
+                                 |                     |           |                                           /----------- Falco peregrinus(19)
+                                 |                     |           |                                /----83----+
+                                 |                     |           |                                |          \----------- Phoenicopterus roseus(20)
+                                 |                     \----83-----+                     /---100----+
+                                 |                                 |                     |          |          /----------- Corvus corax(21)
+                                 |                                 |                     |          \---100----+
+                                 |                                 |          /---100----+                     \----------- Anas platyrhynchos(22)
+                                 |                                 |          |          |
+                                 |                                 \----83----+          \--------------------------------- Gallus gallus(23)
+                                 |                                            |
+                      /---100----+                                            |                                /----------- Pan troglodytes(24)
+                      |          |                                            \--------------100---------------+
+                      |          |                                                                             \----------- Homo sapiens(26)
+                      |          |
+                      |          |                                            /--------------paup>------------------------------ Rattus norvegicus(7)
+                      |          |                                            |
+                      |          |                                            |                     /---------------------- Loxodonta cyclotis(8)
+                      |          +---------------------83---------------------+                     |
+                      |          |                                            |          /----83----+          /----------- Meles meles(9)
+           /---100----+          |                                            |          |          \---100----+
+           |          |          |                                            \----83----+                     \----------- Ailuropoda melanoleuca(10)
+           |          |          |                                                       |
+           |          |          |                                                       |                     /----------- Panthera tigris(11)
+           |          |          |                                                       \---------100---------+
+-----------+          |          |                                                                             \----------- Felis catus(12)
+           |          |          |
+           |          |          \----------------------------------------------------------------------------------------- Oryctolagus cuniculus(15)
+           |          |
+           |          \---------------------------------------------------------------------------------------------------- Cavia porcellus(13)
+           |
+           \--------------------------------------------------------------------------------------------------------------- Xenopus laevis(14)
 
 Groups found in one or more trees and frequency of occurrence:
 
@@ -1104,40 +1108,48 @@ Groups found in one or more trees and frequency of occurrence:
 -------------------------------------------------
 ..........**..............             6  100.00%
 ........**................             6  100.00%
-.......***................             6  100.00%
-.......*****..............             6  100.00%
-......******..............             6  100.00%
 .......................*.*             6  100.00%
 ....................**....             6  100.00%
-..................**......             6  100.00%
 ..................****....             6  100.00%
 ..................*****...             6  100.00%
-..................******.*             6  100.00%
-................*.******.*             6  100.00%
 .....*.........*..........             6  100.00%
-.....*.........**.******.*             6  100.00%
 ..**......................             6  100.00%
 ..***.....................             6  100.00%
+*.***.....................             6  100.00%
 *****.....................             6  100.00%
-******.........***********             6  100.00%
-************...***********             6  100.00%
+*****............*......*.             6  100.00%
 ************..************             6  100.00%
 *************.************             6  100.00%
-.................*......*.             4   66.67%
-*****............*......*.             4   66.67%
-*.***.....................             3   50.00%
-**........................             2   33.33%
-*****............*........             2   33.33%
-******.........*********.*             2   33.33%
-.****.....................             1   16.67%
+..................**......             5   83.33%
+.......***................             5   83.33%
+.......*****..............             5   83.33%
+......******..............             5   83.33%
+..................******.*             5   83.33%
+................*.******.*             5   83.33%
+.....*.........**.******.*             5   83.33%
+******.........***********             5   83.33%
+.................*......*.             3   50.00%
+******........************             3   50.00%
+*****...................*.             2   33.33%
+************...***********             2   33.33%
+..............*.*.........             1   16.67%
+.......*..**..............             1   16.67%
+......**..**..............             1   16.67%
+.....*.........*..*****...             1   16.67%
+.....*.........*..******.*             1   16.67%
+*****............*........             1   16.67%
+******.........*.*********             1   16.67%
+******..**.....*.*********             1   16.67%
+************...*.*********             1   16.67%
+...................***....             1   16.67%
 
 paup>paup>
 
 paup>paup>[Save only the consensus tree]
 
-paup>savetrees file=data/reports/consensus.tre format=altnex brlens=yes replace=yes from=1 to=1;
-paup>
-1 tree saved to file "~/PhyloTree/data/reports/consensus.tre"
+paup>paup>savetrees file=data/reports/consensus.tre format=altnex brlens=yes replace=yes from=7 to=7;
+
+No trees exist in the specified range.
 
 paup>paup>
 
