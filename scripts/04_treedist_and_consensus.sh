@@ -87,7 +87,7 @@ treedist;
 contree all / strict=no majrule=yes percent=50;
 
 [Save only the consensus tree]
-savetrees file=$REPORT_DIR/consensus.tre format=altnex brlens=yes replace=yes from=1 to=1;
+savetrees file=$REPORT_DIR/consensus.tre format=altnex brlens=yes replace=yes from=7 to=7;
 
 log stop;
 

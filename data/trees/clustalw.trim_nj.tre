@@ -1,6 +1,6 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Mar  3 17:13:08 2026]
+Begin trees;  [Treefile saved Wed Mar  4 15:34:02 2026]
 [!
 >Data file = clustalw.trim.nexus
 >Neighbor-joining search settings:
@@ -9,5 +9,5 @@ Begin trees;  [Treefile saved Tue Mar  3 17:13:08 2026]
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
-tree 'PAUP_1' = [&U] ((((((((Balaenoptera_musculus:0.085436,((Orcinus_orca:0.040107,Globicephala_melas:0.032640):0.011736,Tursiops_truncatus:0.032707):0.045402):0.006471,Physeter_macrocephalus:0.101195):0.032486,(Sus_scrofa:0.101682,Hippopotamus_amphibius:0.101460):0.005661):0.006585,((Equus_caballus:0.110372,Procavia_capensis:0.108293):0.009599,(Bos_taurus:0.099698,((((Falco_peregrinus:0.087649,Phoenicopterus_roseus:0.082940):0.009312,(Corvus_corax:0.092485,Anas_platyrhynchos:0.107959):0.002886):0.003266,Gallus_gallus:0.103441):0.021191,(Pan_troglodytes:0.059308,Homo_sapiens:0.052435):0.066623):0.005587):0.007083):0.004839):0.004498,(Rattus_norvegicus:0.106260,((Loxodonta_cyclotis:0.131755,(Meles_meles:0.092800,Ailuropoda_melanoleuca:0.107600):0.000440):0.012047,(Panthera_tigris:0.065086,Felis_catus:0.078309):0.052953):0.002267):0.006005):0.007392,Oryctolagus_cuniculus:0.109131):0.008703,Cavia_porcellus:0.119101):0.125990,Xenopus_laevis:0);
+tree 'PAUP_1' = [&U] ((((((((Balaenoptera_musculus:0.085215,((Orcinus_orca:0.039715,Globicephala_melas:0.032787):0.012878,Tursiops_truncatus:0.031822):0.044087):0.009273,Physeter_macrocephalus:0.101383):0.031698,(Sus_scrofa:0.101695,Hippopotamus_amphibius:0.101446):0.005383):0.006512,((Equus_caballus:0.109660,Procavia_capensis:0.108679):0.010956,(Bos_taurus:0.100453,((((Falco_peregrinus:0.087626,Phoenicopterus_roseus:0.082963):0.008440,(Corvus_corax:0.092034,Anas_platyrhynchos:0.107797):0.004070):0.003347,Gallus_gallus:0.103840):0.021977,(Pan_troglodytes:0.059500,Homo_sapiens:0.052119):0.066719):0.006266):0.006493):0.004477):0.003577,Oryctolagus_cuniculus:0.116327):0.002448,(Rattus_norvegicus:0.108223,((Loxodonta_cyclotis:0.131291,(Meles_meles:0.092237,Ailuropoda_melanoleuca:0.108884):0.000681):0.011932,(Panthera_tigris:0.064909,Felis_catus:0.078076):0.053215):0.002726):0.004466):0.014302,Cavia_porcellus:0.120805):0.128624,Xenopus_laevis:0);
 End;
