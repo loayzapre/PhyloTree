@@ -155,11 +155,11 @@ Input: 26 seqs, avg length 651, max 694, min 456
 
 00:00 9.0Mb     3.8% Derep 1 uniques, 0 dupes00:00 9.0Mb   100.0% Derep 26 uniques, 0 dupes
 00:00 9.0Mb  CPU has 20 cores, running 20 threads
-00:00 236Mb    0.31% Calc posteriors00:01 2.4Gb    31.7% Calc posteriors00:02 2.1Gb    89.2% Calc posteriors00:02 1.6Gb   100.0% Calc posteriors
-00:02 1.5Gb     4.0% UPGMA5         00:02 1.5Gb   100.0% UPGMA5
-00:02 1.5Gb    0.31% Consistency (1/2)00:02 1.5Gb   100.0% Consistency (1/2)
-00:02 1.5Gb    0.31% Consistency (2/2)00:02 1.5Gb   100.0% Consistency (2/2)
-00:02 1.5Gb     1.0% Refining         00:03 1.5Gb    93.0% Refining00:03 1.5Gb   100.0% Refining
+00:00 236Mb    0.31% Calc posteriors00:01 2.4Gb    23.7% Calc posteriors00:02 1.9Gb    98.5% Calc posteriors00:02 1.4Gb   100.0% Calc posteriors
+00:02 1.4Gb     4.0% UPGMA5         00:02 1.4Gb   100.0% UPGMA5
+00:02 1.4Gb    0.31% Consistency (1/2)00:02 1.4Gb   100.0% Consistency (1/2)
+00:02 1.4Gb    0.31% Consistency (2/2)00:02 1.4Gb   100.0% Consistency (2/2)
+00:02 1.4Gb     1.0% Refining         00:01 1.4Gb    67.0% Refining00:01 1.4Gb   100.0% Refining
   wrote: data/alignments/muscle.aln
 
 Sanity checks:
@@ -264,7 +264,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Wed Mar  4 15:58:48 2026
+Thu Mar  5 22:51:34 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -347,21 +347,23 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 360126
-  Score of best tree(s) found = 1847
+  Total number of rearrangements tried = 260683
+  Score of best tree(s) found = 1848
   Number of trees retained = 2
-  Time used = 0.13 sec (CPU time = 0.12 sec)
+  Time used = 0.07 sec (CPU time = 0.07 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         2         1         2            1847            8       1
-     2         2         -         -            1848            2       4*
-     3         3         -         -            1850            5       2*
-     4         1         -         -            1851            7       1
-     5         7         -         -            1852            6       1
-     6         2         -         -            1857            1       1
+     1         2         1         2            1848            1       1
+     2         2         -         -            1849            8       2*
+     3         1         -         -            1851            9       1
+     4         1         -         -            1852            2       1
+     5         3         -         -            1852            4       1
+     6         7         -         -            1852            5       1
+     7         1         -         -            1853            3       2*
+     8         1         -         -            1855            7       1
 
 Note(s):
     * Multiple hits on islands of unsaved trees may in fact represent different islands
@@ -466,7 +468,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Wed Mar  4 15:58:49 2026
+Thu Mar  5 22:51:34 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -549,19 +551,20 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 189733
+  Total number of rearrangements tried = 213961
   Score of best tree(s) found = 1848
   Number of trees retained = 2
-  Time used = 0.07 sec (CPU time = 0.07 sec)
+  Time used = 0.06 sec (CPU time = 0.07 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         2         1         2            1848            3       3
-     2         1         -         -            1853            1       4*
-     3         2         -         -            1853            6       2*
-     4         1         -         -            1854            7       1
+     1         2         1         2            1848            2       4
+     2         2         -         -            1849            1       2*
+     3         1         -         -            1850            9       2*
+     4         2         -         -            1852            6       1
+     5         2         -         -            1857            3       1
 
 Note(s):
     * Multiple hits on islands of unsaved trees may in fact represent different islands
@@ -666,7 +669,7 @@ Outgroups: Xenopus_laevis
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Wed Mar  4 15:58:49 2026
+Thu Mar  5 22:51:35 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -680,6 +683,9 @@ Running on 13th Gen Intel(R) Core(TM) i9-13900H
     SSE vectorization enabled
     SSSE3 instructions supported
     Multithreading enabled using Pthreads
+
+Note: Attempt to get current version info from server was not successful (timeout limit exceeded).  You can do "checkVersion timeout=<number-of-
+      seconds>;" at the PAUP* command prompt to get current version info from our server with a longer timeout period.
 
 paup>paup>execute data/alignments/muscle.trim.nexus;
 
@@ -749,25 +755,23 @@ Heuristic search settings:
   Trees are unrooted
 
 Heuristic search completed
-  Total number of rearrangements tried = 252149
-  Score of best tree(s) found = 1848
-  Number of trees retained = 3
-  Time used = 0.10 sec (CPU time = 0.09 sec)
+  Total number of rearrangements tried = 312039
+  Score of best tree(s) found = 1847
+  Number of trees retained = 2
+  Time used = 0.09 sec (CPU time = 0.09 sec)
 
 Tree-island profile:
                      First      Last                        First    Times
 Island      Size      tree      tree           Score    replicate      hit
 --------------------------------------------------------------------------
-     1         1         3         3            1848            7       1
-     2         2         1         2            1848            3       1
-     3         2         -         -            1849            8       1
-     4         1         -         -            1850            9       1
-     5         2         -         -            1850            5       1
-     6         3         -         -            1850            2       1
-     7         2         -         -            1852            6       1
-     8         8         -         -            1853            1       1
-     9         1         -         -            1856            4       1
-    10         1         -         -            1865           10       1
+     1         2         1         2            1847            1       1
+     2         2         -         -            1848            2       6*
+     3         3         -         -            1850            6       1
+     4         1         -         -            1851            9       1
+     5         2         -         -            1852           10       1
+
+Note(s):
+    * Multiple hits on islands of unsaved trees may in fact represent different islands
 
 paup>savetrees file=data/trees/muscle.trim_parsimony.tre format=altnex brlens=yes replace=yes from=1 to=1;
 paup>
@@ -876,7 +880,7 @@ Starting Tree Comparison Analysis...
 paup>
 P A U P *
 Version 4.0a (build 169) for Unix/Linux (built on May 28 2024 at 11:04:55)
-Wed Mar  4 15:58:50 2026
+Thu Mar  5 22:51:36 2026
 
         -----------------------------NOTICE-----------------------------
           This is a test version that is still changing rapidly.
@@ -1016,27 +1020,26 @@ RF (= symmetric difference) distances between trees
 
     1  2  3  4  5  6
 1   -
-2  18  -
-3  20  6  -
-4  18  0  6  -
-5  18  4  2  4  -
-6  18  0  6  0  4  -
+2   4  -
+3   0  4  -
+4   4  0  4  -
+5  18 18 18 18  -
+6   4  0  4  0 18  -
 
 Distribution of RF (= symmetric difference) distances between trees
 
  D  normD
            /--------------------------------------------------------------------------------------------------------------------------------------
- 0 (0.000) |##################################################################################################### (3)
- 2 (0.042) |################################## (1)
- 4 (0.083) |##################################################################################################### (3)
- 6 (0.125) |##################################################################################################### (3)
+ 0 (0.000) |######################################################################################### (4)
+ 2 (0.042) | (0)
+ 4 (0.083) |###################################################################################################################################### (6)
+ 6 (0.125) | (0)
  8 (0.167) | (0)
 10 (0.208) | (0)
 12 (0.250) | (0)
 14 (0.292) | (0)
 16 (0.333) | (0)
-18 (0.375) |###################################################################################################################################### (4)
-20 (0.417) |################################## (1)
+18 (0.375) |################################################################################################################ (5)
            \--------------------------------------------------------------------------------------------------------------------------------------
 
 Time used for tree distance calculations = 0.00 sec (CPU time = 0.00 sec)
@@ -1045,7 +1048,7 @@ paup>paup>
 
 paup>paup>[Majority-rule consensus]
 
-paup>contree all / strict=no majrule=yes percent=50;
+paup>contree all / strict=no majrule=yes percent=50 treefile=data/reports/consensus.tre replace=yes;
 
 50% Majority-rule consensus of 6 trees
 
@@ -1070,7 +1073,7 @@ paup>contree all / strict=no majrule=yes percent=50;
                                  |          |          |           /------------------------------------------------------- Bos taurus(17)
                                  |          \----83----+           |
                                  |                     |           |                                           /----------- Falco peregrinus(19)
-                                 |                     |           |                                /----83----+
+                                 |                     |           |                                /---100----+
                                  |                     |           |                                |          \----------- Phoenicopterus roseus(20)
                                  |                     \----83-----+                     /---100----+
                                  |                                 |                     |          |          /----------- Corvus corax(21)
@@ -1083,7 +1086,7 @@ paup>contree all / strict=no majrule=yes percent=50;
                       |          |                                            \--------------100---------------+
                       |          |                                                                             \----------- Homo sapiens(26)
                       |          |
-                      |          |                                            /--------------paup>------------------------------ Rattus norvegicus(7)
+                      |          |           paup>                                 /-------------------------------------------- Rattus norvegicus(7)
                       |          |                                            |
                       |          |                                            |                     /---------------------- Loxodonta cyclotis(8)
                       |          +---------------------83---------------------+                     |
@@ -1110,6 +1113,7 @@ Groups found in one or more trees and frequency of occurrence:
 ........**................             6  100.00%
 .......................*.*             6  100.00%
 ....................**....             6  100.00%
+..................**......             6  100.00%
 ..................****....             6  100.00%
 ..................*****...             6  100.00%
 .....*.........*..........             6  100.00%
@@ -1120,7 +1124,6 @@ Groups found in one or more trees and frequency of occurrence:
 *****............*......*.             6  100.00%
 ************..************             6  100.00%
 *************.************             6  100.00%
-..................**......             5   83.33%
 .......***................             5   83.33%
 .......*****..............             5   83.33%
 ......******..............             5   83.33%
@@ -1141,15 +1144,8 @@ Groups found in one or more trees and frequency of occurrence:
 ******.........*.*********             1   16.67%
 ******..**.....*.*********             1   16.67%
 ************...*.*********             1   16.67%
-...................***....             1   16.67%
 
-paup>paup>
-
-paup>paup>[Save only the consensus tree]
-
-paup>paup>savetrees file=data/reports/consensus.tre format=altnex brlens=yes replace=yes from=7 to=7;
-
-No trees exist in the specified range.
+Consensus tree(s) written to treefile: ~/PhyloTree/data/reports/consensus.tre
 
 paup>paup>
 
