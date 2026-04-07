@@ -48,6 +48,7 @@ External tools (must be installed separately):
     MAFFT
     ClustalW or Clustal Omega
     MUSCLE
+    MrBayes
     PAUP*
     FigTree
 

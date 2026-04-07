@@ -1,16 +1,44 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Activate micromamba environment
+eval "$(micromamba shell hook --shell bash)"
+micromamba activate phylo
+
 echo "===================================="
 echo "Phylogenetic Pipeline"
 echo "===================================="
 echo
 
 # --------------------------------------------------
+# Parse command-line arguments
+# --------------------------------------------------
+# Tree methods available: ml, parsimony, nj, mrbayes
+# Note: Add "mrbayes" to $3 if Bayesian inference desired (very slow)
+
+INPUT_FASTA="${1:-data/raw/sequences.fsa}"
+ALIGN_METHODS="${2:-mafft,muscle,clustalw}"
+TREE_METHODS="${3:-ml,parsimony,nj,mrbayes}"
+OUTDIR="${4:-data}"
+
+# Validate input file
+if [[ ! -f "$INPUT_FASTA" ]]; then
+    echo "ERROR: Input FASTA file not found: $INPUT_FASTA" >&2
+    exit 1
+fi
+
+echo "Configuration:"
+echo "  Input FASTA    : $INPUT_FASTA"
+echo "  Alignment methods: $ALIGN_METHODS"
+echo "  Tree methods    : $TREE_METHODS"
+echo "  Output base dir : $OUTDIR"
+echo
+
+# --------------------------------------------------
 # Step 1 — Multiple Sequence Alignment
 # --------------------------------------------------
 echo "[1/5] Running sequence alignments..."
-bash scripts/01_align.sh
+bash scripts/01_align.sh "$INPUT_FASTA" "$ALIGN_METHODS"
 echo "✓ Alignments completed"
 echo
 
@@ -23,10 +51,10 @@ echo "✓ NEXUS files created"
 echo
 
 # --------------------------------------------------
-# Step 3 — Build trees with PAUP
+# Step 3 — Build trees
 # --------------------------------------------------
-echo "[3/5] Running PAUP tree inference..."
-bash scripts/03_run_paup.sh
+echo "[3/5] Running tree inference ($TREE_METHODS)..."
+bash scripts/03_build_trees.sh "$TREE_METHODS"
 echo "✓ Trees generated"
 echo
 
@@ -48,7 +76,4 @@ echo
 
 echo "===================================="
 echo "Pipeline finished successfully"
-echo "Results located in:"
-echo "  data/trees/"
-echo "  data/reports/"
 echo "===================================="

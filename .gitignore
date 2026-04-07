@@ -1,0 +1,8 @@
+data/*
+
+# Just Raw
+!data/raw/
+!data/raw/**
+
+# Ignore logs
+*.log

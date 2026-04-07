@@ -5,36 +5,23 @@ set -euo pipefail
 # 1. Directories
 # --------------------------------------------------
 
-ALIGN_DIR="data/alignments"
-TREE_DIR="data/trees"
-REPORT_DIR="data/reports"
+ALIGN_DIR="${1:-data/alignments}"
+TREE_DIR="${2:-data/trees}"
+REPORT_DIR="${3:-data/reports}"
 
 mkdir -p "$REPORT_DIR"
 
 # --------------------------------------------------
-# 2. Trees (6) produced by step 03
+# 2. Settings
 # --------------------------------------------------
 
-TREES=(
-    "$TREE_DIR/clustalw.trim_parsimony.tre"
-    "$TREE_DIR/clustalw.trim_nj.tre"
-    "$TREE_DIR/mafft.trim_parsimony.tre"
-    "$TREE_DIR/mafft.trim_nj.tre"
-    "$TREE_DIR/muscle.trim_parsimony.tre"
-    "$TREE_DIR/muscle.trim_nj.tre"
-)
+OUTGROUP="${OUTGROUP:-Xenopus_laevis}"
 
 # --------------------------------------------------
-# 3. Any NEXUS alignment (only for taxa definitions)
+# 3. PAUP executable
 # --------------------------------------------------
 
-DATA_FILE="$ALIGN_DIR/clustalw.trim.nexus"
-
-# --------------------------------------------------
-# 4. PAUP executable + required libs
-# --------------------------------------------------
-
-PAUP_BIN="/usr/local/bin/paup4a169"
+PAUP_BIN="${PAUP_BIN:-/usr/local/bin/paup4a169}"
 
 if [[ ! -x "$PAUP_BIN" ]]; then
     echo "ERROR: PAUP executable not found at $PAUP_BIN" >&2
@@ -44,37 +31,54 @@ fi
 export LD_LIBRARY_PATH="$HOME/opt/paup-compat/usr/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
 
 # --------------------------------------------------
-# 5. Checks
+# 4. Dynamically find tree files
 # --------------------------------------------------
 
-[[ -f "$DATA_FILE" ]] || { echo "ERROR: Missing DATA_FILE: $DATA_FILE" >&2; exit 1; }
+shopt -s nullglob
+TREE_FILES=("$TREE_DIR"/*.tre)
+[[ ${#TREE_FILES[@]} -gt 0 ]] || { echo "WARNING: No .tre files found in $TREE_DIR" >&2; exit 0; }
 
-for t in "${TREES[@]}"; do
-    [[ -f "$t" ]] || { echo "ERROR: Missing tree file: $t" >&2; exit 1; }
+# --------------------------------------------------
+# 5. Find a NEXUS alignment for taxa definitions
+# --------------------------------------------------
+
+DATA_FILE=""
+shopt -s nullglob
+for nex in "$ALIGN_DIR"/*.trim.nexus; do
+    [[ -f "$nex" ]] && DATA_FILE="$nex" && break
 done
 
+[[ -f "$DATA_FILE" ]] || { echo "ERROR: No NEXUS alignment file found in $ALIGN_DIR" >&2; exit 1; }
+
 echo "Using PAUP executable: $PAUP_BIN"
+echo "Data file: $DATA_FILE"
+echo "Found ${#TREE_FILES[@]} tree file(s)"
 echo
 echo "Starting Tree Comparison Analysis..."
+echo
 
 # --------------------------------------------------
-# 6. Run PAUP
+# 6. Build gettrees commands
+# --------------------------------------------------
+
+GETTREES_CMD=""
+for tree_file in "${TREE_FILES[@]}"; do
+    GETTREES_CMD="${GETTREES_CMD}gettrees file=$tree_file mode=7;"$'\n'
+done
+
+# --------------------------------------------------
+# 7. Run PAUP
 # --------------------------------------------------
 
 "$PAUP_BIN" <<EOF
 
 execute $DATA_FILE;
 
-[Load trees]
-gettrees file=${TREES[0]} mode=7;
-gettrees file=${TREES[1]} mode=7;
-gettrees file=${TREES[2]} mode=7;
-gettrees file=${TREES[3]} mode=7;
-gettrees file=${TREES[4]} mode=7;
-gettrees file=${TREES[5]} mode=7;
+[Load all trees]
+$GETTREES_CMD
 
 [Activate outgroup]
-outgroup Xenopus_laevis;
+outgroup $OUTGROUP;
 set root=outgroup outroot=monophyl;
 
 [Root all loaded trees]
@@ -94,6 +98,5 @@ EOF
 echo
 echo "------------------------------------------"
 echo "Tree comparison complete"
-echo "Log saved to:       $REPORT_DIR/paup_commands.log"
 echo "Consensus saved to: $REPORT_DIR/consensus.tre"
 echo "------------------------------------------"
